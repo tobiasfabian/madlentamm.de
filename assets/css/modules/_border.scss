@@ -1,0 +1,76 @@
+.border {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -1;
+  .bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: url(../images/bg.jpg) center center no-repeat #006C80;
+    background-size: cover;
+  }
+  .line {
+    position: absolute;
+    background: white;
+    &.t {
+      left: 33px;
+      right: 33px;
+      top: 20px;
+      height: 1px;
+    }
+    &.r {
+      top: 33px;
+      bottom: 33px;
+      right: 20px;
+      width: 1px;
+    }
+    &.b {
+      left: 33px;
+      right: 33px;
+      bottom: 20px;
+      height: 1px;
+    }
+    &.l {
+      top: 33px;
+      bottom: 33px;
+      left: 20px;
+      width: 1px;
+    }
+  }
+  .circle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1px solid white;
+    border-radius: 10px;
+    &.tl {
+      left: 16px;
+      top: 16px;
+    }
+    &.tr {
+      right: 16px;
+      top: 16px;
+    }
+    &.br {
+      right: 16px;
+      bottom: 16px;
+    }
+    &.bl {
+      left: 16px;
+      bottom: 16px;
+    }
+  }
+  .inner {
+    position: absolute;
+    top: 33px;
+    right: 33px;
+    bottom: 33px;
+    left: 33px;
+    border: 4px solid white;
+  }
+}

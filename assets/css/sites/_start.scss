@@ -1,0 +1,21 @@
+.start {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: 600ms;
+  .container {
+    position: absolute;
+    left: calc(38px + 260px);
+    right: calc(38px + 350px);
+    top: calc(38px + 8em);
+    bottom: calc(38px + 7em);
+  }
+  &.hidden {
+    transform: translateY(-100%);
+    .article {
+      top: 10%;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.nav {
+  position: relative;
+  float: left;
+  z-index: 10;
+  padding-left: 20px;
+  .hamburger {
+    width: 12px;
+    height: 10px;
+    transition: 250ms;
+    div {
+      margin-top: 2px;
+      width: 12px;
+      height: 2px;
+      display: block;
+      content: '';
+      background: white;
+      transition: 250ms;
+    }
+    &:focus, &:hover {
+      div:nth-of-type(1) {
+        transform: scaleX(1) translate3d(-2.5px,2px,0) rotate(-45deg);
+      }
+      div:nth-of-type(2) {
+        transform: scaleX(1) translate3d(4.5px,-2px,0) rotate(45deg);
+      }
+    }
+  }
+  a {
+    display: inline-block;
+    padding: 5px;
+    font-weight: 500;
+  }
+}
