@@ -24,7 +24,7 @@
     <br>
     <h2>Supervision &amp; Coaching</h2>
   </header>
-  <nav class="nav">
+  <nav class="nav" id="nav">
     <a href="#!" class="hamburger">
       <div></div>
       <div></div>

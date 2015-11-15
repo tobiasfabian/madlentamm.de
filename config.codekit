@@ -183,9 +183,9 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 1
+		"useLibsass": 0
 		},
 	"\/assets\/images\/bg.jpg": {
 		"fileType": 16384,
@@ -202,7 +202,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 173818,
+		"initialSize": 165661,
 		"inputAbbreviatedPath": "\/assets\/images\/bg.png",
 		"outputAbbreviatedPath": "\/assets\/images\/bg.png",
 		"outputPathIsOutsideProject": 0,
