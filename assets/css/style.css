@@ -107,69 +107,152 @@ a {
   text-decoration: none;
   color: inherit; }
 
+@-webkit-keyframes popUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    opacity: 100%;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
 @keyframes popUp {
   0% {
     opacity: 0;
-    transform: scale(0); }
+    -webkit-transform: scale(0);
+            transform: scale(0); }
   100% {
     opacity: 100%;
-    transform: scale(1); } }
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@-webkit-keyframes strechUp {
+  0% {
+    width: 0; }
+  100% {
+    width: 139px; } }
+
 @keyframes strechUp {
   0% {
     width: 0; }
   100% {
     width: 139px; } }
+
+@-webkit-keyframes moveUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(200%);
+            transform: translateY(200%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
 @keyframes moveUp {
   0% {
     opacity: 0;
-    transform: translateY(200%); }
+    -webkit-transform: translateY(200%);
+            transform: translateY(200%); }
   100% {
     opacity: 1;
-    transform: none; } }
+    -webkit-transform: none;
+            transform: none; } }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%; } }
+
 @keyframes fadeIn {
   0% {
     opacity: 0; }
   100% {
     opacity: 100%; } }
+
+@-webkit-keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03); }
+  100% {
+    opacity: 100%;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
 @keyframes fadeInScale {
   0% {
     opacity: 0;
-    transform: scale(1.03); }
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03); }
   100% {
     opacity: 100%;
-    transform: scale(1); } }
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
 .startanimation .border .bg {
-  animation: fadeIn 1000ms 500ms ease-out backwards; }
+  -webkit-animation: fadeIn 1000ms 500ms ease-out backwards;
+          animation: fadeIn 1000ms 500ms ease-out backwards; }
+
 .startanimation .border .line {
-  animation: fadeInScale 1000ms 1000ms ease-out backwards; }
+  -webkit-animation: fadeInScale 1000ms 1000ms ease-out backwards;
+          animation: fadeInScale 1000ms 1000ms ease-out backwards; }
+
 .startanimation .border .circle {
-  animation: fadeInScale 1000ms 2000ms ease-out backwards; }
+  -webkit-animation: fadeInScale 1000ms 2000ms ease-out backwards;
+          animation: fadeInScale 1000ms 2000ms ease-out backwards; }
+
 .startanimation .header h1 {
-  animation: strechUp 400ms 2000ms ease-out backwards; }
+  -webkit-animation: strechUp 400ms 2000ms ease-out backwards;
+          animation: strechUp 400ms 2000ms ease-out backwards; }
   .startanimation .header h1 span {
-    animation: moveUp 400ms 2500ms ease-out backwards; }
+    -webkit-animation: moveUp 400ms 2500ms ease-out backwards;
+            animation: moveUp 400ms 2500ms ease-out backwards; }
+
 .startanimation .header h2 {
-  animation: fadeInScale 400ms 3000ms ease-out backwards; }
+  -webkit-animation: fadeInScale 400ms 3000ms ease-out backwards;
+          animation: fadeInScale 400ms 3000ms ease-out backwards; }
+
 .startanimation .nav {
-  animation: fadeIn 1000ms 4300ms ease-out backwards; }
+  -webkit-animation: fadeIn 1000ms 4300ms ease-out backwards;
+          animation: fadeIn 1000ms 4300ms ease-out backwards; }
+
 .startanimation .article.erkennen .circle {
-  animation-delay: 3800ms; }
+  -webkit-animation-delay: 3800ms;
+          animation-delay: 3800ms; }
+
 .startanimation .article.loesen .circle {
-  animation-delay: 3900ms; }
+  -webkit-animation-delay: 3900ms;
+          animation-delay: 3900ms; }
+
 .startanimation .article.innehalten .circle {
-  animation-delay: 3700ms; }
+  -webkit-animation-delay: 3700ms;
+          animation-delay: 3700ms; }
+
 .startanimation .article.entwicklen .circle {
-  animation-delay: 3750ms; }
+  -webkit-animation-delay: 3750ms;
+          animation-delay: 3750ms; }
+
 .startanimation .article.vertrauen .circle {
-  animation-delay: 3850ms; }
+  -webkit-animation-delay: 3850ms;
+          animation-delay: 3850ms; }
+
 .startanimation .article.wachsen .circle {
-  animation-delay: 3950ms; }
+  -webkit-animation-delay: 3950ms;
+          animation-delay: 3950ms; }
+
 .startanimation .article.bewegen .circle {
-  animation-delay: 3950ms; }
+  -webkit-animation-delay: 3950ms;
+          animation-delay: 3950ms; }
+
 .startanimation .article .circle {
-  animation: popUp 250ms 3800ms cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards; }
+  -webkit-animation: popUp 250ms 3800ms cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
+          animation: popUp 250ms 3800ms cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards; }
+
 .startanimation .article h1 {
-  animation: fadeIn 1000ms 4300ms ease-out backwards; }
+  -webkit-animation: fadeIn 1000ms 4300ms ease-out backwards;
+          animation: fadeIn 1000ms 4300ms ease-out backwards; }
 
 .start {
   position: absolute;
@@ -177,7 +260,8 @@ a {
   right: 0;
   top: 0;
   bottom: 0;
-  transition: 600ms; }
+  -webkit-transition: 600ms;
+          transition: 600ms; }
   .start .container {
     position: absolute;
     left: calc(38px + 260px);
@@ -185,7 +269,9 @@ a {
     top: calc(38px + 8em);
     bottom: calc(38px + 7em); }
   .start.hidden {
-    transform: translateY(-100%); }
+    -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+            transform: translateY(-100%); }
     .start.hidden .article {
       top: 10%; }
 
@@ -196,12 +282,22 @@ a {
   top: 0;
   bottom: 0;
   padding: calc(38px + 8em) calc(38px + 100px + 8%) calc(38px + 7em);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  transition: 600ms; }
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-transition: 600ms;
+          transition: 600ms; }
   .vita article {
     margin: 0 10px;
-    flex: 1 1 66.666%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 66.666%;
+        -ms-flex: 1 1 66.666%;
+            flex: 1 1 66.666%;
     padding: 2em;
     color: #2A2F29;
     line-height: 1.3;
@@ -212,16 +308,24 @@ a {
         margin-bottom: 0; }
   .vita aside {
     margin: 20px 10px;
-    flex: 1 1 33.333%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 33.333%;
+        -ms-flex: 1 1 33.333%;
+            flex: 1 1 33.333%;
     padding: 4px;
     background-color: white;
-    transition: 500ms; }
+    -webkit-transition: 500ms;
+            transition: 500ms; }
     .vita aside img {
       width: 100%; }
   .vita.hidden {
-    transform: translateY(100%); }
+    -webkit-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+            transform: translateY(100%); }
     .vita.hidden aside {
-      transform: translateY(100%); }
+      -webkit-transform: translateY(100%);
+          -ms-transform: translateY(100%);
+              transform: translateY(100%); }
 
 .border {
   position: absolute;
@@ -320,7 +424,8 @@ a {
   .nav .hamburger {
     width: 12px;
     height: 10px;
-    transition: 250ms; }
+    -webkit-transition: 250ms;
+            transition: 250ms; }
     .nav .hamburger div {
       margin-top: 2px;
       width: 12px;
@@ -328,16 +433,20 @@ a {
       display: block;
       content: '';
       background: white;
-      transition: 250ms; }
+      -webkit-transition: 250ms;
+              transition: 250ms; }
     .nav .hamburger:focus div:nth-of-type(1), .nav .hamburger:hover div:nth-of-type(1) {
-      transform: scaleX(1) translate3d(-2.5px, 2px, 0) rotate(-45deg); }
+      -webkit-transform: scaleX(1) translate3d(-2.5px, 2px, 0) rotate(-45deg);
+              transform: scaleX(1) translate3d(-2.5px, 2px, 0) rotate(-45deg); }
     .nav .hamburger:focus div:nth-of-type(2), .nav .hamburger:hover div:nth-of-type(2) {
-      transform: scaleX(1) translate3d(4.5px, -2px, 0) rotate(45deg); }
+      -webkit-transform: scaleX(1) translate3d(4.5px, -2px, 0) rotate(45deg);
+              transform: scaleX(1) translate3d(4.5px, -2px, 0) rotate(45deg); }
   .nav a {
     display: inline-block;
     padding: 5px;
     font-weight: 500;
-    transition: 250ms; }
+    -webkit-transition: 250ms;
+            transition: 250ms; }
     .nav a.active {
       opacity: 0.5; }
 
@@ -347,7 +456,8 @@ a {
   top: 0;
   width: 40vw;
   max-width: 350px;
-  transition: 600ms; }
+  -webkit-transition: 600ms;
+          transition: 600ms; }
   .article.erkennen {
     left: 12%;
     top: 76%; }
@@ -355,7 +465,8 @@ a {
     left: 60%;
     top: 10%; }
     .article.loesen h1 {
-      animation-delay: 4300ms; }
+      -webkit-animation-delay: 4300ms;
+              animation-delay: 4300ms; }
   .article.innehalten {
     left: 42%;
     top: 47%; }
@@ -375,7 +486,8 @@ a {
     display: inline-block;
     margin-left: -1.9em;
     padding-left: 1.9em;
-    transition: 250ms; }
+    -webkit-transition: 250ms;
+            transition: 250ms; }
   .article .circle {
     position: absolute;
     top: 4px;
@@ -384,15 +496,19 @@ a {
     height: 7px;
     border: 2px solid white;
     border-radius: 10px;
-    transition: 250ms; }
+    -webkit-transition: 250ms;
+            transition: 250ms; }
   .article .cross {
     position: absolute;
     top: 8.5px;
     left: -20.5px;
     width: 12px;
     height: 1px;
-    transform: scale(0);
-    transition: 250ms; }
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: 250ms;
+            transition: 250ms; }
     .article .cross div {
       position: absolute;
       width: 12px;
@@ -400,16 +516,22 @@ a {
       display: block;
       content: '';
       background-color: white;
-      transform: rotate(45deg);
-      transition: 250ms; }
+      -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+      -webkit-transition: 250ms;
+              transition: 250ms; }
       .article .cross div:nth-of-type(2) {
-        transform: rotate(-45deg); }
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg); }
   .article h1, .article .text {
     display: inline-block;
     padding: 3px 5px;
     color: #2A2F29;
     background: white;
-    transition: 250ms; }
+    -webkit-transition: 250ms;
+            transition: 250ms; }
   .article h1 {
     margin-bottom: 2px;
     font-weight: 600; }
@@ -418,22 +540,38 @@ a {
     padding-bottom: 5px;
     line-height: 1.3;
     opacity: 0;
-    filter: blur(2px);
-    transform: scale(0.98);
-    transition: 250ms;
-    hyphens: auto; }
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+    -webkit-transform: scale(0.98);
+        -ms-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-transition: 250ms;
+            transition: 250ms;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto; }
   .article.open {
     z-index: 1; }
     .article.open .circle {
-      transform: scale(0); }
+      -webkit-transform: scale(0);
+          -ms-transform: scale(0);
+              transform: scale(0); }
     .article.open .cross {
-      transform: scale(1); }
+      -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+              transform: scale(1); }
     .article.open .text {
-      filter: none;
-      transform: none;
+      -webkit-filter: none;
+              filter: none;
+      -webkit-transform: none;
+          -ms-transform: none;
+              transform: none;
       opacity: 1; }
   .article.inactive a {
     opacity: 0.7;
-    filter: blur(3px); }
+    -webkit-filter: blur(3px);
+            filter: blur(3px); }
     .article.inactive a:focus, .article.inactive a:hover {
-      filter: none; }
+      -webkit-filter: none;
+              filter: none; }
