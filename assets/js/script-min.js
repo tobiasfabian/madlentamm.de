@@ -98,6 +98,13 @@
 
   }
 
+  function closeAllArticles(){
+    _.each(articles,function(article){
+      article.close();
+      article.unsetInactive();
+    });
+  }
+
   function show(){
     startElement.hidden = false;
     startElement.offsetWidth;
@@ -117,6 +124,12 @@
       show();
     } else {
       hide();
+    }
+  });
+
+  startElement.addEventListener('click',function(e){
+    if (e.target === this || e.target.parentElement === this) {
+      closeAllArticles();
     }
   });
 

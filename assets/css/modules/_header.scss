@@ -1,6 +1,9 @@
 .header {
+  z-index: 10;
+  position: relative;
   padding: 2em;
   text-align: center;
+  pointer-events: none;
   h1 {
     overflow: hidden;
     margin-bottom: 0.3em;
@@ -21,8 +24,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     text-transform: lowercase;
-    letter-spacing: 0.21em;
-    font-size: 0.9em;
+    letter-spacing: 0.22em;
+    font-size: 0.85em;
     color: $lightblue;
   }
 }

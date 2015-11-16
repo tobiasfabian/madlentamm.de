@@ -1,8 +1,6 @@
 
-config.codekit
-
-*.scssc
-
 *.scssc
 
 assets/css/.sass-cache
+
+assets/css/.sass-cache/*
