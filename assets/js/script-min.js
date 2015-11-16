@@ -113,9 +113,10 @@
 
   function hide(){
     startElement.classList.add('hidden');
+    closeAllArticles();
     setTimeout(function(){
       startElement.hidden = true;
-    },500);
+    },600);
   }
 
   window.addEventListener('hashchange',function(){
@@ -156,7 +157,7 @@
     vitaNavElement.classList.remove('active');
     setTimeout(function(){
       vitaElement.hidden = true;
-    },500);
+    },600);
   }
 
   window.addEventListener('hashchange',function(){

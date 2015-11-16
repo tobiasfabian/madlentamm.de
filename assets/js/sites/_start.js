@@ -107,7 +107,7 @@
     closeAllArticles();
     setTimeout(function(){
       startElement.hidden = true;
-    },500);
+    },600);
   }
 
   window.addEventListener('hashchange',function(){

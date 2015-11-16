@@ -16,7 +16,7 @@
     vitaNavElement.classList.remove('active');
     setTimeout(function(){
       vitaElement.hidden = true;
-    },500);
+    },600);
   }
 
   window.addEventListener('hashchange',function(){

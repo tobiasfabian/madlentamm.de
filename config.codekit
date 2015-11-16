@@ -183,9 +183,9 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/assets\/images\/bg.jpg": {
 		"fileType": 16384,
@@ -247,7 +247,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/libraries\/underscore.min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/libraries\/underscore.min-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/libraries\/min\/underscore.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -258,7 +258,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/modules\/_article.js",
-		"outputAbbreviatedPath": "\/assets\/js\/modules\/_article-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/modules\/min\/_article-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -269,7 +269,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/script-min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/script-min-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/script-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -278,11 +278,11 @@
 	"\/assets\/js\/script.js": {
 		"fileType": 64,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/script.js",
 		"outputAbbreviatedPath": "\/assets\/js\/script-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
@@ -291,7 +291,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/sites\/_start.js",
-		"outputAbbreviatedPath": "\/assets\/js\/sites\/_start-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/sites\/min\/_start-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -302,7 +302,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/sites\/_vita.js",
-		"outputAbbreviatedPath": "\/assets\/js\/sites\/_vita-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/sites\/min\/_vita-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -331,8 +331,14 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_vita.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_start.js",
 			"position": 1,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_vita.js",
+			"position": 2,
 			"type": 1
 			}
 		]
@@ -344,7 +350,7 @@
 	"iconImageName": "pencil_yellow"
 	},
 "projectSettings": {
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -515,7 +521,7 @@
 	"javascriptAutoOutputPathRelativePath": "\/min",
 	"javascriptAutoOutputPathReplace1": "",
 	"javascriptAutoOutputPathReplace2": "",
-	"javascriptAutoOutputPathStyle": 0,
+	"javascriptAutoOutputPathStyle": 2,
 	"javascriptCreateSourceMap": 1,
 	"javascriptOutputStyle": 1,
 	"javascriptSyntaxCheckerStyle": 1,
