@@ -104,6 +104,7 @@
 
   function hide(){
     startElement.classList.add('hidden');
+    closeAllArticles();
     setTimeout(function(){
       startElement.hidden = true;
     },500);
