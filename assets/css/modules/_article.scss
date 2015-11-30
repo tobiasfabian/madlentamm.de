@@ -12,9 +12,6 @@
   &.loesen {
     left: 60%;
     top: 10%;
-    h1 {
-      animation-delay: 4300ms;
-    }
   }
   &.innehalten {
     left: 42%;
@@ -83,7 +80,7 @@
   }
   h1 {
     margin-bottom: 2px;
-    font-weight: 600;
+    font-weight: 400;
   }
   .text {
     padding-top: 5px;
