@@ -146,6 +146,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/css\/sites\/_arbeitsweise.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/sites\/_arbeitsweise.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_arbeitsweise.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/css\/sites\/_kontakt.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -219,17 +235,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/images\/bg-alt.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 39283,
-		"inputAbbreviatedPath": "\/assets\/images\/bg-alt.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/bg-alt.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/images\/bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -237,17 +242,6 @@
 		"initialSize": 20404,
 		"inputAbbreviatedPath": "\/assets\/images\/bg.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/bg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 165661,
-		"inputAbbreviatedPath": "\/assets\/images\/bg.png",
-		"outputAbbreviatedPath": "\/assets\/images\/bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -314,39 +308,6 @@
 		"initialSize": 3882,
 		"inputAbbreviatedPath": "\/assets\/images\/logo-dgsv@2x.png",
 		"outputAbbreviatedPath": "\/assets\/images\/logo-dgsv@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/madlen-tamm.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22253,
-		"inputAbbreviatedPath": "\/assets\/images\/madlen-tamm.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/madlen-tamm.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/madlen-tamm@2x.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 66219,
-		"inputAbbreviatedPath": "\/assets\/images\/madlen-tamm@2x.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/madlen-tamm@2x.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/madlen.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 295990,
-		"inputAbbreviatedPath": "\/assets\/images\/madlen.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/madlen.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
