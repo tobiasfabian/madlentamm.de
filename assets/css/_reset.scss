@@ -102,9 +102,13 @@ input, select {
 }
 
 [hidden] {
-  display: none !important;
+  display: inherit;
 }
 
 img {
   display: block;
+}
+
+a {
+  cursor: pointer;
 }

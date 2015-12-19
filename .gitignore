@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 
 *.scssc
 
 assets/css/.sass-cache
 
+=======
+*.scssc
+assets/css/.sass-cache
+>>>>>>> light
 assets/css/.sass-cache/*

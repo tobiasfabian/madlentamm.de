@@ -1,8 +1,13 @@
 @import 'reset';
 @import 'fonts';
 
-$color: #2A2F29;
-$lightblue: #ABC8D7;
+$color: lighten(#555657,5);
+$lightblue: #abdfe0;
+$darkblue: #2579A4;
+$background: #7ca2a3;
+
+$duration: 200ms;
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 
 
 body {
@@ -17,13 +22,33 @@ a {
   color: inherit;
 }
 
+.main {
+  position: absolute;
+  left: 37px;
+  right: 37px;
+  bottom: 37px;
+  top: 37px;
+  overflow: hidden;
+  .scroll-container {
+    position: relative;
+    height: 400%;
+    transition: $duration * 2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    transform: translate3d(0,0%,0); // activate hardware acceleration
+    backface-visibility: hidden; // prevent flickering
+    // perspective: 1000; // prevent flickering
+  }
+}
+
 
 @import 'startanimation';
-
-@import 'sites/start';
-@import 'sites/vita';
 
 @import 'modules/border';
 @import 'modules/header';
 @import 'modules/nav';
-@import 'modules/article';
+@import 'modules/start--term';
+@import 'modules/windows';
+
+@import 'sites/start';
+@import 'sites/vita';
+@import 'sites/arbeitsweise';
+@import 'sites/kontakt';

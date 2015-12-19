@@ -1,0 +1,109 @@
+.arbeitsweise {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: calc(100vh - 74px);
+  overflow: hidden;
+  transform: translateZ(0);
+  backface-visibility: hidden; // prevent flickering
+  transition: $duration * 2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  &--gallery {
+    position: relative;
+    margin: calc(24vh - 42px) auto;
+    height: 70%;
+    width: 50%;
+    &--nav {
+      &--previous, &--next {
+        position: absolute;
+        top: calc(50% - 4em - 20px);
+        height: 40px;
+        width: 40px;
+        div {
+          position: absolute;
+          top: calc(50% - 1px);
+          height: 2px;
+          width: 16px;
+          background-color: white;
+          &:nth-of-type(3) {
+            opacity: 0;
+            transition: $duration $easeOutBack;
+          }
+        }
+        &:focus, &:hover {
+          div {
+            &:nth-of-type(3) {
+              opacity: 1;
+              transform: translate3d(0,0,0);
+            }
+          }
+        }
+      }
+      &--previous {
+        left: -40px;
+        div {
+          left: 0;
+          &:nth-of-type(1) {
+            transform-origin: 0 2px;
+            transform: translate3d(0,0,0) rotate(-45deg);
+          }
+          &:nth-of-type(2) {
+            transform-origin: 0 0;
+            transform: translate3d(0,0,0) rotate(45deg);
+          }
+          &:nth-of-type(3) {
+            left: 8px;
+            transform: translate3d(20%,0,0);
+          }
+        }
+      }
+      &--next {
+        right: -40px;
+        div {
+          right: 0;
+          &:nth-of-type(1) {
+            transform-origin: 100% 2px;
+            transform: translate3d(0,0,0) rotate(45deg);
+          }
+          &:nth-of-type(2) {
+            transform-origin: 100% 0;
+            transform: translate3d(0,0,0) rotate(-45deg);
+          }
+          &:nth-of-type(3) {
+            right: 8px;
+            transform: translate3d(-20%,0,0);
+          }
+        }
+      }
+    }
+    &--images {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      &--container {
+        display: flex;
+        transition: $duration*1.5 ease-out;
+        figure {
+          width: 100%;
+          height: 100%;
+          flex: 0 0 100%;
+          img {
+            margin: auto;
+            max-width: 100%;
+            max-height: calc(100% - 2em);
+          }
+          figcaption {
+            margin-top: 0.5em;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  &[hidden] {
+    opacity: 0.1;
+    filter: blur(8px);
+    transform: scale(0.99);
+    backface-visibility: hidden; // prevent flickering
+  }
+}

@@ -13,7 +13,11 @@
     width: 0;
   }
   100% {
+<<<<<<< HEAD
     width: 125px;
+=======
+    width: 135px;
+>>>>>>> light
   }
 }
 @keyframes moveUp {
@@ -37,7 +41,7 @@
 @keyframes fadeInScale {
   0% {
     opacity: 0;
-    transform: scale(1.03);
+    transform: scale(1.02);
   }
   100% {
     opacity: 100%;
@@ -62,7 +66,7 @@
   .header {
     h1 {
       animation: strechUp 400ms 2000ms ease-out backwards;
-      span {
+      a {
         animation: moveUp 400ms 2500ms ease-out backwards;
       }
     }
@@ -73,7 +77,7 @@
   .nav {
     animation: fadeIn 1000ms 4300ms ease-out backwards;
   }
-  .article {
+  .start--term {
     &.erkennen {
       .circle {
         animation-delay: 3800ms;
@@ -110,7 +114,7 @@
       }
     }
     .circle {
-      animation: popUp 250ms 3800ms cubic-bezier(0.175, 0.885, 0.320, 1.275) backwards;
+      animation: popUp 250ms 3800ms $easeOutBack backwards;
     }
     h1 {
       animation: fadeIn 1000ms 4300ms ease-out backwards;

@@ -1,31 +1,120 @@
 .header {
+<<<<<<< HEAD
   z-index: 10;
   position: relative;
   padding: 2em;
+=======
+  position: relative;
+  margin: 2em auto 0;
+  width: 15em;
+  z-index: 10;
+>>>>>>> light
   text-align: center;
   pointer-events: none;
   h1 {
+    position: relative;
     overflow: hidden;
     margin-bottom: 0.3em;
-    padding-bottom: 0em;
+    padding: 0 0;
     display: inline-block;
+<<<<<<< HEAD
     // text-transform: uppercase;
     font-size: 1.5em;
     font-weight: 300;
+=======
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+    line-height: 0.9;
+    // color: transparentize(white, 0.05);
+    letter-spacing: 0.02em;
+>>>>>>> light
     border-bottom: 2px solid $lightblue;
     white-space: nowrap;
-    span {
+    transition: $duration $easeOutBack,
+                color $duration*2 cubic-bezier(0.645, 0.045, 0.355, 1.000),
+                border-color $duration*2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    &:focus, &:hover {
+      padding: 0 4px;
+    }
+    a {
       display: inline-block;
+      // &::after {
+      //   position: absolute;
+      //   left: 20px;
+      //   right: 20px;
+      //   bottom: 0;
+      //   display: block;
+      //   content: '';
+      //   border-bottom: 2px solid $lightblue;
+      //   transition: $duration $easeOutBack;
+      // }
+      // &:focus, &:hover {
+      //   &::after {
+      //     left: 16px;
+      //     right: 16px;
+      //   }
+      // }
     }
   }
   h2 {
     display: inline-block;
-    margin: 0 0.4em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
     text-transform: lowercase;
+<<<<<<< HEAD
     letter-spacing: 0.22em;
     font-size: 0.85em;
+=======
+    letter-spacing: 0.15em;
+    font-size: 0.9em;
+>>>>>>> light
     color: $lightblue;
+  }
+  h2 span {
+    transition: color $duration*2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+  h2 a {
+    position: relative;
+    display: inline-block;
+    line-height: 0.9;
+    transition: $duration * 2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    &::after {
+      z-index: -1;
+      display: block;
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      content: '';
+      border-bottom: 1px solid transparent;
+      transition: $duration, left $duration $easeOutBack, $duration right $easeOutBack;
+    }
+    &:focus, &:hover, &.active {
+      // transition-delay: 0s;
+      text-shadow: 2px 0 0 $background, -2px 0 0 $background, 1px 0 0 $background, -1px 0 0 $background;
+      &::after {
+        left: 0.5px;
+        right: 2.5px;
+        border-bottom-color: $lightblue;
+      }
+    }
+  }
+}
+
+.negative .header {
+  h1 {
+    color: $color;
+    border-bottom-color: darken($background,0);
+  }
+  h2 {
+    a, span {
+      color: darken($background,0);
+    }
+    a:focus, a:hover, a.active {
+      text-shadow: 2px 0 0 #e2e7e9, -2px 0 0 #e2e7e9, 1px 0 0 #e2e7e9, -1px 0 0 #e2e7e9;
+      &::after {
+        border-bottom-color: darken($background,0);
+      }
+    }
   }
 }

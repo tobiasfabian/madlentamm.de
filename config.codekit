@@ -114,6 +114,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/css\/modules\/_start--term.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/modules\/_start--term.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_start--term.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/css\/modules\/_textbox.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -123,6 +139,54 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/modules\/_textbox.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/css\/_textbox.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/css\/modules\/_windows.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/modules\/_windows.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_windows.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/css\/sites\/_arbeitsweise.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/sites\/_arbeitsweise.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_arbeitsweise.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/css\/sites\/_kontakt.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/sites\/_kontakt.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_kontakt.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -183,15 +247,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 1
+		"useLibsass": 0
+		},
+	"\/assets\/images\/bg-alt.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39283,
+		"inputAbbreviatedPath": "\/assets\/images\/bg-alt.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/bg-alt.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/images\/bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 36457,
+		"initialSize": 36289,
 		"inputAbbreviatedPath": "\/assets\/images\/bg.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -220,11 +295,66 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/coaching.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.06903e+06,
+		"inputAbbreviatedPath": "\/assets\/images\/coaching.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/coaching.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/holzfiguren.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 131403,
+		"inputAbbreviatedPath": "\/assets\/images\/holzfiguren.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/holzfiguren.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/karten.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 247952,
+		"inputAbbreviatedPath": "\/assets\/images\/karten.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/karten.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logo-dgsv.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1604,
+		"inputAbbreviatedPath": "\/assets\/images\/logo-dgsv.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo-dgsv.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logo-dgsv@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3882,
+		"inputAbbreviatedPath": "\/assets\/images\/logo-dgsv@2x.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo-dgsv@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/madlen-tamm.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2154,
+		"initialSize": 22253,
 		"inputAbbreviatedPath": "\/assets\/images\/madlen-tamm.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/madlen-tamm.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -242,6 +372,127 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/madlen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 295990,
+		"inputAbbreviatedPath": "\/assets\/images\/madlen.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/madlen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/method-cards.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 265826,
+		"inputAbbreviatedPath": "\/assets\/images\/method-cards.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/method-cards.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/serie\/01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128542,
+		"inputAbbreviatedPath": "\/assets\/images\/serie\/01.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/serie\/01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/serie\/02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 158227,
+		"inputAbbreviatedPath": "\/assets\/images\/serie\/02.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/serie\/02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/serie\/03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 132269,
+		"inputAbbreviatedPath": "\/assets\/images\/serie\/03.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/serie\/03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/serie\/04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130353,
+		"inputAbbreviatedPath": "\/assets\/images\/serie\/04.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/serie\/04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/serie\/05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123663,
+		"inputAbbreviatedPath": "\/assets\/images\/serie\/05.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/serie\/05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/js\/_globals.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/_globals.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/_globals-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/handler\/_scrollHandler.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/handler\/_scrollHandler.js",
+		"outputAbbreviatedPath": "\/assets\/js\/handler\/min\/_scrollHandler-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/libraries\/svg.filter.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/libraries\/svg.filter.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/libraries\/min\/svg.filter.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/libraries\/svg.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/libraries\/svg.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/libraries\/min\/svg.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/libraries\/underscore.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -253,12 +504,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/js\/modules\/_article.js": {
+	"\/assets\/js\/min\/script-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/modules\/_article.js",
-		"outputAbbreviatedPath": "\/assets\/js\/modules\/min\/_article-min.js",
+		"inputAbbreviatedPath": "\/assets\/js\/min\/script-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/script-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/modules\/_headernav.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/modules\/_headernav.js",
+		"outputAbbreviatedPath": "\/assets\/js\/modules\/min\/_headernav-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -266,7 +528,7 @@
 		},
 	"\/assets\/js\/script-min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/script-min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/script-min-min.js",
@@ -278,12 +540,34 @@
 	"\/assets\/js\/script.js": {
 		"fileType": 64,
 		"ignore": 0,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/script.js",
-		"outputAbbreviatedPath": "\/assets\/js\/script-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/script-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/sites\/_arbeitsweise.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/sites\/_arbeitsweise.js",
+		"outputAbbreviatedPath": "\/assets\/js\/sites\/min\/_arbeitsweise-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/sites\/_kontakt.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/sites\/_kontakt.js",
+		"outputAbbreviatedPath": "\/assets\/js\/sites\/min\/_kontakt-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/assets\/js\/sites\/_start.js": {
@@ -322,26 +606,6 @@
 	],
 "lastSavedByUser": "Tobias Wolf",
 "manualImportLinks": {
-	"\/assets\/js\/script.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/libraries\/underscore.min.js",
-			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_start.js",
-			"position": 1,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_vita.js",
-			"position": 2,
-			"type": 1
-			}
-		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",

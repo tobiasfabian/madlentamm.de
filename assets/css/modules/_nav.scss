@@ -1,12 +1,15 @@
 .nav {
-  position: relative;
+  position: absolute;
+  top: calc(37px + 28vh + 6px);
   float: left;
   z-index: 10;
-  padding-left: 20px;
+  padding-left: 15px;
+  font-weight: 400;
+  transition: $duration;
   .hamburger {
     width: 12px;
     height: 10px;
-    transition: 250ms;
+    transition: $duration;
     div {
       margin-top: 2px;
       width: 12px;
@@ -14,24 +17,45 @@
       display: block;
       content: '';
       background: white;
-      transition: 250ms;
+      // background: $color;
+      transition: $duration;
     }
     &:focus, &:hover {
       div:nth-of-type(1) {
-        transform: scaleX(1) translate3d(-2.5px,2px,0) rotate(-45deg);
+        transform: scaleX(1) translate(-2.5px,2px) rotate(-45deg);
       }
       div:nth-of-type(2) {
-        transform: scaleX(1) translate3d(4.5px,-2px,0) rotate(45deg);
+        transform: scaleX(1) translate(4.5px,-2px) rotate(45deg);
       }
     }
   }
   a {
     display: inline-block;
     padding: 5px;
+<<<<<<< HEAD
     font-weight: 400;
     transition: 250ms;
     &.active {
       opacity: 0.5;
     }
+=======
+    opacity: 0.5;
+    transition: $duration;
+    &:focus, &:hover {
+      opacity: 0.8;
+    }
+    &.active {
+      opacity: 1;
+    }
+  }
+}
+
+.negative .nav {
+  a {
+    color: $color;
+  }
+  .hamburger div {
+    background-color: $color;
+>>>>>>> light
   }
 }

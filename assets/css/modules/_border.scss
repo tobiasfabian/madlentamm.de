@@ -5,14 +5,22 @@
   bottom: 0;
   top: 0;
   z-index: -1;
+  overflow: hidden;
+  backface-visibility: hidden; // prevent flickering
   .bg {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     top: 0;
+<<<<<<< HEAD
     background: url(../images/bg.jpg) center center no-repeat #535852;
+=======
+    background: url(../images/bg.jpg) center center no-repeat;
+>>>>>>> light
     background-size: cover;
+    transition: 250ms ease-out;
+    transform: translateZ(0);
   }
   .line {
     position: absolute;

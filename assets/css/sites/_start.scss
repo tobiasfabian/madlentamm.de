@@ -1,21 +1,40 @@
 .start {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transition: 600ms;
+  position: relative;
+  height: calc(100vh - 74px);
+  transition: $duration * 2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
   .container {
     position: absolute;
-    left: calc(38px + 260px);
-    right: calc(38px + 350px);
-    top: calc(38px + 8em);
-    bottom: calc(38px + 7em);
+    left: 25vw;
+    right: 30vw;
+    top: 12em;
+    bottom: 12em;
   }
-  &.hidden {
-    transform: translateY(-100%);
+  &[hidden] {
+    opacity: 0.1;
+    filter: blur(8px);
+    transform: scale(0.99);
+    transform: translateZ(0);
+    backface-visibility: hidden; // prevent flickering
     .article {
-      top: 10%;
+      top: 0%;
+    }
+  }
+}
+#vita--drawing {
+  z-index: -1;
+  position: absolute;
+  left: -40px;
+  right: -40px;
+  top: -40px;
+  bottom: -40px;
+  backface-visibility: hidden; // prevent flickering
+  perspective: 1000; // prevent flickering
+  svg {
+    backface-visibility: hidden; // prevent flickering
+    perspective: 1000; // prevent flickering
+    line {
+      stroke: transparentize($lightblue, 0);
+      stroke-width: 0.5;
     }
   }
 }

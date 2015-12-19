@@ -1,26 +1,120 @@
 (function(){
 
-  var startElement = document.getElementById('start');
-  var articles = [];
+  var id = 'start';
+  var scrollContainerElement = document.querySelector('.scroll-container');
+  var startElement = document.getElementById(id);
+  var terms = [];
+  var openTerm;
+  var drawElement = document.getElementById('vita--drawing');
+  var draw = SVG('vita--drawing');
+  var moveIsAllowed = true;
+  var selfObject;
 
   function init(){
-    _.each(startElement.querySelectorAll('.article'),function(articleElement){
-      new Article(articleElement);
+    _.each(startElement.querySelectorAll('.start--term'),function(termElement){
+      new Term(termElement);
     })
+    selfObject = {
+      id: '',
+      page: true,
+      showHide: showHide
+    };
+    PAGES.push(selfObject);
+    ACTIVE_PAGE = selfObject;
   }
 
-  function Article(articleElement) {
+  function Term(termElement) {
 
-    var aElement = articleElement.querySelector('a');
-    var textElement = articleElement.querySelector('.text');
+    var aElement = termElement.querySelector('a');
+    var h1Element = aElement.querySelector('h1');
+    var textElement = termElement.querySelector('.text');
     var self = this;
+    var linesTo = [];
+    var id = termElement.dataset.id;
+    var lines = [];
+    var randomMove = _.random(150, 250);
+    var moveX = 0;
+    var moveY = 0;
 
     function init(){
-      articles.push(self);
+      terms.push(self);
+      linesTo = termElement.dataset.connection.split(',');
     }
 
-    function handleClick(){
-      if (!articleElement.classList.contains('open')) {
+    function getX(termElement,h1Element){
+      var x = termElement.offsetLeft - 15 + 40 - moveX;
+      return x;
+    }
+    function getY(termElement,h1Element){
+      var y = termElement.offsetTop + h1Element.offsetHeight/2 + 40 - moveY;
+      return y;
+    }
+    function getX2(termElement,h1Element){
+      var x = termElement.offsetLeft - 15 + 40 - moveX;
+      return x;
+    }
+    function getY2(termElement,h1Element){
+      var y = termElement.offsetTop + h1Element.offsetHeight/2 + 40 - moveY;
+      return y;
+    }
+
+    function drawLines(){
+      var x1 = getX(termElement,h1Element);
+      var y1 = getY(termElement,h1Element);
+      _.each(linesTo,function(to){
+        var line = draw.line(x1, y1, x1, y1);
+        line.filter(function(add){
+          add.gaussianBlur(1);
+        });
+        var term = _.find(terms,function(term){
+          return to === term.id;
+        });
+        line.toTerm = term;
+        lines.push(line);
+        try {
+          var x2 = getX2(term.termElement,term.h1Element);
+          var y2 = getY(term.termElement,term.h1Element);
+          line.animate(200, '<', 0).plot([[x1,y1],[x2,y2]]);
+        } catch(error) {
+          console.error(error);
+          console.error('id: '+id);
+        }
+      });
+    }
+
+    function removeLines(){
+      _.each(lines,function(line){
+        var x1 = getX(termElement,h1Element);
+        var y1 = getY(termElement,h1Element);
+        line.animate(200, '<', 0).plot([[x1,y1],[x1,y1]]).after(function(){
+          this.remove();
+        });
+      })
+    }
+
+    function updateLines(){
+      _.each(lines,function(line){
+        var x1 = getX(termElement,h1Element);
+        var y1 = getY(termElement,h1Element);
+        var term = line.toTerm;
+        try {
+          var x2 = getX2(term.termElement,term.h1Element);
+          var y2 = getY(term.termElement,term.h1Element);
+          line.plot([[x1,y1],[x2,y2]]);
+        } catch(error) {
+          console.error(error);
+          console.error('id: '+id);
+        }
+      });
+    }
+
+    function handleClick(e){
+      moveIsAllowed = true;
+      _.each(terms,function(term){
+        term.moveElement(e);
+        term.moveElement(e);
+      });
+      if (!termElement.classList.contains('open')) {
         open();
       } else {
         close();
@@ -29,25 +123,25 @@
     }
 
     function setOthersInactive(){
-      _.each(articles,function(article){
-        if (article !== self) {
-          article.setInactive();
+      _.each(terms,function(term){
+        if (term !== self) {
+          term.setInactive();
         }
       });
     }
 
     function unsetOthersInactive(){
-      _.each(articles,function(article){
-        if (article !== self) {
-          article.unsetInactive();
+      _.each(terms,function(term){
+        if (term !== self) {
+          term.unsetInactive();
         }
       });
     }
 
     function closeOthers(){
-      _.each(articles,function(article){
-        if (article !== self) {
-          article.close();
+      _.each(terms,function(term){
+        if (term !== self) {
+          term.close();
         }
       });
     }
@@ -59,64 +153,121 @@
       self.unsetInactive();
       textElement.hidden = false;
       textElement.offsetWidth;
-      articleElement.classList.add('open');
+      termElement.classList.add('open');
+      drawLines();
+      openTerm = self;
+      moveIsAllowed = false;
     }
 
     function close(){
-      if (articleElement.classList.contains('open')) {
-        articleElement.classList.remove('open');
+      if (termElement.classList.contains('open')) {
+        termElement.classList.remove('open');
+        removeLines();
+        moveIsAllowed = true;
         setTimeout(function(){
           textElement.hidden = true;
-        },250);
+        },200);
       }
     }
 
     function setInactive(){
-      articleElement.classList.add('inactive');
+      termElement.classList.add('inactive');
     }
     function unsetInactive(){
-      articleElement.classList.remove('inactive');
+      termElement.classList.remove('inactive');
     }
+
+    function moveElement(e){
+      if (moveIsAllowed) {
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+        moveX = (width/2 - e.clientX) / randomMove;
+        moveY = (height/2 - e.clientY) / randomMove;
+        requestAnimationFrame(function(){
+          termElement.style.transform = 'translate3d('+moveX+'px,'+moveY+'px,0)';
+        });
+        // updateLines()
+      }
+    }
+
+    aElement.addEventListener('click',handleClick);
+    window.addEventListener('mousemove',moveElement);
+    window.addEventListener('mousemove',moveElement);
 
     this.open = open;
     this.close = close;
     this.setInactive = setInactive;
     this.unsetInactive = unsetInactive;
-
-    aElement.addEventListener('click',handleClick);
+    this.id = id;
+    this.termElement = termElement;
+    this.h1Element = h1Element;
+    this.updateLines = updateLines;
+    this.moveElement = moveElement;
+    this.moveElement = moveElement;
+    this.moveElement = moveElement;
 
     init();
 
   }
 
+<<<<<<< HEAD
   function closeAllArticles(){
     _.each(articles,function(article){
       article.close();
       article.unsetInactive();
+=======
+  function closeAllterms(){
+    _.each(terms,function(term){
+      term.close();
+      term.unsetInactive();
+>>>>>>> light
     });
   }
 
   function show(){
+    scrollContainerElement.style.transform = 'translate3d(0,0%,0)';
     startElement.hidden = false;
-    startElement.offsetWidth;
-    startElement.classList.remove('hidden');
+    ACTIVE_PAGE = selfObject;
   }
 
   function hide(){
+<<<<<<< HEAD
     startElement.classList.add('hidden');
     closeAllArticles();
     setTimeout(function(){
       startElement.hidden = true;
     },600);
+=======
+    closeAllterms();
+    startElement.hidden = true;
+>>>>>>> light
   }
 
-  window.addEventListener('hashchange',function(){
+  function showHide(){
     var hash = location.hash.substr(2);
     if (hash === '') {
-      show();
+      requestAnimationFrame(show);
     } else {
-      hide();
+      requestAnimationFrame(hide);
     }
+  }
+
+  window.addEventListener('hashchange',showHide);
+  window.addEventListener('resize',function(){
+    if (openTerm) {
+      openTerm.updateLines();
+    }
+  })
+
+
+  startElement.addEventListener('click',function(e){
+    if (e.target === this || e.target.parentElement === this) {
+      closeAllterms();
+    }
+    _.each(terms,function(term){
+      term.moveElement(e);
+      term.moveElement(e);
+    });
   });
 
   startElement.addEventListener('click',function(e){
