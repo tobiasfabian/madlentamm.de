@@ -363,17 +363,10 @@ PAGES = [];
 
   }
 
-<<<<<<< HEAD
-  function closeAllArticles(){
-    _.each(articles,function(article){
-      article.close();
-      article.unsetInactive();
-=======
   function closeAllterms(){
     _.each(terms,function(term){
       term.close();
       term.unsetInactive();
->>>>>>> light
     });
   }
 
@@ -384,16 +377,8 @@ PAGES = [];
   }
 
   function hide(){
-<<<<<<< HEAD
-    startElement.classList.add('hidden');
-    closeAllArticles();
-    setTimeout(function(){
-      startElement.hidden = true;
-    },600);
-=======
     closeAllterms();
     startElement.hidden = true;
->>>>>>> light
   }
 
   function showHide(){
@@ -423,12 +408,6 @@ PAGES = [];
     });
   });
 
-  startElement.addEventListener('click',function(e){
-    if (e.target === this || e.target.parentElement === this) {
-      closeAllArticles();
-    }
-  });
-
   init();
 
 })();
@@ -436,10 +415,6 @@ PAGES = [];
 
 (function(){
 
-<<<<<<< HEAD
-  var vitaElement = document.getElementById('vita');
-  var vitaNavElement = document.getElementById('nav').querySelector('a[href="#!vita"]');
-=======
   var id = 'vita';
   var scrollContainerElement = document.querySelector('.scroll-container');
   var vitaElement = document.getElementById(id);
@@ -505,25 +480,11 @@ PAGES = [];
 
   var images = new Images();
 
->>>>>>> light
 
   function show(){
     vitaNavElement.classList.add('active');
     scrollContainerElement.style.transform = 'translate3d(0,-25%,0)';
     vitaElement.hidden = false;
-<<<<<<< HEAD
-    vitaElement.offsetWidth;
-    vitaNavElement.classList.add('active');
-    vitaElement.classList.remove('hidden');
-  }
-
-  function hide(){
-    vitaElement.classList.add('hidden');
-    vitaNavElement.classList.remove('active');
-    setTimeout(function(){
-      vitaElement.hidden = true;
-    },600);
-=======
     ACTIVE_PAGE = selfObject;
     images.show();
   }
@@ -532,7 +493,6 @@ PAGES = [];
     vitaNavElement.classList.remove('active');
     vitaElement.hidden = true;
     images.hide();
->>>>>>> light
   }
 
   function showHide(){

@@ -1,9 +1,5 @@
 (function(){
 
-<<<<<<< HEAD
-  var vitaElement = document.getElementById('vita');
-  var vitaNavElement = document.getElementById('nav').querySelector('a[href="#!vita"]');
-=======
   var id = 'vita';
   var scrollContainerElement = document.querySelector('.scroll-container');
   var vitaElement = document.getElementById(id);
@@ -69,25 +65,11 @@
 
   var images = new Images();
 
->>>>>>> light
 
   function show(){
     vitaNavElement.classList.add('active');
     scrollContainerElement.style.transform = 'translate3d(0,-25%,0)';
     vitaElement.hidden = false;
-<<<<<<< HEAD
-    vitaElement.offsetWidth;
-    vitaNavElement.classList.add('active');
-    vitaElement.classList.remove('hidden');
-  }
-
-  function hide(){
-    vitaElement.classList.add('hidden');
-    vitaNavElement.classList.remove('active');
-    setTimeout(function(){
-      vitaElement.hidden = true;
-    },600);
-=======
     ACTIVE_PAGE = selfObject;
     images.show();
   }
@@ -96,7 +78,6 @@
     vitaNavElement.classList.remove('active');
     vitaElement.hidden = true;
     images.hide();
->>>>>>> light
   }
 
   function showHide(){

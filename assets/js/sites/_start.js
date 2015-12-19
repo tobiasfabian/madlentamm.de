@@ -210,17 +210,10 @@
 
   }
 
-<<<<<<< HEAD
-  function closeAllArticles(){
-    _.each(articles,function(article){
-      article.close();
-      article.unsetInactive();
-=======
   function closeAllterms(){
     _.each(terms,function(term){
       term.close();
       term.unsetInactive();
->>>>>>> light
     });
   }
 
@@ -231,16 +224,8 @@
   }
 
   function hide(){
-<<<<<<< HEAD
-    startElement.classList.add('hidden');
-    closeAllArticles();
-    setTimeout(function(){
-      startElement.hidden = true;
-    },600);
-=======
     closeAllterms();
     startElement.hidden = true;
->>>>>>> light
   }
 
   function showHide(){
@@ -268,12 +253,6 @@
       term.moveElement(e);
       term.moveElement(e);
     });
-  });
-
-  startElement.addEventListener('click',function(e){
-    if (e.target === this || e.target.parentElement === this) {
-      closeAllArticles();
-    }
   });
 
   init();

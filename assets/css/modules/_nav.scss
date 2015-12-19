@@ -32,13 +32,6 @@
   a {
     display: inline-block;
     padding: 5px;
-<<<<<<< HEAD
-    font-weight: 400;
-    transition: 250ms;
-    &.active {
-      opacity: 0.5;
-    }
-=======
     opacity: 0.5;
     transition: $duration;
     &:focus, &:hover {
@@ -56,6 +49,5 @@
   }
   .hamburger div {
     background-color: $color;
->>>>>>> light
   }
 }
