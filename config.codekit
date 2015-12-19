@@ -146,22 +146,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/css\/sites\/_arbeitsweise.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/sites\/_arbeitsweise.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/_arbeitsweise.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/assets\/css\/sites\/_kontakt.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -220,7 +204,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/css\/style.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -231,9 +215,9 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
-		"useLibsass": 1
+		"useLibsass": 0
 		},
 	"\/assets\/images\/bg-alt.jpg": {
 		"fileType": 16384,
@@ -338,7 +322,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2154,
+		"initialSize": 22253,
 		"inputAbbreviatedPath": "\/assets\/images\/madlen-tamm.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/madlen-tamm.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -635,20 +619,14 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_vita.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_arbeitsweise.js",
 			"position": 7,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_arbeitsweise.js",
-			"position": 8,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_kontakt.js",
-			"position": 9,
+			"position": 8,
 			"type": 0
 			}
 		]
