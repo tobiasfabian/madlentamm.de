@@ -382,7 +382,7 @@ a {
     right: 0;
     bottom: 0;
     top: 0;
-    background: url(../images/bg.jpg) center center no-repeat;
+    background: url(../images/bg.jpg) #4e7173 bottom center no-repeat;
     background-size: cover;
     -webkit-transition: 250ms ease-out;
     transition: 250ms ease-out;
@@ -454,7 +454,7 @@ a {
     font-weight: 400;
     line-height: 0.9;
     letter-spacing: 0.02em;
-    border-bottom: 2px solid #abdfe0;
+    border-bottom: 2px solid #9dbcc1;
     white-space: nowrap;
     -webkit-transition: 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275), color 400ms cubic-bezier(0.645, 0.045, 0.355, 1), border-color 400ms cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275), color 400ms cubic-bezier(0.645, 0.045, 0.355, 1), border-color 400ms cubic-bezier(0.645, 0.045, 0.355, 1); }
@@ -469,7 +469,7 @@ a {
     text-transform: lowercase;
     letter-spacing: 0.15em;
     font-size: 0.9em;
-    color: #abdfe0; }
+    color: #9dbcc1; }
   .header h2 span {
     -webkit-transition: color 400ms cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: color 400ms cubic-bezier(0.645, 0.045, 0.355, 1); }
@@ -490,23 +490,23 @@ a {
       -webkit-transition: 200ms, left 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275), 200ms right cubic-bezier(0.175, 0.885, 0.32, 1.275);
       transition: 200ms, left 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275), 200ms right cubic-bezier(0.175, 0.885, 0.32, 1.275); }
     .header h2 a:focus, .header h2 a:hover, .header h2 a.active {
-      text-shadow: 2px 0 0 #7ca2a3, -2px 0 0 #7ca2a3, 1px 0 0 #7ca2a3, -1px 0 0 #7ca2a3; }
+      text-shadow: 2px 0 0 #4e7173, -2px 0 0 #4e7173, 1px 0 0 #4e7173, -1px 0 0 #4e7173; }
       .header h2 a:focus::after, .header h2 a:hover::after, .header h2 a.active::after {
         left: 0.5px;
         right: 2.5px;
-        border-bottom-color: #abdfe0; }
+        border-bottom-color: #9dbcc1; }
 
 .negative .header h1 {
-  color: #626364;
-  border-bottom-color: #7ca2a3; }
+  color: #2e3d3f;
+  border-bottom-color: #4e7173; }
 
 .negative .header h2 a, .negative .header h2 span {
-  color: #7ca2a3; }
+  color: #4e7173; }
 
 .negative .header h2 a:focus, .negative .header h2 a:hover, .negative .header h2 a.active {
   text-shadow: 2px 0 0 #e2e7e9, -2px 0 0 #e2e7e9, 1px 0 0 #e2e7e9, -1px 0 0 #e2e7e9; }
   .negative .header h2 a:focus::after, .negative .header h2 a:hover::after, .negative .header h2 a.active::after {
-    border-bottom-color: #7ca2a3; }
+    border-bottom-color: #4e7173; }
 
 .nav {
   position: absolute;
@@ -550,19 +550,13 @@ a {
     .nav a.active {
       opacity: 1; }
 
-.negative .nav a {
-  color: #626364; }
-
-.negative .nav .hamburger div {
-  background-color: #626364; }
-
 .start--term {
   position: absolute;
   left: 0;
   top: 0;
   -webkit-transition: 600ms;
   transition: 600ms;
-  color: #626364;
+  color: #2e3d3f;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   -webkit-backface-visibility: hidden;
@@ -625,7 +619,7 @@ a {
     height: 7px;
     border: 2px solid white;
     border-radius: 10px;
-    background-color: #7ca2a3;
+    background-color: #4e7173;
     -webkit-transition: 200ms;
     transition: 200ms; }
   .start--term .cross {
@@ -716,7 +710,7 @@ a {
       padding-left: 15px;
       padding-right: 15px; }
     .start--term.open a h1 span::after {
-      border-bottom-color: #626364; }
+      border-bottom-color: #2e3d3f; }
     .start--term.open .text {
       -webkit-filter: none;
               filter: none;
@@ -749,7 +743,7 @@ a {
   .window--container {
     box-sizing: border-box;
     margin: calc(24vh - 42px) auto;
-    color: #626364;
+    color: #2e3d3f;
     width: 50%;
     max-width: 560px;
     padding: 40px;
@@ -771,7 +765,7 @@ a {
       width: 75%;
       text-decoration: underline;
       letter-spacing: 0.1em;
-      color: #abdfe0;
+      color: #9dbcc1;
       font-weight: 600;
       font-style: normal; }
       .window--container blockquote em {
@@ -837,7 +831,7 @@ a {
     -webkit-perspective: 1000;
             perspective: 1000; }
     #vita--drawing svg line {
-      stroke: #abdfe0;
+      stroke: #9dbcc1;
       stroke-width: 0.5; }
 
 .vita {
@@ -877,7 +871,7 @@ a {
             flex: 0 1 50%;
     margin-left: 5%;
     padding: 40px;
-    color: #626364;
+    color: #2e3d3f;
     line-height: 1.3;
     background-color: white;
     -webkit-hyphens: auto;
@@ -1018,6 +1012,7 @@ a {
                   flex: 0 0 100%; }
           .arbeitsweise--gallery--images--container figure img {
             margin: auto;
+            width: 100%;
             max-width: 100%;
             max-height: calc(100% - 2em); }
           .arbeitsweise--gallery--images--container figure figcaption {
@@ -1064,7 +1059,7 @@ a {
       position: relative;
       display: inline-block;
       line-height: 0.9;
-      color: #abdfe0;
+      color: #9dbcc1;
       -webkit-transition: 200ms, text-shadow 0s 200ms;
       transition: 200ms, text-shadow 0s 200ms; }
       .kontakt--card a::after {
@@ -1080,9 +1075,9 @@ a {
       .kontakt--card a:focus, .kontakt--card a:hover, .kontakt--card a.active {
         -webkit-transition-delay: 0s;
                 transition-delay: 0s;
-        text-shadow: 2px 0 0 #7ca2a3, -2px 0 0 #7ca2a3, 1px 0 0 #7ca2a3, -1px 0 0 #7ca2a3, 0 1px 0 #7ca2a3; }
+        text-shadow: 2px 0 0 #4e7173, -2px 0 0 #4e7173, 1px 0 0 #4e7173, -1px 0 0 #4e7173, 0 1px 0 #4e7173; }
         .kontakt--card a:focus::after, .kontakt--card a:hover::after, .kontakt--card a.active::after {
-          border-bottom-color: #abdfe0;
+          border-bottom-color: #9dbcc1;
           left: 0.5px;
           right: 0.5px; }
   .kontakt--square--container {
@@ -1157,3 +1152,4 @@ a {
               transform: scale(0.99);
       -webkit-transition-delay: 0s;
               transition-delay: 0s; }
+/*# sourceMappingURL=style.css.map */
