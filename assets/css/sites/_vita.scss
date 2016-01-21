@@ -5,25 +5,26 @@
   right: 0;
   height: calc(100vh - 74px);
   box-sizing: border-box;
-  padding: 24vh 120px 0;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  padding: 24vh 249 / 1372 * 100% 0;
   transition: $duration * 2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
   overflow: hidden;
   transform: translateZ(0);
   backface-visibility: hidden; // prevent flickering
   &--textbox {
+    float: left;
     box-sizing: border-box;
-    margin: 0 10px;
-    max-width: 480px;
-    flex: 0 1 50%;
-    margin-left: 5%;
+    width: 532 / 875 * 100%;
     padding: 40px;
-    color: $color;
-    line-height: 1.3;
-    background-color: white;
-    hyphens: auto;
+    color: white;
+    line-height: 1.4;
+    // border: 1px solid hsla(0,0%,100%,0.15);
+    background: url(../images/corner_tl.svg) top left,
+                url(../images/corner_tr.svg) top right,
+                url(../images/corner_br.svg) bottom right,
+                url(../images/corner_bl.svg) bottom left;
+    background-color: transparentize($lightblue,0.9);
+    background-repeat: no-repeat;
+    // hyphens: auto;
     p {
       margin-bottom: 0.65em;
       &:last-of-type {
@@ -32,16 +33,14 @@
     }
   }
   &--image {
+    float: right;
+    margin-top: 40px;
+    width: 303 / 875 * 100%;
     position: relative;
-    box-sizing: border-box;
-    margin: 0 10px;
-    max-width: 320px;
-    flex: 0 1 30%;
-    padding: 4px;
-    background-color: white;
+    transition: $duration $duration;
     img {
       width: 100%;
-      transition: $duration;
+      transition: $duration $duration;
       &:nth-of-type(n+2) {
         position: absolute;
         top: 4px;
@@ -59,5 +58,13 @@
     filter: blur(8px);
     transform: scale(0.99);
     backface-visibility: hidden; // prevent flickering
+    .vita--image {
+      // transform: translateX(-20px);
+      transition-delay: 0s;
+      img {
+        transform: scale(0.95);
+        transition-delay: 0s;
+      }
+    }
   }
 }

@@ -7,10 +7,9 @@
   bottom: 0;
   &--container {
     box-sizing: border-box;
-    margin: calc(24vh - 42px) auto;
+    margin: calc(24vh - 40px) auto;
     color: $color;
-    width: 50%;
-    max-width: 560px;
+    width: 577 / 1372 * 100%;
     padding: 40px;
     line-height: 1.3;
     hyphens: auto;

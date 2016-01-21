@@ -5,8 +5,7 @@
   var startElement = document.getElementById(id);
   var terms = [];
   var openTerm;
-  var drawElement = document.getElementById('vita--drawing');
-  var draw = SVG('vita--drawing');
+  var draw = SVG('start--drawing');
   var moveIsAllowed = true;
   var selfObject;
 

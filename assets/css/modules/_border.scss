@@ -22,27 +22,27 @@
     position: absolute;
     background: white;
     &.t {
-      left: 33px;
-      right: 33px;
-      top: 20px;
+      left: $mainPadding - 4;
+      right: $mainPadding - 4;
+      top: $mainPadding - 17;
       height: 1px;
     }
     &.r {
-      top: 33px;
-      bottom: 33px;
-      right: 20px;
+      top: $mainPadding - 4;
+      bottom: $mainPadding - 4;
+      right: $mainPadding - 17;
       width: 1px;
     }
     &.b {
-      left: 33px;
-      right: 33px;
-      bottom: 20px;
+      left: $mainPadding - 4;
+      right: $mainPadding - 4;
+      bottom: $mainPadding - 17;
       height: 1px;
     }
     &.l {
-      top: 33px;
-      bottom: 33px;
-      left: 20px;
+      top: $mainPadding - 4;
+      bottom: $mainPadding - 4;
+      left: $mainPadding - 17;
       width: 1px;
     }
   }
@@ -53,28 +53,28 @@
     border: 1px solid white;
     border-radius: 10px;
     &.tl {
-      left: 16px;
-      top: 16px;
+      left: $mainPadding - 21;
+      top: $mainPadding - 21;
     }
     &.tr {
-      right: 16px;
-      top: 16px;
+      right: $mainPadding - 21;
+      top: $mainPadding - 21;
     }
     &.br {
-      right: 16px;
-      bottom: 16px;
+      right: $mainPadding - 21;
+      bottom: $mainPadding - 21;
     }
     &.bl {
-      left: 16px;
-      bottom: 16px;
+      left: $mainPadding - 21;
+      bottom: $mainPadding - 21;
     }
   }
   .inner {
     position: absolute;
-    top: 33px;
-    right: 33px;
-    bottom: 33px;
-    left: 33px;
+    top: $mainPadding - 4;
+    right: $mainPadding - 4;
+    bottom: $mainPadding - 4;
+    left: $mainPadding - 4;
     border: 4px solid white;
   }
 }

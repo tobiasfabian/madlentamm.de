@@ -2,31 +2,37 @@
 @import 'fonts';
 
 $color: #2e3d3f;
-$lightblue: #9dbcc1;
+$lightblue: #a1cad2;
 $background: #4e7173;
 
 $duration: 200ms;
 $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+
+$mainPadding: 34px;
 
 
 body {
   color: white;
   box-sizing: border-box;
   min-height: 100vh;
-  padding: 38px;
-  font-size: 14px;
+  padding: $mainPadding;
+  font-size: 15px;
 }
 a {
   text-decoration: none;
   color: inherit;
+  &:active {
+    opacity: 0.7;
+    transition-duration: 0s !important;
+  }
 }
 
 .main {
   position: absolute;
-  left: 37px;
-  right: 37px;
-  bottom: 37px;
-  top: 37px;
+  left: $mainPadding;
+  right: $mainPadding;
+  bottom: $mainPadding;
+  top: $mainPadding;
   overflow: hidden;
   .scroll-container {
     position: relative;

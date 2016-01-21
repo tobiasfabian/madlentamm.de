@@ -66,7 +66,7 @@
     <div class="scroll-container">
       <section id="start" class="start">
         <div class="container">
-          <div id="vita--drawing"></div>
+          <div id="start--drawing"></div>
           <article class="start--term erkennen" data-id="erkennen" data-connection="wahrnehmen,reflektieren,entdecken,innehalten,suchen">
             <a href="#">
               <div class="circle"></div>
@@ -237,11 +237,9 @@
           <p>Selbstständige Praxis als Supervisorin und Coach im Sozial-, Bildungs- und Gesundheitswesen: wie z.B. Kinderschutz, Schule/Schulsozialarbeit, Heimerziehung, Palliativ- und Hospizdienste, Notfallseelsorge, Polizei und Verwaltung.</p>
         </article>
         <aside class="vita--image">
-          <img src="assets/images/serie/01.jpg" alt="Foto von Madlen Tamm 1">
-          <img src="assets/images/serie/02.jpg" alt="Foto von Madlen Tamm 2">
-          <img src="assets/images/serie/03.jpg" alt="Foto von Madlen Tamm 3">
-          <img src="assets/images/serie/04.jpg" alt="Foto von Madlen Tamm 4">
-          <img src="assets/images/serie/05.jpg" alt="Foto von Madlen Tamm 5">
+          <figure>
+            <img src="assets/images/madlen-tamm.jpg" alt="Foto von Madlen Tamm">
+          </figure>
         </aside>
       </section>
       <section id="arbeitsweise" class="arbeitsweise" hidden>
@@ -258,31 +256,47 @@
               <div></div>
             </a>
           </nav>
+          <div class="arbeitsweise--gallery--captions">
+            <div class="arbeitsweise--gallery--captions--container">
+              <section>
+                <p>Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat.</p>
+              </section>
+              <section>
+                <p>Niemand, sagt er, verschmähe, oder hasse, oder fliehe die Lust als solche, sondern weil grosse Schmerzen ihr folgen, wenn man nicht mit Vernunft ihr nachzugehen verstehe.</p>
+              </section>
+              <section>
+                <p>Ebenso werde der Schmerz als solcher von Niemand geliebt, gesucht und verlangt, sondern weil mitunter solche Zeiten eintreten, dass man mittelst Arbeiten und Schmerzen eine grosse Lust sich zu verschaften suchen müsse.</p>
+              </section>
+              <section>
+                <p>Um hier gleich bei dem Einfachsten stehen zu bleiben, so würde Niemand von uns anstrengende körperliche Uebungen vornehmen, wenn er nicht einen Vortheil davon erwartete. Wer dürfte aber wohl Den tadeln, der nach einer Lust verlangt, welcher keine Unannehmlichkeit folgt, oder der einem Schmerze ausweicht, aus dem keine Lust hervorgeht?</p>
+              </section>
+              <section>
+                <p>Dagegen tadelt und hasst man mit Recht Den, welcher sich durch die Lockungen einer gegenwärtigen Lust erweichen und verführen lässt, ohne in seiner blinden Begierde zu sehen, welche Schmerzen und Unannehmlichkeiten seiner deshalb warten.</p>
+              </section>
+              <section>
+                <p>Gleiche Schuld treffe Die, welche aus geistiger Schwäche, d.h. um der Arbeit und dem Schmerze zu entgehen, ihre Pflichten verabsäumen.</p>
+              </section>
+            </div>
+          </div>
           <div class="arbeitsweise--gallery--images">
             <div class="arbeitsweise--gallery--images--container">
               <figure>
-                <img src="assets/images/method-cards.jpg">
-                <figcaption>
-                  Methodenkarten
-                </figcaption>
+                <img src="assets/images/arbeitsweise/L71A1714.jpg">
               </figure>
               <figure>
-                <img src="assets/images/karten.jpg">
-                <figcaption>
-                  Karten
-                </figcaption>
+                <img src="assets/images/arbeitsweise/L71A1686.jpg">
               </figure>
               <figure>
-                <img src="assets/images/holzfiguren.jpg">
-                <figcaption>
-                  Figuren
-                </figcaption>
+                <img src="assets/images/arbeitsweise/L71A1713.jpg">
               </figure>
               <figure>
-                <img src="assets/images/coaching.jpg">
-                <figcaption>
-                  Coaching
-                </figcaption>
+                <img src="assets/images/arbeitsweise/L71A1699.jpg">
+              </figure>
+              <figure>
+                <img src="assets/images/arbeitsweise/L71A1728.jpg">
+              </figure>
+              <figure>
+                <img src="assets/images/arbeitsweise/L71A1676.jpg">
               </figure>
             </div>
           </div>

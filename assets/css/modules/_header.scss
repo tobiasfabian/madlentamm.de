@@ -8,14 +8,14 @@
     position: relative;
     overflow: hidden;
     margin-bottom: 0.3em;
-    padding: 0 0;
+    padding: 0;
     display: inline-block;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.6em;
     font-weight: 400;
     line-height: 0.9;
     // color: transparentize(white, 0.05);
-    letter-spacing: 0.02em;
+    // letter-spacing: 0.005em;
     border-bottom: 2px solid $lightblue;
     white-space: nowrap;
     transition: $duration $easeOutBack,
@@ -49,8 +49,8 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     text-transform: lowercase;
-    letter-spacing: 0.15em;
-    font-size: 0.9em;
+    letter-spacing: 0.13em;
+    font-size: 0.95em;
     color: $lightblue;
   }
   h2 span {

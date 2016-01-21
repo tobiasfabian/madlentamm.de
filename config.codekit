@@ -220,7 +220,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/css\/style.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -235,11 +235,88 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
+	"\/assets\/images\/arbeitsweise\/L71A1676.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116596,
+		"inputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1676.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1676.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/arbeitsweise\/L71A1686.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64084,
+		"inputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1686.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1686.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/arbeitsweise\/L71A1699.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93670,
+		"inputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1699.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1699.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/arbeitsweise\/L71A1713.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 165403,
+		"inputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1713.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1713.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/arbeitsweise\/L71A1714.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 199064,
+		"inputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1714.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1714.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/arbeitsweise\/L71A1721.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 909913,
+		"inputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1721.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1721.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/arbeitsweise\/L71A1728.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 231936,
+		"inputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1728.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/arbeitsweise\/L71A1728.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 20404,
+		"initialSize": 65424,
 		"inputAbbreviatedPath": "\/assets\/images\/bg.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -253,39 +330,6 @@
 		"initialSize": 387,
 		"inputAbbreviatedPath": "\/assets\/images\/circle.png",
 		"outputAbbreviatedPath": "\/assets\/images\/circle.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/coaching.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.06903e+06,
-		"inputAbbreviatedPath": "\/assets\/images\/coaching.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/coaching.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/holzfiguren.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 131403,
-		"inputAbbreviatedPath": "\/assets\/images\/holzfiguren.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/holzfiguren.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/karten.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 247952,
-		"inputAbbreviatedPath": "\/assets\/images\/karten.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/karten.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -312,13 +356,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/method-cards.jpg": {
+	"\/assets\/images\/madlen-tamm.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 265826,
-		"inputAbbreviatedPath": "\/assets\/images\/method-cards.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/method-cards.jpg",
+		"initialSize": 41127,
+		"inputAbbreviatedPath": "\/assets\/images\/madlen-tamm.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/madlen-tamm.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -327,7 +371,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 128542,
+		"initialSize": 50430,
 		"inputAbbreviatedPath": "\/assets\/images\/serie\/01.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/serie\/01.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -338,42 +382,9 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 158227,
+		"initialSize": 48532,
 		"inputAbbreviatedPath": "\/assets\/images\/serie\/02.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/serie\/02.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/serie\/03.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 132269,
-		"inputAbbreviatedPath": "\/assets\/images\/serie\/03.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/serie\/03.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/serie\/04.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 130353,
-		"inputAbbreviatedPath": "\/assets\/images\/serie\/04.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/serie\/04.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/serie\/05.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 123663,
-		"inputAbbreviatedPath": "\/assets\/images\/serie\/05.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/serie\/05.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -428,17 +439,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/libraries\/underscore.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/libraries\/min\/underscore.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/js\/min\/script-min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/min\/script-min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/script-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -534,7 +534,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 775110,
+		"initialSize": 1.0745e+06,
 		"inputAbbreviatedPath": "\/screenshot.png",
 		"outputAbbreviatedPath": "\/screenshot.png",
 		"outputPathIsOutsideProject": 0,
@@ -591,8 +591,20 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_kontakt.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_vita.js",
 			"position": 7,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_arbeitsweise.js",
+			"position": 8,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_kontakt.js",
+			"position": 9,
 			"type": 0
 			}
 		]
