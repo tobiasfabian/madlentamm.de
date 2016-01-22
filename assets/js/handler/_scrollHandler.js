@@ -58,6 +58,6 @@
         openWindow.goBackToActivePage();
       }
     }
-  })
+  });
 
 })();

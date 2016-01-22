@@ -90,6 +90,15 @@
     nextElement.addEventListener('click',showNextImage);
     alternativePreviousElement.addEventListener('click',showPreviousImage);
     alternativeNextElement.addEventListener('click',showNextImage);
+    document.addEventListener('keydown',function(e){
+      if (location.hash.substr(2) === 'arbeitsweise') {
+        if (e.keyCode === 39 || e.keyCode === 74) { // key left
+          showNextImage();
+        } else if (e.keyCode === 37) { // key left
+          showPreviousImage();
+        }
+      }
+    });
 
     handleNavAppearance();
 
@@ -116,12 +125,7 @@
     }
   }
 
-  function moveSquare(e){
-    //
-  }
-
   window.addEventListener('hashchange',showHide);
-  window.addEventListener('mousemove',moveSquare);
 
   init();
 

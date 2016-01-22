@@ -1009,6 +1009,8 @@ a {
                 flex: 0 0 100%;
         line-height: 1.3; }
   .arbeitsweise--gallery--images {
+    -webkit-transition: 200ms 200ms;
+    transition: 200ms 200ms;
     position: relative;
     margin: 0 auto;
     width: 47.1574344023%;
@@ -1060,6 +1062,12 @@ a {
             transform: scale(0.99);
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden; }
+    .arbeitsweise[hidden] .arbeitsweise--gallery--images {
+      -webkit-transform: scale(0.95);
+          -ms-transform: scale(0.95);
+              transform: scale(0.95);
+      -webkit-transition-delay: 0s;
+              transition-delay: 0s; }
 
 .kontakt {
   position: absolute;

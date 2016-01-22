@@ -102,6 +102,7 @@
       }
     }
     &--images {
+      transition: $duration $duration;
       position: relative;
       margin: 0 auto;
       width: 647 / 1372 * 100%;
@@ -151,5 +152,11 @@
     filter: blur(8px);
     transform: scale(0.99);
     backface-visibility: hidden; // prevent flickering
+    .arbeitsweise--gallery {
+      &--images {
+        transform: scale(0.95);
+        transition-delay: 0s;
+      }
+    }
   }
 }
