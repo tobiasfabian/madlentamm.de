@@ -934,11 +934,15 @@ a {
         top: calc(50% - 1px);
         height: 2px;
         width: 10px;
-        background-color: white; }
+        background-color: white;
+        -webkit-transition: 200ms;
+        transition: 200ms; }
         .arbeitsweise--gallery--nav--previous div:nth-of-type(3), .arbeitsweise--gallery--nav--next div:nth-of-type(3) {
           opacity: 0;
           -webkit-transition: 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
           transition: 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+      .arbeitsweise--gallery--nav--previous.inactive div, .arbeitsweise--gallery--nav--next.inactive div {
+        background-color: #a1cad2; }
       .arbeitsweise--gallery--nav--previous:focus div:nth-of-type(3), .arbeitsweise--gallery--nav--previous:hover div:nth-of-type(3), .arbeitsweise--gallery--nav--next:focus div:nth-of-type(3), .arbeitsweise--gallery--nav--next:hover div:nth-of-type(3) {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -1009,6 +1013,24 @@ a {
     margin: 0 auto;
     width: 47.1574344023%;
     overflow: hidden; }
+    .arbeitsweise--gallery--images--alternative-nav {
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0; }
+      .arbeitsweise--gallery--images--alternative-nav--previous, .arbeitsweise--gallery--images--alternative-nav--next {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 33.333333%; }
+      .arbeitsweise--gallery--images--alternative-nav--previous {
+        left: 0;
+        cursor: w-resize; }
+      .arbeitsweise--gallery--images--alternative-nav--next {
+        right: 0;
+        cursor: e-resize; }
     .arbeitsweise--gallery--images--container {
       display: -webkit-box;
       display: -webkit-flex;
@@ -1091,7 +1113,7 @@ a {
     z-index: -1;
     position: absolute;
     left: 50%;
-    top: calc(24vh + 40px * 2);
+    top: calc(24vh + 40px * 2 - 1px);
     width: 200px;
     height: 200px;
     -webkit-transform: translate3d(-100px, 0, 0) rotate(45deg);

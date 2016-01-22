@@ -51,7 +51,7 @@
     z-index: -1;
     position: absolute;
     left: 50%;
-    top: calc(24vh + 40px * 2);
+    top: calc(24vh + 40px * 2 - 1px);
     width: 200px;
     height: 200px;
     transform: translate3d(-100px,0,0) rotate(45deg);

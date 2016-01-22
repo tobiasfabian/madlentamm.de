@@ -481,50 +481,79 @@ PAGES = [];
 
     var galleryElement = arbeitsweiseElement.querySelector('.arbeitsweise--gallery');
     var imagesElement = arbeitsweiseElement.querySelector('.arbeitsweise--gallery--images');
-    var containerElement = imagesElement.querySelector('.arbeitsweise--gallery--images--container');
+    var imagesContainerElement = imagesElement.querySelector('.arbeitsweise--gallery--images--container');
+    var alternativePreviousElement = imagesElement.querySelector('.arbeitsweise--gallery--images--alternative-nav--previous');
+    var alternativeNextElement = imagesElement.querySelector('.arbeitsweise--gallery--images--alternative-nav--next');
     var previousElement = galleryElement.querySelector('.arbeitsweise--gallery--nav--previous');
     var nextElement = galleryElement.querySelector('.arbeitsweise--gallery--nav--next');
+    var captionsElement = galleryElement.querySelector('.arbeitsweise--gallery--captions');
+    var captionsContainerElement = galleryElement.querySelector('.arbeitsweise--gallery--captions--container');
 
-    var images = containerElement.children;
+    var images = imagesContainerElement.children;
     var imageIndex = 0;
 
-    function moveContainerElement(){
+    function moveContainerElements(){
       var x = imageIndex*100;
-      containerElement.style.transform = 'translate3d(-'+x+'%,0,0)';
+      imagesContainerElement.style.transform = 'translate3d(-'+x+'%,0,0)';
+      captionsContainerElement.style.transform = 'translate3d(-'+x+'%,0,0)';
+    }
+
+    function handleNavAppearance() {
+      if (imageIndex === 0) {
+        previousElement.classList.add('inactive');
+      } else {
+        previousElement.classList.remove('inactive');
+      }
+      debugger;
+      if(imageIndex === images.length - 1) {
+        nextElement.classList.add('inactive');
+      } else {
+        nextElement.classList.remove('inactive');
+      }
     }
 
     function showPreviousImage(){
       imageIndex--;
       if (imageIndex >= 0) {
-        moveContainerElement();
+        moveContainerElements();
       } else {
         imageIndex = images.length-1;
-        var duration = (images.length-1)*150;
-        containerElement.style.transitionDuration = duration+'ms';
-        moveContainerElement();
+        var duration = (images.length-1)*100;
+        imagesContainerElement.style.transitionDuration = duration+'ms';
+        captionsContainerElement.style.transitionDuration = duration+'ms';
+        moveContainerElements();
         setTimeout(function(){
-          containerElement.style.transitionDuration = null;
+          imagesContainerElement.style.transitionDuration = null;
+          captionsContainerElement.style.transitionDuration = null;
         },duration);
       }
+      handleNavAppearance();
     }
 
     function showNextImage(){
       imageIndex++;
       if (imageIndex < images.length) {
-        moveContainerElement();
+        moveContainerElements();
       } else {
         imageIndex = 0;
-        var duration = (images.length-1)*150;
-        containerElement.style.transitionDuration = duration+'ms';
-        moveContainerElement();
+        var duration = (images.length-1)*100;
+        imagesContainerElement.style.transitionDuration = duration+'ms';
+        captionsContainerElement.style.transitionDuration = duration+'ms';
+        moveContainerElements();
         setTimeout(function(){
-          containerElement.style.transitionDuration = null;
+          imagesContainerElement.style.transitionDuration = null;
+          captionsContainerElement.style.transitionDuration = null;
         },duration);
       }
+      handleNavAppearance();
     }
 
     previousElement.addEventListener('click',showPreviousImage);
     nextElement.addEventListener('click',showNextImage);
+    alternativePreviousElement.addEventListener('click',showPreviousImage);
+    alternativeNextElement.addEventListener('click',showNextImage);
+
+    handleNavAppearance();
 
   })();
 

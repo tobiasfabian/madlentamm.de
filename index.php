@@ -276,9 +276,16 @@
               <section>
                 <p>Gleiche Schuld treffe Die, welche aus geistiger Schwäche, d.h. um der Arbeit und dem Schmerze zu entgehen, ihre Pflichten verabsäumen.</p>
               </section>
+              <section>
+                <p>Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den süßen Frühlingsmorgen, die ich mit ganzem Herzen genieße. Ich bin allein und freue mich meines Lebens in dieser Gegend, die für solche Seelen geschaffen ist wie die meine.</p>
+              </section>
             </div>
           </div>
           <div class="arbeitsweise--gallery--images">
+            <div class="arbeitsweise--gallery--images--alternative-nav">
+              <div class="arbeitsweise--gallery--images--alternative-nav--previous"></div>
+              <div class="arbeitsweise--gallery--images--alternative-nav--next"></div>
+            </div>
             <div class="arbeitsweise--gallery--images--container">
               <figure>
                 <img src="assets/images/arbeitsweise/L71A1714.jpg">
@@ -298,29 +305,40 @@
               <figure>
                 <img src="assets/images/arbeitsweise/L71A1676.jpg">
               </figure>
+              <figure>
+                <img src="assets/images/arbeitsweise/L71A1721.jpg">
+              </figure>
             </div>
           </div>
         </div>
       </section>
       <section id="kontakt" class="kontakt" hidden>
         <div class="kontakt--card">
-          <p>Madlen Tamm<br>
+          <p>
+            Madlen Tamm<br>
             Lessingstr. 27<br>
-            99425 Weimar</p>
-          <p><a href="mailto:madlentamm@web.de">madlentamm@web.de</a><br>
-            <a href="tel:+493643400024">03643 400024</a></p>
+            99425 Weimar
+          </p>
+          <p>
+            <a href="mailto:madlentamm@web.de">madlentamm@web.de</a><br>
+            <a href="tel:+493643400024">03643 400024</a>
+          </p>
         </div>
         <div class="kontakt--square--container">
           <div class="kontakt--square">
           </div>
         </div>
         <footer class="kontakt--footer">
-          <p>Mitglied der<br>
- Deutschen Gesellschaft für Supervision e.V.</p>
+          <p>
+            Mitglied der<br>
+             Deutschen Gesellschaft für Supervision e.V.
+          </p>
           <img src="assets/images/logo-dgsv.png" srcset="assets/images/logo-dgsv@2x.png 2x">
           <div class="kontakt--footer--imprint">
-            <p>Verantwortlich iSd § 5 TMG, § 55 RfStV:<br>
- Madlen Tamm, Lessingstr. 27, 99425 Weimar</p>
+            <p>
+              Verantwortlich iSd § 5 TMG, § 55 RfStV:<br>
+               Madlen Tamm, Lessingstr. 27, 99425 Weimar
+            </p>
             <p>Ust-IDNr. DE678012345 (Finanzamt Jena)</p>
           </div>
         </footer>
