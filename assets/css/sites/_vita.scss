@@ -37,20 +37,9 @@
     margin-top: 40px;
     width: 303 / 875 * 100%;
     position: relative;
-    transition: $duration $duration;
+    transition: $duration*2 $duration*1.5 $easeOutBack;
     img {
       width: 100%;
-      transition: $duration $duration;
-      &:nth-of-type(n+2) {
-        position: absolute;
-        top: 4px;
-        right: 4px;
-        left: 4px;
-        width: calc(100% - 8px);
-        &[hidden] {
-          opacity: 0;
-        }
-      }
     }
   }
   &[hidden] {
@@ -59,12 +48,8 @@
     transform: scale(0.99);
     backface-visibility: hidden; // prevent flickering
     .vita--image {
-      // transform: translateX(-20px);
+      transform: scale(0.95);
       transition-delay: 0s;
-      img {
-        transform: scale(0.95);
-        transition-delay: 0s;
-      }
     }
   }
 }

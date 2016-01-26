@@ -504,7 +504,6 @@ PAGES = [];
       } else {
         previousElement.classList.remove('inactive');
       }
-      debugger;
       if(imageIndex === images.length - 1) {
         nextElement.classList.add('inactive');
       } else {

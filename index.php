@@ -331,13 +331,13 @@
         <footer class="kontakt--footer">
           <p>
             Mitglied der<br>
-             Deutschen Gesellschaft für Supervision e.V.
+            Deutschen Gesellschaft für Supervision e.V.
           </p>
           <img src="assets/images/logo-dgsv.png" srcset="assets/images/logo-dgsv@2x.png 2x">
           <div class="kontakt--footer--imprint">
             <p>
               Verantwortlich iSd § 5 TMG, § 55 RfStV:<br>
-               Madlen Tamm, Lessingstr. 27, 99425 Weimar
+              Madlen Tamm, Lessingstr. 27, 99425 Weimar
             </p>
             <p>Ust-IDNr. DE678012345 (Finanzamt Jena)</p>
           </div>
