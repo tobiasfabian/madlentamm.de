@@ -5,10 +5,11 @@
   padding: 2em;
   z-index: 10;
   text-align: center;
+  line-height: 1em;
   h1 {
     position: relative;
     overflow: hidden;
-    margin-bottom: 0.3em;
+    margin-bottom: 6px;
     padding: 0;
     display: inline-block;
     font-family: 'Source Sans Pro', sans-serif;
@@ -22,6 +23,10 @@
     transition: $duration $easeOutBack,
                 color $duration*2 cubic-bezier(0.645, 0.045, 0.355, 1.000),
                 border-color $duration*2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    @media (max-width: 767px) {
+      margin-bottom: 3px;
+      font-size: 1.4em;
+    }
     &:focus, &:hover {
       padding: 0 4px;
     }
@@ -53,6 +58,9 @@
     letter-spacing: 0.13em;
     font-size: 0.95em;
     color: $lightblue;
+    @media (max-width: 767px) {
+      font-size: 0.85em;
+    }
   }
   h2 span {
     transition: color $duration*2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
@@ -83,6 +91,7 @@
     }
   }
   @media (max-width: 767px) {
-    padding: 1em;
+    width: auto;
+    padding: 1em 1em 0.2em;
   }
 }

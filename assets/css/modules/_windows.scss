@@ -42,21 +42,33 @@
     transition-timing-function: ease-in;
     .window--container {
       opacity: 0;
-      filter: blur(2px);
       transform: scale(0.95);
       transition-delay: 0s;
       transition-timing-function: ease-in;
     }
+    @media (min-width: 768px) {
+      .window--container {
+        filter: blur(2px);
+      }
+    }
   }
   @media (max-width: 767px) {
-    padding-top: 5em;
+    top: 5em;
     &--container {
       margin: 0;
       width: auto;
       max-height: calc(100vh - 5em);
       padding: 20px;
       overflow: auto;
-      overflow-scrolling: touch;
+      -webkit-overflow-scrolling: touch;
+      blockquote {
+        width: auto;
+      }
+    }
+  }
+  @media (width: 320px), (width: 375px), (width: 414px) {
+    &--container {
+      max-height: calc(100vh - 5em - 64px);
     }
   }
 }

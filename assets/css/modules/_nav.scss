@@ -11,7 +11,7 @@
     height: 10px;
     transition: $duration;
     div {
-      margin-top: 2px;
+      margin: 2px auto;;
       width: 12px;
       height: 2px;
       display: block;
@@ -50,13 +50,23 @@
     bottom: 0;
     left: 0;
     display: flex;
-    padding: 5em 0;
+    flex-direction: column;
+    padding: 5em 0 1em;
     pointer-events: none;
     .hamburger {
       position: absolute;
-      left: $mainPadding/2;
-      top: 30px;
+      left: 3px;
+      top: 24px;
+      box-sizing: border-box;
+      width: 36px;
+      height: 36px;
+      padding-top: 9px;
       pointer-events: auto;
+      div {
+        margin: 3px auto;;
+        width: 13px;
+        height: 2px;
+      }
       &:focus, &:hover {
         div:nth-of-type(1) {
           transform: translate(0,-0.5px);
@@ -66,8 +76,40 @@
         }
       }
     }
+    &--seperator {
+      margin: auto;
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      .circle {
+        margin: auto;
+        width: 11px;
+        height: 11px;
+        border-radius: 6px;
+        border: 1px solid white;
+        opacity: 0;
+        transform: scale(0);
+        transition: $duration;
+      }
+      .line {
+        margin: auto;
+        width: 40%;
+        height: 1px;
+        background: white;
+        opacity: 0;
+        transform: scaleX(0);
+        transition: $duration;
+        &:first-child {
+          transform-origin: right center;
+        }
+        &:last-child {
+          transform-origin: left center;
+        }
+      }
+    }
     ul {
       margin: auto;
+      width: 100%;
       font-size: 1.3em;
       opacity: 0;
       transition: $duration;
@@ -83,10 +125,22 @@
       pointer-events: auto;
       .hamburger {
         div:nth-of-type(1) {
-          transform: translate(0,2px) rotate(-45deg);
+          transform: translate(0,2.5px) rotate(-45deg);
         }
         div:nth-of-type(2) {
-          transform: translate(0,-2px) rotate(45deg);
+          transform: translate(0,-2.5px) rotate(45deg);
+        }
+      }
+      .nav--seperator {
+        .circle {
+          opacity: 1;
+          transform: none;
+          transition-delay: $duration*2;
+        }
+        .line {
+          opacity: 1;
+          transform: none;
+          transition-delay: $duration*3;
         }
       }
       ul {

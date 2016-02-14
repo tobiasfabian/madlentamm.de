@@ -5,11 +5,13 @@
   var hamburgerElement = navElement.querySelector('.hamburger');
 
   function handleClick(e) {
-    e.preventDefault();
-    if (navElement.classList.contains('active')) {
-      hideNav();
-    } else {
-      showNav();
+    if (window.innerWidth < 768) {
+      e.preventDefault();
+      if (navElement.classList.contains('active')) {
+        hideNav();
+      } else {
+        showNav();
+      }
     }
   }
 

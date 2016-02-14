@@ -151,9 +151,17 @@
       document.body.classList.remove('startanimation');
       closeOthers();
       setOthersInactive();
-      self.unsetInactive();
+      unsetInactive();
       textElement.hidden = false;
-      textElement.offsetWidth;
+      if (window.innerWidth < 768) {
+        var height = textElement.offsetHeight;
+        textElement.style.height = '0';
+        textElement.style.paddingTop = '0';
+        textElement.style.paddingBottom = '0';
+        textElement.offsetWidth;
+        textElement.style.height = height + 'px';
+        textElement.style.padding = null;
+      }
       termElement.classList.add('open');
       drawLines();
       openTerm = self;
@@ -165,8 +173,12 @@
         termElement.classList.remove('open');
         removeLines();
         moveIsAllowed = true;
+        if (window.innerWidth < 768) {
+          textElement.style.height = '0';
+        }
         setTimeout(function(){
           textElement.hidden = true;
+          textElement.style.height = null;
         },200);
       }
     }
@@ -246,7 +258,9 @@
 
 
   startElement.addEventListener('click',function(e){
-    if (e.target === this || e.target.parentElement === this) {
+    if (e.target === this
+      || e.target.parentElement === this
+      || e.target.classList.contains('start--term')) {
       closeAllterms();
     }
     _.each(terms,function(term){

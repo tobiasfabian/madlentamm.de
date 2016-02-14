@@ -32,6 +32,11 @@
       <div></div>
       <div></div>
     </a>
+    <div class="nav--seperator">
+      <div class="line"></div>
+      <div class="circle"></div>
+      <div class="line"></div>
+    </div>
     <ul>
       <li class="home">
         <a href="#!">Startseite</a>
@@ -46,6 +51,11 @@
         <a href="#!kontakt">Kontakt</a>
       </li>
     </ul>
+    <div class="nav--seperator">
+      <div class="line"></div>
+      <div class="circle"></div>
+      <div class="line"></div>
+    </div>
   </nav>
   <main class="main">
     <section id="supervision" class="window" hidden>
@@ -227,6 +237,11 @@
             </div>
           </article>
         </div>
+        <div class="seperator">
+          <div class="line"></div>
+          <div class="circle"></div>
+          <div class="line"></div>
+        </div>
       </section>
       <section id="vita" class="vita" hidden>
         <aside class="vita--image">
@@ -261,6 +276,11 @@
             Jugendhilfe, Kinderschutz, Schule und Schulsozialarbeit, Beratungsstellen, Kliniken, Palliativ- und Hospizdienste, Notfallseelsorge, Polizei und Verwaltung
           </p>
         </article>
+        <div class="seperator">
+          <div class="line"></div>
+          <div class="circle"></div>
+          <div class="line"></div>
+        </div>
       </section>
       <section id="arbeitsweise" class="arbeitsweise" hidden>
         <div class="arbeitsweise--gallery">
@@ -352,6 +372,11 @@
             </div>
           </div>
         </div>
+        <div class="seperator">
+          <div class="line"></div>
+          <div class="circle"></div>
+          <div class="line"></div>
+        </div>
       </section>
       <section id="kontakt" class="kontakt" hidden>
         <div class="kontakt--card">
@@ -383,6 +408,11 @@
             <p>Ust-IDNr. DE678012345 (Finanzamt Jena)</p>
           </div>
         </footer>
+        <div class="seperator">
+          <div class="line"></div>
+          <div class="circle"></div>
+          <div class="line"></div>
+        </div>
       </section>
     </div>
   </main>
