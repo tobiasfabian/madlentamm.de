@@ -37,6 +37,7 @@
     }
   }
   &[hidden] {
+    z-index: -1;
     pointer-events: none;
     transition-delay: 0s;
     transition-timing-function: ease-in;
@@ -53,11 +54,11 @@
     }
   }
   @media (max-width: 767px) {
-    top: 5em;
+    top: 4.6em;
     &--container {
       margin: 0;
       width: auto;
-      max-height: calc(100vh - 5em);
+      max-height: calc(100vh - 4.6em);
       padding: 20px;
       overflow: auto;
       -webkit-overflow-scrolling: touch;
@@ -68,7 +69,7 @@
   }
   @media (width: 320px), (width: 375px), (width: 414px) {
     &--container {
-      max-height: calc(100vh - 5em - 64px);
+      max-height: calc(100vh - 4.6em - 64px);
     }
   }
 }
