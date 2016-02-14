@@ -20,7 +20,11 @@
 
   function show(){
     vitaNavElement.classList.add('active');
-    scrollContainerElement.style.transform = 'translate3d(0,-25%,0)';
+    if (window.innerWidth >= 768) {
+      scrollContainerElement.style.transform = 'translate3d(0,-25%,0)';
+    } else {
+      scrollContainerElement.style.transform = 'translate3d(-25%,0,0)';
+    }
     vitaElement.hidden = false;
     ACTIVE_PAGE = selfObject;
   }

@@ -1,10 +1,9 @@
 (function(){
 
-  if (location.hash.length > 2) {
-    _.each(PAGES,function(page){
-      page.showHide();
-    });
-  } else {
+  _.each(PAGES,function(page){
+    page.showHide();
+  });
+  if (location.hash.length <= 2) {
     document.body.classList.add('startanimation');
   }
 

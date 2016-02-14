@@ -105,7 +105,11 @@
 
   function show(){
     arbeitsweiseNavElement.classList.add('active');
-    scrollContainerElement.style.transform = 'translate3d(0,-50%,0)';
+    if (window.innerWidth >= 768) {
+      scrollContainerElement.style.transform = 'translate3d(0,-50%,0)';
+    } else {
+      scrollContainerElement.style.transform = 'translate3d(-50%,0,0)';
+    }
     arbeitsweiseElement.hidden = false;
     ACTIVE_PAGE = selfObject;
   }

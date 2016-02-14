@@ -2,6 +2,8 @@
   position: relative;
   height: calc(100vh - 74px);
   transition: $duration * 2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  transform: translateZ(0);
+  backface-visibility: hidden; // prevent flickering
   .container {
     position: absolute;
     left: 25vw;
@@ -11,12 +13,25 @@
   }
   &[hidden] {
     opacity: 0.1;
-    filter: blur(8px);
-    transform: scale(0.99);
-    transform: translateZ(0);
-    backface-visibility: hidden; // prevent flickering
+    @media (min-width: 768px) {
+      filter: blur(8px);
+      transform: scale(0.99);
+    }
     .article {
       top: 0%;
+    }
+  }
+  @media (max-width: 767px) {
+    top: 5em;
+    width: 100vw;
+    max-height: calc(100vh - 5em);
+    padding: 0 0 68px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    transition-delay: $duration;
+    .container {
+      position: static;
+      padding: 0 0 80px 1.9em;
     }
   }
 }
@@ -36,5 +51,8 @@
       stroke: transparentize($lightblue, 0);
       stroke-width: 0.5;
     }
+  }
+  @media (max-width: 767px) {
+    display: none;
   }
 }

@@ -17,6 +17,12 @@ body {
   min-height: 100vh;
   padding: $mainPadding;
   font-size: 15px;
+  text-size-adjust: none;
+  @media (max-width: 767px) {
+    padding: 0;
+    font-size: 16px;
+    min-height: 0;
+  }
 }
 a {
   text-decoration: none;
@@ -41,6 +47,20 @@ a {
     transform: translate3d(0,0%,0); // activate hardware acceleration
     backface-visibility: hidden; // prevent flickering
     // perspective: 1000; // prevent flickering
+  }
+  @media (max-width: 767px) {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: $duration $duration;
+    .scroll-container {
+      width: 400%;
+      height: 100vh;
+    }
+    &.inactive {
+      opacity: 0;
+    }
   }
 }
 

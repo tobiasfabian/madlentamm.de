@@ -48,4 +48,15 @@
       transition-timing-function: ease-in;
     }
   }
+  @media (max-width: 767px) {
+    padding-top: 5em;
+    &--container {
+      margin: 0;
+      width: auto;
+      max-height: calc(100vh - 5em);
+      padding: 20px;
+      overflow: auto;
+      overflow-scrolling: touch;
+    }
+  }
 }

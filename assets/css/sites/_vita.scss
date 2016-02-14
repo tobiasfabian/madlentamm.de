@@ -5,11 +5,21 @@
   right: 0;
   height: calc(100vh - 74px);
   box-sizing: border-box;
-  padding: 24vh 249 / 1372 * 100% 0;
+  padding: calc(24vh - 37px) 249 / 1372 * 100% 0;
   transition: $duration * 2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
   overflow: hidden;
   transform: translateZ(0);
   backface-visibility: hidden; // prevent flickering
+  &--image {
+    float: right;
+    margin-top: 40px;
+    width: 303 / 875 * 100%;
+    position: relative;
+    transition: $duration*2 $duration*1.5 $easeOutBack;
+    img {
+      width: 100%;
+    }
+  }
   &--textbox {
     float: left;
     box-sizing: border-box;
@@ -22,7 +32,7 @@
                 url(../images/corner_tr.svg) top right,
                 url(../images/corner_br.svg) bottom right,
                 url(../images/corner_bl.svg) bottom left;
-    background-color: transparentize($lightblue,0.9);
+    background-color: transparentize($color,0.9);
     background-repeat: no-repeat;
     // hyphens: auto;
     p {
@@ -32,24 +42,32 @@
       }
     }
   }
-  &--image {
-    float: right;
-    margin-top: 40px;
-    width: 303 / 875 * 100%;
-    position: relative;
-    transition: $duration*2 $duration*1.5 $easeOutBack;
-    img {
-      width: 100%;
-    }
-  }
   &[hidden] {
     opacity: 0.1;
-    filter: blur(8px);
-    transform: scale(0.99);
-    backface-visibility: hidden; // prevent flickering
-    .vita--image {
-      transform: scale(0.95);
-      transition-delay: 0s;
+    @media (min-width: 768px) {
+      filter: blur(8px);
+      transform: scale(0.99);
+    }
+  }
+  @media (max-width: 767px) {
+    top: 5em;
+    left: 25%;
+    width: 100vw;
+    max-height: calc(100vh - 5em);
+    padding: 0 0 68px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    transition-delay: $duration;
+    &--image {
+      float: none;
+      width: auto;
+      margin: 0 0 20px;
+    }
+    &--textbox {
+      float: none;
+      margin: 5px;
+      width: auto;
+      padding: 10px;
     }
   }
 }

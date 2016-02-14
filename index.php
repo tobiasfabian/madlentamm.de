@@ -33,6 +33,9 @@
       <div></div>
     </a>
     <ul>
+      <li class="home">
+        <a href="#!">Startseite</a>
+      </li>
       <li>
         <a href="#!vita">Vita</a>
       </li>
@@ -226,21 +229,38 @@
         </div>
       </section>
       <section id="vita" class="vita" hidden>
-        <article class="vita--textbox">
-          <p>Jahrgang 1960, in Brandenburg aufgewachsen.</p>
-          <p>Mutter zweier Töchter, glücklich verheiratet.</p>
-          <p>32 Jahre Leben und Arbeiten in Weimar und Thüringen.</p>
-          <p>10 Jahre Tätigkeit als Krankenschwester / Unterrichtsschwester.</p>
-          <p>Studium der Sozialpädagogik an der FH Fulda.</p>
-          <p>Ausbildung in Integrativer Supervision am Fritz -Perls-Institut, Düsseldorf. Seit 2009 ordentliches Mitglied im Berufsverband  (Dt. Gesellschaft für Supervision)</p>
-          <p>Yogalehrerausbildung, 13 Jahre Unterrichtserfahrung.</p>
-          <p>Selbstständige Praxis als Supervisorin und Coach im Sozial-, Bildungs- und Gesundheitswesen: wie z.B. Kinderschutz, Schule/Schulsozialarbeit, Heimerziehung, Palliativ- und Hospizdienste, Notfallseelsorge, Polizei und Verwaltung.</p>
-        </article>
         <aside class="vita--image">
           <figure>
             <img src="assets/images/madlen-tamm.jpg" alt="Foto von Madlen Tamm">
           </figure>
         </aside>
+        <article class="vita--textbox">
+          <p>Jahrgang 1960, in Brandenburg aufgewachsen</p>
+          <p>Mutter zweier Töchter, glücklich verheiratet </p>
+          <p>34 Jahre Leben und Arbeiten in Weimar und Thüringen</p>
+          <p>
+            Krankenschwester / Unterrichtsschwester<br>
+            10 Jahre Klinikarbeit
+          </p>
+          <p>
+            Studium der Sozialpädagogik an der FH Fulda<br>
+            1995 Diplom
+          </p>
+          <p>
+            Ausbildungen:<br>
+            1994 Integrative Supervision am Fritz-Perls-Institut, Düsseldorf<br>
+            2009 ordentliches Mitglied im Berufsverband (Deutsche Gesellschaft für Supervision)
+          </p>
+          <p>
+            1998 Yogalehrausbildung<br>
+            13 Jahre Unterrichtserfahrung
+          </p>
+          <p>
+            2015 Selbstständige Praxis
+            Supervision und Coaching im Sozial-, Bildungs- und Gesundheitswesen:
+            Jugendhilfe, Kinderschutz, Schule und Schulsozialarbeit, Beratungsstellen, Kliniken, Palliativ- und Hospizdienste, Notfallseelsorge, Polizei und Verwaltung
+          </p>
+        </article>
       </section>
       <section id="arbeitsweise" class="arbeitsweise" hidden>
         <div class="arbeitsweise--gallery">
@@ -289,24 +309,45 @@
             <div class="arbeitsweise--gallery--images--container">
               <figure>
                 <img src="assets/images/arbeitsweise/L71A1714.jpg">
+                <figcaption>
+                  Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat.
+                </figcaption>
               </figure>
               <figure>
                 <img src="assets/images/arbeitsweise/L71A1686.jpg">
+                <figcaption>
+                  Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat.
+                </figcaption>
               </figure>
               <figure>
                 <img src="assets/images/arbeitsweise/L71A1713.jpg">
+                <figcaption>
+                  Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat.
+                </figcaption>
               </figure>
               <figure>
                 <img src="assets/images/arbeitsweise/L71A1699.jpg">
+                <figcaption>
+                  Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat.
+                </figcaption>
               </figure>
               <figure>
                 <img src="assets/images/arbeitsweise/L71A1728.jpg">
+                <figcaption>
+                  Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat.
+                </figcaption>
               </figure>
               <figure>
                 <img src="assets/images/arbeitsweise/L71A1676.jpg">
+                <figcaption>
+                  Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat.
+                </figcaption>
               </figure>
               <figure>
                 <img src="assets/images/arbeitsweise/L71A1721.jpg">
+                <figcaption>
+                  Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat.
+                </figcaption>
               </figure>
             </div>
           </div>

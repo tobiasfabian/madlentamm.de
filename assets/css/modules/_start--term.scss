@@ -155,7 +155,7 @@
       display: none;
     }
   }
-  &:hover {
+  a:focus, a:hover {
     h1 {
       padding-left: 15px;
       padding-right: 15px;
@@ -201,6 +201,22 @@
         opacity: 1;
         filter: none;
         transition-delay: 0s;
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    position: static;
+    margin-bottom: 5px;
+    a {
+      display: inline-block;
+    }
+    .text {
+      margin-right: 10px;
+      width: auto;
+    }
+    &.inactive {
+      a {
+        filter: none;
       }
     }
   }

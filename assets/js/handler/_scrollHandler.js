@@ -32,13 +32,15 @@
   }
 
   function handleMousewheel(e){
-    e.preventDefault();
-    if (scrollingAllowed) {
-      delta += e.wheelDelta || -e.deltaY;
-      if (delta < -10) {
-        showNextPage();
-      } else if (delta > 10) {
-        showPreviousPage();
+    if (window.innerWidth >= 768) {
+      e.preventDefault();
+      if (scrollingAllowed) {
+        delta += e.wheelDelta || -e.deltaY;
+        if (delta < -10) {
+          showNextPage();
+        } else if (delta > 10) {
+          showPreviousPage();
+        }
       }
     }
   }

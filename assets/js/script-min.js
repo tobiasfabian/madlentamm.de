@@ -50,13 +50,15 @@ PAGES = [];
   }
 
   function handleMousewheel(e){
-    e.preventDefault();
-    if (scrollingAllowed) {
-      delta += e.wheelDelta || -e.deltaY;
-      if (delta < -10) {
-        showNextPage();
-      } else if (delta > 10) {
-        showPreviousPage();
+    if (window.innerWidth >= 768) {
+      e.preventDefault();
+      if (scrollingAllowed) {
+        delta += e.wheelDelta || -e.deltaY;
+        if (delta < -10) {
+          showNextPage();
+        } else if (delta > 10) {
+          showPreviousPage();
+        }
       }
     }
   }
@@ -77,6 +79,37 @@ PAGES = [];
       }
     }
   });
+
+})();
+
+
+(function(){
+
+  var mainElement = document.querySelector('.main');
+  var navElement = document.getElementById('nav');
+  var hamburgerElement = navElement.querySelector('.hamburger');
+
+  function handleClick(e) {
+    e.preventDefault();
+    if (navElement.classList.contains('active')) {
+      hideNav();
+    } else {
+      showNav();
+    }
+  }
+
+  function showNav() {
+    navElement.classList.add('active');
+    mainElement.classList.add('inactive');
+  }
+
+  function hideNav() {
+    navElement.classList.remove('active');
+    mainElement.classList.remove('inactive');
+  }
+
+  hamburgerElement.addEventListener('click',handleClick);
+  window.addEventListener('hashchange',hideNav);
 
 })();
 
@@ -156,6 +189,7 @@ PAGES = [];
   var id = 'start';
   var scrollContainerElement = document.querySelector('.scroll-container');
   var startElement = document.getElementById(id);
+  var startNavElement = document.getElementById('nav').querySelectorAll('a[href="#!"]')[1];
   var terms = [];
   var openTerm;
   var draw = SVG('start--drawing');
@@ -211,27 +245,29 @@ PAGES = [];
     }
 
     function drawLines(){
-      var x1 = getX(termElement,h1Element);
-      var y1 = getY(termElement,h1Element);
-      _.each(linesTo,function(to){
-        var line = draw.line(x1, y1, x1, y1);
-        line.filter(function(add){
-          add.gaussianBlur(1);
+      if (window.innerWidth >= 768) {
+        var x1 = getX(termElement,h1Element);
+        var y1 = getY(termElement,h1Element);
+        _.each(linesTo,function(to){
+          var line = draw.line(x1, y1, x1, y1);
+          line.filter(function(add){
+            add.gaussianBlur(1);
+          });
+          var term = _.find(terms,function(term){
+            return to === term.id;
+          });
+          line.toTerm = term;
+          lines.push(line);
+          try {
+            var x2 = getX2(term.termElement,term.h1Element);
+            var y2 = getY(term.termElement,term.h1Element);
+            line.animate(200, '<', 0).plot([[x1,y1],[x2,y2]]);
+          } catch(error) {
+            console.error(error);
+            console.error('id: '+id);
+          }
         });
-        var term = _.find(terms,function(term){
-          return to === term.id;
-        });
-        line.toTerm = term;
-        lines.push(line);
-        try {
-          var x2 = getX2(term.termElement,term.h1Element);
-          var y2 = getY(term.termElement,term.h1Element);
-          line.animate(200, '<', 0).plot([[x1,y1],[x2,y2]]);
-        } catch(error) {
-          console.error(error);
-          console.error('id: '+id);
-        }
-      });
+      }
     }
 
     function removeLines(){
@@ -263,7 +299,6 @@ PAGES = [];
     function handleClick(e){
       moveIsAllowed = true;
       _.each(terms,function(term){
-        term.moveElement(e);
         term.moveElement(e);
       });
       if (!termElement.classList.contains('open')) {
@@ -330,7 +365,7 @@ PAGES = [];
     }
 
     function moveElement(e){
-      if (moveIsAllowed) {
+      if (moveIsAllowed && window.innerWidth >= 768) {
         var width = window.innerWidth;
         var height = window.innerHeight;
         moveX = (width/2 - e.clientX) / randomMove;
@@ -344,7 +379,6 @@ PAGES = [];
 
     aElement.addEventListener('click',handleClick);
     window.addEventListener('mousemove',moveElement);
-    window.addEventListener('mousemove',moveElement);
 
     this.open = open;
     this.close = close;
@@ -354,8 +388,6 @@ PAGES = [];
     this.termElement = termElement;
     this.h1Element = h1Element;
     this.updateLines = updateLines;
-    this.moveElement = moveElement;
-    this.moveElement = moveElement;
     this.moveElement = moveElement;
 
     init();
@@ -370,12 +402,14 @@ PAGES = [];
   }
 
   function show(){
+    startNavElement.classList.add('active');
     scrollContainerElement.style.transform = 'translate3d(0,0%,0)';
     startElement.hidden = false;
     ACTIVE_PAGE = selfObject;
   }
 
   function hide(){
+    startNavElement.classList.remove('active');
     closeAllterms();
     startElement.hidden = true;
   }
@@ -402,7 +436,6 @@ PAGES = [];
       closeAllterms();
     }
     _.each(terms,function(term){
-      term.moveElement(e);
       term.moveElement(e);
     });
   });
@@ -434,7 +467,11 @@ PAGES = [];
 
   function show(){
     vitaNavElement.classList.add('active');
-    scrollContainerElement.style.transform = 'translate3d(0,-25%,0)';
+    if (window.innerWidth >= 768) {
+      scrollContainerElement.style.transform = 'translate3d(0,-25%,0)';
+    } else {
+      scrollContainerElement.style.transform = 'translate3d(-25%,0,0)';
+    }
     vitaElement.hidden = false;
     ACTIVE_PAGE = selfObject;
   }
@@ -567,7 +604,11 @@ PAGES = [];
 
   function show(){
     arbeitsweiseNavElement.classList.add('active');
-    scrollContainerElement.style.transform = 'translate3d(0,-50%,0)';
+    if (window.innerWidth >= 768) {
+      scrollContainerElement.style.transform = 'translate3d(0,-50%,0)';
+    } else {
+      scrollContainerElement.style.transform = 'translate3d(-50%,0,0)';
+    }
     arbeitsweiseElement.hidden = false;
     ACTIVE_PAGE = selfObject;
   }
@@ -613,7 +654,11 @@ PAGES = [];
 
   function show(){
     kontaktNavElement.classList.add('active');
-    scrollContainerElement.style.transform = 'translate3d(0,-75%,0)';
+    if (window.innerWidth >= 768) {
+      scrollContainerElement.style.transform = 'translate3d(0,-75%,0)';
+    } else {
+      scrollContainerElement.style.transform = 'translate3d(-75%,0,0)';
+    }
     kontaktElement.hidden = false;
     ACTIVE_PAGE = selfObject;
   }
@@ -654,11 +699,10 @@ PAGES = [];
 
 (function(){
 
-  if (location.hash.length > 2) {
-    _.each(PAGES,function(page){
-      page.showHide();
-    });
-  } else {
+  _.each(PAGES,function(page){
+    page.showHide();
+  });
+  if (location.hash.length <= 2) {
     document.body.classList.add('startanimation');
   }
 

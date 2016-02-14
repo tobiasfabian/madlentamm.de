@@ -18,7 +18,11 @@
 
   function show(){
     kontaktNavElement.classList.add('active');
-    scrollContainerElement.style.transform = 'translate3d(0,-75%,0)';
+    if (window.innerWidth >= 768) {
+      scrollContainerElement.style.transform = 'translate3d(0,-75%,0)';
+    } else {
+      scrollContainerElement.style.transform = 'translate3d(-75%,0,0)';
+    }
     kontaktElement.hidden = false;
     ACTIVE_PAGE = selfObject;
   }

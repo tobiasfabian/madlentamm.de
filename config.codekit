@@ -114,22 +114,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/css\/modules\/_textbox.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/modules\/_textbox.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/_textbox.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/assets\/css\/modules\/_windows.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -455,6 +439,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/js\/modules\/_nav.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/modules\/_nav.js",
+		"outputAbbreviatedPath": "\/assets\/js\/modules\/min\/_nav-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/script-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -579,32 +574,38 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/modules\/_headernav.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/modules\/_nav.js",
 			"position": 5,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_start.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/modules\/_headernav.js",
 			"position": 6,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_vita.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_start.js",
 			"position": 7,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_arbeitsweise.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_vita.js",
 			"position": 8,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_kontakt.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_arbeitsweise.js",
 			"position": 9,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_kontakt.js",
+			"position": 10,
 			"type": 0
 			}
 		]

@@ -3,6 +3,7 @@
   var id = 'start';
   var scrollContainerElement = document.querySelector('.scroll-container');
   var startElement = document.getElementById(id);
+  var startNavElement = document.getElementById('nav').querySelectorAll('a[href="#!"]')[1];
   var terms = [];
   var openTerm;
   var draw = SVG('start--drawing');
@@ -58,27 +59,29 @@
     }
 
     function drawLines(){
-      var x1 = getX(termElement,h1Element);
-      var y1 = getY(termElement,h1Element);
-      _.each(linesTo,function(to){
-        var line = draw.line(x1, y1, x1, y1);
-        line.filter(function(add){
-          add.gaussianBlur(1);
+      if (window.innerWidth >= 768) {
+        var x1 = getX(termElement,h1Element);
+        var y1 = getY(termElement,h1Element);
+        _.each(linesTo,function(to){
+          var line = draw.line(x1, y1, x1, y1);
+          line.filter(function(add){
+            add.gaussianBlur(1);
+          });
+          var term = _.find(terms,function(term){
+            return to === term.id;
+          });
+          line.toTerm = term;
+          lines.push(line);
+          try {
+            var x2 = getX2(term.termElement,term.h1Element);
+            var y2 = getY(term.termElement,term.h1Element);
+            line.animate(200, '<', 0).plot([[x1,y1],[x2,y2]]);
+          } catch(error) {
+            console.error(error);
+            console.error('id: '+id);
+          }
         });
-        var term = _.find(terms,function(term){
-          return to === term.id;
-        });
-        line.toTerm = term;
-        lines.push(line);
-        try {
-          var x2 = getX2(term.termElement,term.h1Element);
-          var y2 = getY(term.termElement,term.h1Element);
-          line.animate(200, '<', 0).plot([[x1,y1],[x2,y2]]);
-        } catch(error) {
-          console.error(error);
-          console.error('id: '+id);
-        }
-      });
+      }
     }
 
     function removeLines(){
@@ -110,7 +113,6 @@
     function handleClick(e){
       moveIsAllowed = true;
       _.each(terms,function(term){
-        term.moveElement(e);
         term.moveElement(e);
       });
       if (!termElement.classList.contains('open')) {
@@ -177,7 +179,7 @@
     }
 
     function moveElement(e){
-      if (moveIsAllowed) {
+      if (moveIsAllowed && window.innerWidth >= 768) {
         var width = window.innerWidth;
         var height = window.innerHeight;
         moveX = (width/2 - e.clientX) / randomMove;
@@ -191,7 +193,6 @@
 
     aElement.addEventListener('click',handleClick);
     window.addEventListener('mousemove',moveElement);
-    window.addEventListener('mousemove',moveElement);
 
     this.open = open;
     this.close = close;
@@ -201,8 +202,6 @@
     this.termElement = termElement;
     this.h1Element = h1Element;
     this.updateLines = updateLines;
-    this.moveElement = moveElement;
-    this.moveElement = moveElement;
     this.moveElement = moveElement;
 
     init();
@@ -217,12 +216,14 @@
   }
 
   function show(){
+    startNavElement.classList.add('active');
     scrollContainerElement.style.transform = 'translate3d(0,0%,0)';
     startElement.hidden = false;
     ACTIVE_PAGE = selfObject;
   }
 
   function hide(){
+    startNavElement.classList.remove('active');
     closeAllterms();
     startElement.hidden = true;
   }
@@ -249,7 +250,6 @@
       closeAllterms();
     }
     _.each(terms,function(term){
-      term.moveElement(e);
       term.moveElement(e);
     });
   });
