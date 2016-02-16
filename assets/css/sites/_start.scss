@@ -32,27 +32,7 @@
     transition-delay: $duration;
     .container {
       position: static;
-      padding: 1em 0 2em 36px;
-    }
-    .seperator {
-      margin: 0 auto 2em;
-      width: 50%;
-      height: 20px;
-      display: flex;
-      flex-direction: row;
-      .circle {
-        margin: auto;
-        width: 11px;
-        height: 11px;
-        border-radius: 6px;
-        border: 1px solid white;
-      }
-      .line {
-        margin: auto;
-        width: 40%;
-        height: 1px;
-        background: white;
-      }
+      padding: 1em 0 1em 36px;
     }
   }
   @media (width: 320px), (width: 375px), (width: 414px) {

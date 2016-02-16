@@ -1,4 +1,6 @@
-(function(){
+(function () {
+
+  'use strict';
 
   var id = 'arbeitsweise';
   var scrollContainerElement = document.querySelector('.scroll-container');
@@ -6,7 +8,7 @@
   var arbeitsweiseNavElement = document.getElementById('nav').querySelector('a[href="#!arbeitsweise"]');
   var selfObject;
 
-  function init(){
+  function init() {
     selfObject = {
       id: id,
       page: true,
@@ -15,7 +17,7 @@
     PAGES.push(selfObject);
   }
 
-  (function Gallery(){
+  (function Gallery() {
 
     var galleryElement = arbeitsweiseElement.querySelector('.arbeitsweise--gallery');
     var imagesElement = arbeitsweiseElement.querySelector('.arbeitsweise--gallery--images');
@@ -24,14 +26,13 @@
     var alternativeNextElement = imagesElement.querySelector('.arbeitsweise--gallery--images--alternative-nav--next');
     var previousElement = galleryElement.querySelector('.arbeitsweise--gallery--nav--previous');
     var nextElement = galleryElement.querySelector('.arbeitsweise--gallery--nav--next');
-    var captionsElement = galleryElement.querySelector('.arbeitsweise--gallery--captions');
     var captionsContainerElement = galleryElement.querySelector('.arbeitsweise--gallery--captions--container');
 
     var images = imagesContainerElement.children;
     var imageIndex = 0;
 
-    function moveContainerElements(){
-      var x = imageIndex*100;
+    function moveContainerElements() {
+      var x = imageIndex * 100;
       imagesContainerElement.style.transform = 'translate3d(-'+x+'%,0,0)';
       captionsContainerElement.style.transform = 'translate3d(-'+x+'%,0,0)';
     }
@@ -49,47 +50,47 @@
       }
     }
 
-    function showPreviousImage(){
+    function showPreviousImage() {
       imageIndex--;
       if (imageIndex >= 0) {
         moveContainerElements();
       } else {
-        imageIndex = images.length-1;
-        var duration = (images.length-1)*100;
+        imageIndex = images.length - 1;
+        var duration = (images.length - 1) * 100;
         imagesContainerElement.style.transitionDuration = duration+'ms';
         captionsContainerElement.style.transitionDuration = duration+'ms';
         moveContainerElements();
-        setTimeout(function(){
+        setTimeout(function () {
           imagesContainerElement.style.transitionDuration = null;
           captionsContainerElement.style.transitionDuration = null;
-        },duration);
+        }, duration);
       }
       handleNavAppearance();
     }
 
-    function showNextImage(){
+    function showNextImage() {
       imageIndex++;
       if (imageIndex < images.length) {
         moveContainerElements();
       } else {
         imageIndex = 0;
         var duration = (images.length-1)*100;
-        imagesContainerElement.style.transitionDuration = duration+'ms';
-        captionsContainerElement.style.transitionDuration = duration+'ms';
+        imagesContainerElement.style.transitionDuration = duration + 'ms';
+        captionsContainerElement.style.transitionDuration = duration + 'ms';
         moveContainerElements();
-        setTimeout(function(){
+        setTimeout(function () {
           imagesContainerElement.style.transitionDuration = null;
           captionsContainerElement.style.transitionDuration = null;
-        },duration);
+        }, duration);
       }
       handleNavAppearance();
     }
 
-    previousElement.addEventListener('click',showPreviousImage);
-    nextElement.addEventListener('click',showNextImage);
-    alternativePreviousElement.addEventListener('click',showPreviousImage);
-    alternativeNextElement.addEventListener('click',showNextImage);
-    document.addEventListener('keydown',function(e){
+    previousElement.addEventListener('click', showPreviousImage);
+    nextElement.addEventListener('click', showNextImage);
+    alternativePreviousElement.addEventListener('click', showPreviousImage);
+    alternativeNextElement.addEventListener('click', showNextImage);
+    document.addEventListener('keydown',function (e) {
       if (location.hash.substr(2) === 'arbeitsweise') {
         if (e.keyCode === 39 || e.keyCode === 74) { // key left
           showNextImage();
@@ -101,9 +102,9 @@
 
     handleNavAppearance();
 
-  })();
+  }());
 
-  function show(){
+  function show() {
     arbeitsweiseNavElement.classList.add('active');
     if (window.innerWidth >= 768) {
       scrollContainerElement.style.transform = 'translate3d(0,-50%,0)';
@@ -114,12 +115,12 @@
     ACTIVE_PAGE = selfObject;
   }
 
-  function hide(){
+  function hide() {
     arbeitsweiseNavElement.classList.remove('active');
     arbeitsweiseElement.hidden = true;
   }
 
-  function showHide(){
+  function showHide() {
     var hash = location.hash.substr(2);
     if (hash === 'arbeitsweise') {
       requestAnimationFrame(show);
@@ -128,8 +129,8 @@
     }
   }
 
-  window.addEventListener('hashchange',showHide);
+  window.addEventListener('hashchange', showHide);
 
   init();
 
-})();
+}());

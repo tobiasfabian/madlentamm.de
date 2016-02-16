@@ -1,4 +1,11 @@
-(function(){
+/* globals _ */
+/* globals PAGES */
+/* globals ACTIVE_PAGE: true */
+
+
+(function () {
+
+  'use strict';
 
   function showHideAllPages() {
     _.each(PAGES,function(page){
@@ -11,6 +18,6 @@
   }
   showHideAllPages();
 
-  window.addEventListener('resize',showHideAllPages)
+  window.addEventListener('resize', showHideAllPages);
 
-})();
+}());

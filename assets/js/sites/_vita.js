@@ -1,14 +1,14 @@
-(function(){
+(function () {
+
+  'use strict';
 
   var id = 'vita';
   var scrollContainerElement = document.querySelector('.scroll-container');
   var vitaElement = document.getElementById(id);
-  var vitaImageElement = vitaElement.querySelector('.vita--image');
   var vitaNavElement = document.getElementById('nav').querySelector('a[href="#!vita"]');
-  var bodyElement = document.body;
   var selfObject;
 
-  function init(){
+  function init() {
     selfObject = {
       id: id,
       page: true,
@@ -17,8 +17,7 @@
     PAGES.push(selfObject);
   }
 
-
-  function show(){
+  function show() {
     vitaNavElement.classList.add('active');
     if (window.innerWidth >= 768) {
       scrollContainerElement.style.transform = 'translate3d(0,-25%,0)';
@@ -29,12 +28,12 @@
     ACTIVE_PAGE = selfObject;
   }
 
-  function hide(){
+  function hide() {
     vitaNavElement.classList.remove('active');
     vitaElement.hidden = true;
   }
 
-  function showHide(){
+  function showHide() {
     var hash = location.hash.substr(2);
     if (hash === 'vita') {
       requestAnimationFrame(show);
@@ -43,8 +42,8 @@
     }
   }
 
-  window.addEventListener('hashchange',showHide);
+  window.addEventListener('hashchange', showHide);
 
   init();
 
-})();
+}());

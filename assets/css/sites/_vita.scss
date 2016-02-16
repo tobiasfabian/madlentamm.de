@@ -75,26 +75,6 @@
         margin-bottom: 0.5em;
       }
     }
-    .seperator {
-      margin: 0 auto 2em;
-      width: 50%;
-      height: 20px;
-      display: flex;
-      flex-direction: row;
-      .circle {
-        margin: auto;
-        width: 11px;
-        height: 11px;
-        border-radius: 6px;
-        border: 1px solid white;
-      }
-      .line {
-        margin: auto;
-        width: 40%;
-        height: 1px;
-        background: white;
-      }
-    }
   }
   @media (width: 320px), (width: 375px), (width: 414px) {
     max-height: calc(100vh - 4em - 64px);

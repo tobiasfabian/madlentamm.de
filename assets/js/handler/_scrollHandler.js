@@ -13,7 +13,7 @@
       scrollingAllowed = false;
       setTimeout(function(){
         scrollingAllowed = true;
-      },1000)
+      },1000);
     }
   }
 
@@ -27,7 +27,7 @@
       scrollingAllowed = false;
       setTimeout(function(){
         scrollingAllowed = true;
-      },1000)
+      },1000);
     }
   }
 

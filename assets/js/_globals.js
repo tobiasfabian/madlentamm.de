@@ -1,2 +1,2 @@
-ACTIVE_PAGE = null;
-PAGES = [];
+var ACTIVE_PAGE = null;
+var PAGES = [];
