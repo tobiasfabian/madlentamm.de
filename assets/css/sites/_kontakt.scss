@@ -7,7 +7,7 @@
   padding: 0 40px;
   transition: $duration * 2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
   transform: translateZ(0);
-  backface-visibility: hidden; // prevent flickering
+  backface-visibility: hidden;
   &--card {
     box-sizing: border-box;
     margin: calc(24vh + 120px) auto;
@@ -51,13 +51,13 @@
     z-index: -1;
     position: absolute;
     left: 50%;
-    top: calc(24vh + 40px * 2 - 1px);
+    top: calc(24vh + 83px);
     width: 200px;
     height: 200px;
     transform: translate3d(-100px,0,0) rotate(45deg);
     transition: $duration*2 $duration*1.5 $easeOutBack;
-    backface-visibility: hidden; // prevent flickering
-    perspective: 1000; // prevent flickering
+    backface-visibility: hidden;
+    perspective: 1000;
   }
   &--square {
     position: absolute;
@@ -66,8 +66,8 @@
     top: 0;
     bottom: 0;
     border: 2px solid white;
-    backface-visibility: hidden; // prevent flickering
-    perspective: 1000; // prevent flickering
+    backface-visibility: hidden;
+    perspective: 1000;
     transition: $duration ease-out;
   }
   &--footer {
@@ -92,8 +92,8 @@
       opacity: 0.5;
       font-size: 0.85em;
       transform: translateZ(0); // activate hardware acceleration
-      backface-visibility: hidden; // prevent flickering
-      perspective: 1000; // prevent flickering
+      backface-visibility: hidden;
+      perspective: 1000;
     }
   }
   &[hidden] {
