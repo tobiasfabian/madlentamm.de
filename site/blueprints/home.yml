@@ -1,0 +1,23 @@
+title: Start
+deletable: false
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  terms:
+    label: Begriffe
+    type:  structure
+    style: table
+    fields:
+      title:
+        label: Titel
+        type:  text
+      text:
+        label: Text
+        type:  textarea
+        buttons: false
+      connection:
+        label: Verbingung
+        type:  tags

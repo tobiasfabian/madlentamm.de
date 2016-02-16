@@ -1,0 +1,138 @@
+Title: Startseite
+
+----
+
+Terms: 
+
+- 
+  title: entwickeln
+  text: >
+    Die Systemische Supervision ist ein
+    professionelles Verfahren der
+    Beobachtung und Reflexion beruflicher
+    Praxis auf der Grundlage der
+    soziologischen Systemtheorie. Die
+    Systemische Supervision ist auf
+    Einzelne, Gruppen, Teams und
+    Organisationen anwendbar.
+  connection: bewegen,wachsen,entdecken
+- 
+  title: wahrnehmen
+  text: >
+    Dagegen tadelt und hasst man mit Recht
+    Den, welcher sich durch die Lockungen
+    einer gegenwärtigen Lust erweichen und
+    verführen lässt, ohne in seiner
+    blinden Begierde zu sehen, welche
+    Schmerzen und Unannehmlichkeiten seiner
+    deshalb warten.
+  connection: suchen,innehalten,reflektieren,erkennen
+- 
+  title: erkennen
+  text: >
+    Dagegen tadelt und hasst man mit Recht
+    Den, welcher sich durch die Lockungen
+    einer gegenwärtigen Lust erweichen und
+    verführen lässt, ohne in seiner
+    blinden Begierde zu sehen, welche
+    Schmerzen und Unannehmlichkeiten seiner
+    deshalb warten.
+  connection: >
+    wahrnehmen,suchen,innehalten,entdecken,reflektieren
+- 
+  title: suchen
+  text: >
+    Dagegen tadelt und hasst man mit Recht
+    Den, welcher sich durch die Lockungen
+    einer gegenwärtigen Lust erweichen und
+    verführen lässt, ohne in seiner
+    blinden Begierde zu sehen, welche
+    Schmerzen und Unannehmlichkeiten seiner
+    deshalb warten.
+  connection: entwickeln,erkennen,entdecken,vertrauen
+- 
+  title: innehalten
+  text: >
+    Damit Ihr indess erkennt, woher dieser
+    ganze Irrthum gekommen ist, und weshalb
+    man die Lust anklagt und den Schmerz
+    lobet, so will ich Euch Alles eröffnen
+    und auseinander setzen, was jener
+    Begründer der Wahrheit und gleichsam
+    Baumeister des glücklichen Lebens
+    selbst darüber gesagt hat.
+  connection: wahrnehmen,lösen,lassen,wachsen
+- 
+  title: lassen
+  text: >
+    Dagegen tadelt und hasst man mit Recht
+    Den, welcher sich durch die Lockungen
+    einer gegenwärtigen Lust erweichen und
+    verführen lässt, ohne in seiner
+    blinden Begierde zu sehen, welche
+    Schmerzen und Unannehmlichkeiten seiner
+    deshalb warten.
+  connection: erkennen,innehalten,lösen,vertrauen
+- 
+  title: lösen
+  text: 'Psychodrama ist eine Methode der Psychotherapie, Beratung und Sozialforschung Ursprünglich konzipiert als handlungsorientierter Gegenentwurf zur Psychoanalyse von Sigmund Freud hat sich der psychodramatische Ansatz weltweit vor allem als Methode der Gruppen- und Einzelpsychotherapie und Beratung etabliert und Einfluss auf zahlreiche andere Psychotherapieschulen wie die Gestalttherapie, Transaktionsanalyse oder Familientherapie genommen.'
+  connection: innehalten,lassen,reflektieren
+- 
+  title: reflektieren
+  text: >
+    Dagegen tadelt und hasst man mit Recht
+    Den, welcher sich durch die Lockungen
+    einer gegenwärtigen Lust erweichen und
+    verführen lässt, ohne in seiner
+    blinden Begierde zu sehen, welche
+    Schmerzen und Unannehmlichkeiten seiner
+    deshalb warten.
+  connection: wahrnehmen,innehalten,erkennen,entdecken
+- 
+  title: bewegen
+  text: >
+    Die Systemische Supervision ist ein
+    professionelles Verfahren der
+    Beobachtung und Reflexion beruflicher
+    Praxis auf der Grundlage der
+    soziologischen Systemtheorie. Die
+    Systemische Supervision ist auf
+    Einzelne, Gruppen, Teams und
+    Organisationen anwendbar.
+  connection: innehalten,erkennen,entdecken,wachsen
+- 
+  title: entdecken
+  text: >
+    Dagegen tadelt und hasst man mit Recht
+    Den, welcher sich durch die Lockungen
+    einer gegenwärtigen Lust erweichen und
+    verführen lässt, ohne in seiner
+    blinden Begierde zu sehen, welche
+    Schmerzen und Unannehmlichkeiten seiner
+    deshalb warten.
+  connection: suchen,reflektieren,bewegen,wachsen
+- 
+  title: vertrauen
+  text: >
+    Die Systemische Supervision ist ein
+    professionelles Verfahren der
+    Beobachtung und Reflexion beruflicher
+    Praxis auf der Grundlage der
+    soziologischen Systemtheorie. Die
+    Systemische Supervision ist auf
+    Einzelne, Gruppen, Teams und
+    Organisationen anwendbar.
+  connection: lösen,wahrnehmen,lassen
+- 
+  title: wachsen
+  text: >
+    Die Systemische Supervision ist ein
+    professionelles Verfahren der
+    Beobachtung und Reflexion beruflicher
+    Praxis auf der Grundlage der
+    soziologischen Systemtheorie. Die
+    Systemische Supervision ist auf
+    Einzelne, Gruppen, Teams und
+    Organisationen anwendbar.
+  connection: >
+    entwickeln,innehalten,entdecken,erkennen,bewegen

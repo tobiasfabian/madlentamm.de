@@ -1,0 +1,33 @@
+Title: Kontakt
+
+----
+
+Contact: 
+
+Madlen Tamm
+Lessingstr. 27
+99425 Weimar
+
+(email: kontakt@madlentamm.de)
+(tel: +493643400024 text: 03643 400024)
+(tel: +4915223685324 text: 0152 23685324)
+
+----
+
+Footer1: 
+
+Mitglied der
+Deutschen Gesellschaft für Supervision e.V.
+
+----
+
+Footer2: 
+
+Verantwortlich iSd § 5 TMG, § 55 RfStV:
+Madlen Tamm, Lessingstr. 27, 99425 Weimar
+
+Ust-IDNr. DE678012345 (Finanzamt Jena)
+
+----
+
+Footer1-image: logo-dgsv.png

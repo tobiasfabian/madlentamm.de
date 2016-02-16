@@ -1,0 +1,29 @@
+title: Kontakt
+deletable: false
+pages: false
+files:
+  fields:
+    alt:
+      label: Alternativer Text
+      type:  text
+fields:
+  title:
+    label: Title
+    type:  text
+  contact:
+    label: Kontakt
+    type:  textarea
+  footer1:
+    label: Footer 1
+    type:  textarea
+    buttons: false
+    width: 3/4
+  footer1-image:
+    label: Footer 1 Image
+    type:  select
+    options: images
+    width: 1/4
+  footer2:
+    label: Footer 2
+    type:  textarea
+    buttons: false

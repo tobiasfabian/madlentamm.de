@@ -8,53 +8,53 @@
   backface-visibility: hidden; // prevent flickering
   perspective: 1000; // prevent flickering
   transition: $duration, transform $duration ease-out, z-index 0s $duration;
-  &.erkennen {
-    left: 12%;
-    top: 82%;
-  }
-  &.loesen {
-    left: 64%;
-    top: 21%;
-  }
-  &.innehalten {
-    left: 36%;
-    top: 40%;
-  }
-  &.entwickeln {
-    left: 7%;
-    top: 15%;
-  }
-  &.vertrauen {
-    left: 97%;
-    top: 30%;
-  }
-  &.wachsen {
-    left: 98%;
-    top: 78%;
-  }
-  &.bewegen {
-    left: 68%;
-    top: 90%;
-  }
-  &.wahrnehmen {
+  &:nth-of-type(1) {
     left: 0%;
     top: 50%;
   }
-  &.entdecken {
-    left: 90%;
-    top: 5%;
+  &:nth-of-type(2) {
+    left: 7%;
+    top: 15%;
   }
-  &.reflektieren {
-    left: 73%;
-    top: 55%;
+  &:nth-of-type(3) {
+    left: 12%;
+    top: 82%;
   }
-  &.lassen {
+  &:nth-of-type(4) {
+    left: 36%;
+    top: 40%;
+  }
+  &:nth-of-type(5) {
+    left: 38%;
+    top: 9%;
+  }
+  &:nth-of-type(6) {
     left: 42%;
     top: 75%;
   }
-  &.suchen {
-    left: 38%;
-    top: 9%;
+  &:nth-of-type(7) {
+    left: 64%;
+    top: 21%;
+  }
+  &:nth-of-type(8) {
+    left: 68%;
+    top: 90%;
+  }
+  &:nth-of-type(9) {
+    left: 73%;
+    top: 55%;
+  }
+  &:nth-of-type(10) {
+    left: 90%;
+    top: 5%;
+  }
+  &:nth-of-type(11) {
+    left: 97%;
+    top: 30%;
+  }
+  &:nth-of-type(12) {
+    left: 98%;
+    top: 78%;
   }
   a {
     display: block;
