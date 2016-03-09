@@ -20,8 +20,10 @@
   function show() {
     vitaNavElement.classList.add('active');
     if (window.innerWidth >= 768) {
+      scrollContainerElement.style.webkitTransform = 'translate3d(0,-25%,0)';
       scrollContainerElement.style.transform = 'translate3d(0,-25%,0)';
     } else {
+      scrollContainerElement.style.webkitTransform = 'translate3d(-25%,0,0)';
       scrollContainerElement.style.transform = 'translate3d(-25%,0,0)';
     }
     vitaElement.hidden = false;

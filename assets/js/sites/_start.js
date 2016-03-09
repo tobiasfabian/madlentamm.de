@@ -224,6 +224,7 @@
 
   function show() {
     startNavElement.classList.add('active');
+    scrollContainerElement.style.webkitTransform = 'translate3d(0,0%,0)';
     scrollContainerElement.style.transform = 'translate3d(0,0%,0)';
     startElement.hidden = false;
     ACTIVE_PAGE = selfObject;

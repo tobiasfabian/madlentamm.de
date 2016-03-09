@@ -121,7 +121,7 @@
     left: 75%;
     width: 100vw;
     height: auto;
-    max-height: calc(100vh - 4em);
+    height: calc(100% - 4em);
     padding: 0;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
@@ -143,8 +143,5 @@
         font-size: 1em;
       }
     }
-  }
-  @media (width: 320px), (width: 375px), (width: 414px) {
-    max-height: calc(100vh - 4em - 64px);
   }
 }

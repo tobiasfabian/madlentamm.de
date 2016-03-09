@@ -58,18 +58,13 @@
     &--container {
       margin: 0;
       width: auto;
-      max-height: calc(100vh - 4.6em);
+      max-height: 100%;
       padding: 1em 1em 1.5em;
       overflow: auto;
       -webkit-overflow-scrolling: touch;
       blockquote {
         width: auto;
       }
-    }
-  }
-  @media (width: 320px), (width: 375px), (width: 414px) { // iOS-Fix
-    &--container {
-      max-height: calc(100vh - 4.6em - 64px);
     }
   }
 }

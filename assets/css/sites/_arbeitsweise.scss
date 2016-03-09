@@ -161,8 +161,7 @@
     top: 4em;
     left: 50%;
     width: 100vw;
-    height: auto;
-    max-height: calc(100vh - 4em);
+    height: calc(100% - 4em);
     padding: 0.6em 0 0;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
@@ -182,6 +181,9 @@
         &--container {
           display: block;
           figure {
+            img {
+              height: auto;
+            }
             figcaption {
               display: block;
               padding: 0.5em 15px 2em;
@@ -191,8 +193,5 @@
         }
       }
     }
-  }
-  @media (width: 320px), (width: 375px), (width: 414px) {
-    max-height: calc(100vh - 4em - 64px);
   }
 }

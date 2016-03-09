@@ -27,19 +27,20 @@
     padding: 40px;
     color: white;
     line-height: 1.4;
-    // border: 1px solid hsla(0,0%,100%,0.15);
     background: url(../images/corner_tl.svg) top left,
                 url(../images/corner_tr.svg) top right,
                 url(../images/corner_br.svg) bottom right,
                 url(../images/corner_bl.svg) bottom left;
     background-color: transparentize($color,0.9);
     background-repeat: no-repeat;
-    // hyphens: auto;
     p {
       margin-bottom: 0.65em;
       &:last-of-type {
         margin-bottom: 0;
       }
+    }
+    abbr {
+      border-bottom-color: $lightblue;
     }
   }
   &[hidden] {
@@ -54,7 +55,7 @@
     left: 25%;
     width: 100vw;
     height: auto;
-    max-height: calc(100vh - 4em);
+    max-height: calc(100% - 4em);
     padding: 0.6em 0 0;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
@@ -75,8 +76,5 @@
         margin-bottom: 0.5em;
       }
     }
-  }
-  @media (width: 320px), (width: 375px), (width: 414px) {
-    max-height: calc(100vh - 4em - 64px);
   }
 }

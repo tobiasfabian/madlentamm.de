@@ -1,5 +1,5 @@
 .start {
-  position: relative;
+  position: absolute;
   height: calc(100vh - 74px);
   transition: $duration * 2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
   transform: translateZ(0);
@@ -25,7 +25,7 @@
     top: 4em;
     width: 100vw;
     height: auto;
-    max-height: calc(100vh - 4em);
+    max-height: calc(100% - 4em);
     padding: 0;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
@@ -34,9 +34,6 @@
       position: static;
       padding: 1em 0 1em 36px;
     }
-  }
-  @media (width: 320px), (width: 375px), (width: 414px) {
-    max-height: calc(100vh - 4em - 64px);
   }
 }
 #start--drawing {

@@ -220,7 +220,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/css\/style.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -281,7 +281,7 @@
 		},
 	"\/assets\/js\/libraries\/svg.filter.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/libraries\/svg.filter.js",
 		"outputAbbreviatedPath": "\/assets\/js\/libraries\/min\/svg.filter-min.js",
@@ -292,7 +292,7 @@
 		},
 	"\/assets\/js\/libraries\/svg.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/libraries\/svg.js",
 		"outputAbbreviatedPath": "\/assets\/js\/libraries\/min\/svg-min.js",
@@ -1129,56 +1129,68 @@
 	"\/assets\/js\/script.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/libraries\/underscore.min.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/libraries\/svg.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/_globals.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/libraries\/svg.filter.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/handler\/_scrollHandler.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/libraries\/underscore.min.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/modules\/_nav.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/_globals.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/modules\/_headernav.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/handler\/_scrollHandler.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_start.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/modules\/_nav.js",
 			"position": 5,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_vita.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/modules\/_headernav.js",
 			"position": 6,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_arbeitsweise.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_start.js",
 			"position": 7,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_kontakt.js",
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_vita.js",
 			"position": 8,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_arbeitsweise.js",
+			"position": 9,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/assets\/js\/sites\/_kontakt.js",
+			"position": 10,
 			"type": 0
 			}
 		]
@@ -1344,7 +1356,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/localhost:8887",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,

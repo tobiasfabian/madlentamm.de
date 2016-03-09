@@ -21,8 +21,10 @@
   function show() {
     kontaktNavElement.classList.add('active');
     if (window.innerWidth >= 768) {
+      scrollContainerElement.style.webkitTransform = 'translate3d(0,-75%,0)';
       scrollContainerElement.style.transform = 'translate3d(0,-75%,0)';
     } else {
+      scrollContainerElement.style.webkitTransform = 'translate3d(-75%,0,0)';
       scrollContainerElement.style.transform = 'translate3d(-75%,0,0)';
     }
     kontaktElement.hidden = false;

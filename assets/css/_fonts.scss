@@ -36,15 +36,15 @@
     font-weight: 600;
     font-style: normal;
 }
-// @font-face {
-//     font-family: 'SignikaNegative';
-//     src: url('../fonts/signikanegative-bold-webfont.eot');
-//     src: url('../fonts/signikanegative-bold-webfont.eot?#iefix') format('embedded-opentype'),
-//          url('../fonts/signikanegative-bold-webfont.woff2') format('woff2'),
-//          url('../fonts/signikanegative-bold-webfont.woff') format('woff');
-//     font-weight: 700;
-//     font-style: normal;
-// }
+@font-face {
+    font-family: 'SignikaNegative';
+    src: url('../fonts/signikanegative-bold-webfont.eot');
+    src: url('../fonts/signikanegative-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/signikanegative-bold-webfont.woff2') format('woff2'),
+         url('../fonts/signikanegative-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
 
 
 body {

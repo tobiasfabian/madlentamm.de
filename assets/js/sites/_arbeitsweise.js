@@ -107,8 +107,10 @@
   function show() {
     arbeitsweiseNavElement.classList.add('active');
     if (window.innerWidth >= 768) {
+      scrollContainerElement.style.webkitTransform = 'translate3d(0,-50%,0)';
       scrollContainerElement.style.transform = 'translate3d(0,-50%,0)';
     } else {
+      scrollContainerElement.style.webkitTransform = 'translate3d(-50%,0,0)';
       scrollContainerElement.style.transform = 'translate3d(-50%,0,0)';
     }
     arbeitsweiseElement.hidden = false;
