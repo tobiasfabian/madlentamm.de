@@ -16,6 +16,9 @@
     background: url(../images/bg.jpg) $background bottom center no-repeat;
     background-size: cover;
     transition: 250ms ease-out;
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url(..images/bg@2x.jpg);
+    }
   }
   .line {
     position: absolute;

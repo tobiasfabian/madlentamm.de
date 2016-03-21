@@ -73,8 +73,8 @@
             var y2 = getY(term.termElement, term.h1Element);
             line.animate(200, '<', 0).plot([[x1,y1],[x2,y2]]);
           } catch(error) {
-            console.error(error);
-            console.error('id: '+id);
+            // console.error(error);
+            // console.error('id: '+id);
           }
         });
       }
@@ -100,8 +100,8 @@
           var y2 = getY(term.termElement, term.h1Element);
           line.plot([[x1,y1], [x2,y2]]);
         } catch(error) {
-          console.error(error);
-          console.error('id: '+id);
+          // console.error(error);
+          // console.error('id: '+id);
         }
       });
     }

@@ -33,8 +33,8 @@
 
     function moveContainerElements() {
       var x = imageIndex * 100;
-      imagesContainerElement.style.transform = 'translate3d(-'+x+'%,0,0)';
-      captionsContainerElement.style.transform = 'translate3d(-'+x+'%,0,0)';
+      imagesContainerElement.style.transform = 'translate(-'+x+'%, 0)';
+      captionsContainerElement.style.transform = 'translate(-'+x+'%, 0)';
     }
 
     function handleNavAppearance() {

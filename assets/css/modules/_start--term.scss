@@ -163,7 +163,9 @@
     }
   }
   @media (max-width: 767px) {
-    position: static;
+    position: relative;
+    top: 0 !important;
+    left: 0 !important;
     margin-bottom: 10px;
     transform: none !important;
     a {
