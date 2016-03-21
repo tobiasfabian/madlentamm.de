@@ -1,7 +1,7 @@
 <?php
 $page = page('kontakt');
 ?>
-<section id="kontakt" class="kontakt" hidden>
+<section id="kontakt" class="kontakt">
   <div class="kontakt--card">
     <?= $page->contact()->kt() ?>
   </div>

@@ -2,7 +2,7 @@
 $page = page('vita');
 $image = $page->image();
 ?>
-<section id="vita" class="vita" hidden>
+<section id="vita" class="vita">
   <aside class="vita--image">
     <figure>
       <img src="<?= $image->resize(300)->url() ?>"

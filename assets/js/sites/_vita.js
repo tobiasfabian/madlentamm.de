@@ -20,11 +20,11 @@
   function show() {
     vitaNavElement.classList.add('active');
     if (window.innerWidth >= 768) {
-      scrollContainerElement.style.webkitTransform = 'translate3d(0,-25%,0)';
-      scrollContainerElement.style.transform = 'translate3d(0,-25%,0)';
+      scrollContainerElement.style.webkitTransform = 'translate(0, -25%)';
+      scrollContainerElement.style.transform = 'translate(0, -25%)';
     } else {
-      scrollContainerElement.style.webkitTransform = 'translate3d(-25%,0,0)';
-      scrollContainerElement.style.transform = 'translate3d(-25%,0,0)';
+      scrollContainerElement.style.webkitTransform = 'translate(-25%, 0)';
+      scrollContainerElement.style.transform = 'translate(-25%, 0)';
     }
     vitaElement.hidden = false;
     ACTIVE_PAGE = selfObject;

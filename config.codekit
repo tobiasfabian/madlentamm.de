@@ -725,6 +725,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/site\/templates\/vita.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/templates\/vita.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/thumbs\/l71a1676-21bd6fc203f09bc0058f18167115ea4a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12084,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1676-21bd6fc203f09bc0058f18167115ea4a.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1676-21bd6fc203f09bc0058f18167115ea4a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/l71a1676-9e17585ed679395902107bd627a94b0c.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -791,6 +811,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/l71a1686-be988f39a8c0540a8e91d02d12fd6156.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6899,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1686-be988f39a8c0540a8e91d02d12fd6156.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1686-be988f39a8c0540a8e91d02d12fd6156.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/l71a1686-c9969fa4aae4ac2333192041dccea459.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -809,6 +840,17 @@
 		"initialSize": 18350,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1686-df55b4e847efff61e0f433047de92ed9.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1686-df55b4e847efff61e0f433047de92ed9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1699-3acd01176e6a097cdb59f725b4c38b42.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9537,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1699-3acd01176e6a097cdb59f725b4c38b42.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1699-3acd01176e6a097cdb59f725b4c38b42.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -853,6 +895,17 @@
 		"initialSize": 77745,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1699-bc23b7843f1ef7252d9c2d56a8898fd3.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1699-bc23b7843f1ef7252d9c2d56a8898fd3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1713-0c28ec8a727b61bd7af498abbe8f2fb2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16223,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1713-0c28ec8a727b61bd7af498abbe8f2fb2.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1713-0c28ec8a727b61bd7af498abbe8f2fb2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -923,6 +976,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/l71a1714-cc463f6d5c532c8bfe8ab4f4c9815026.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16384,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1714-cc463f6d5c532c8bfe8ab4f4c9815026.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1714-cc463f6d5c532c8bfe8ab4f4c9815026.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/l71a1714-cc4cd0aef2ac50a449e41852ff66c4ff.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -963,6 +1027,17 @@
 		"initialSize": 48440,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1721-4d007a6edb1e114e2fa4c16339221fb6.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1721-4d007a6edb1e114e2fa4c16339221fb6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1721-9a6c9476f56d4af3c8f3a95eeeb9c37f.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14587,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1721-9a6c9476f56d4af3c8f3a95eeeb9c37f.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1721-9a6c9476f56d4af3c8f3a95eeeb9c37f.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1018,6 +1093,17 @@
 		"initialSize": 52552,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1728-b734d09bbfb71bd8fe91200bbcac1caf.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1728-b734d09bbfb71bd8fe91200bbcac1caf.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1728-b854bb4f6c6f5a8ede6a12f426c7a4cd.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16125,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1728-b854bb4f6c6f5a8ede6a12f426c7a4cd.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1728-b854bb4f6c6f5a8ede6a12f426c7a4cd.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1356,7 +1442,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/localhost:8887",
+	"externalServerAddress": "http:\/\/localhost:8888",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,

@@ -1,9 +1,9 @@
 .start {
   position: absolute;
-  height: calc(100vh - 74px);
+  left: 0;
+  right: 0;
+  height: calc(100vh - 68px);
   transition: $duration * 2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
-  transform: translateZ(0);
-  backface-visibility: hidden; // prevent flickering
   .container {
     position: absolute;
     left: 25vw;
@@ -21,6 +21,16 @@
       top: 0%;
     }
   }
+  @media (max-height: 700px) {
+    .container {
+      top: 12em;
+    }
+  }
+  @media (max-height: 600px) {
+    .container {
+      top: 9em;
+    }
+  }
   @media (max-width: 767px) {
     top: 4em;
     width: 100vw;
@@ -32,22 +42,22 @@
     transition-delay: $duration;
     .container {
       position: static;
+      margin: 0 auto;
+      max-width: 420px;
       padding: 1em 0 1em 36px;
     }
   }
 }
+
+
 #start--drawing {
-  z-index: -1;
   position: absolute;
   left: -40px;
   right: -40px;
   top: -40px;
   bottom: -40px;
-  backface-visibility: hidden; // prevent flickering
-  perspective: 1000; // prevent flickering
+  pointer-events: none;
   svg {
-    backface-visibility: hidden; // prevent flickering
-    perspective: 1000; // prevent flickering
     line {
       stroke: transparentize($lightblue, 0);
       stroke-width: 0.5;

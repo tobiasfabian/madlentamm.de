@@ -2,7 +2,7 @@
 $page = page('arbeitsweise');
 $images = $page->images()->sortBy('sort', 'asc');
 ?>
-<section id="arbeitsweise" class="arbeitsweise" hidden>
+<section id="arbeitsweise" class="arbeitsweise">
   <div class="arbeitsweise--gallery">
     <nav class="arbeitsweise--gallery--nav">
       <a class="arbeitsweise--gallery--nav--previous">

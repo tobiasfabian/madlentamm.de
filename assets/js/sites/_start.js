@@ -193,7 +193,7 @@
         moveX = (width / 2 - e.clientX) / randomMove;
         moveY = (height / 2 - e.clientY) / randomMove;
         requestAnimationFrame(function(){
-          termElement.style.transform = 'translate3d('+moveX+'px, '+moveY+'px,0)';
+          termElement.style.transform = 'translate('+moveX+'px, '+moveY+'px)';
         });
       }
     }
@@ -224,8 +224,8 @@
 
   function show() {
     startNavElement.classList.add('active');
-    scrollContainerElement.style.webkitTransform = 'translate3d(0,0%,0)';
-    scrollContainerElement.style.transform = 'translate3d(0,0%,0)';
+    scrollContainerElement.style.webkitTransform = 'translate(0, 0)';
+    scrollContainerElement.style.transform = 'translate(0, 0)';
     startElement.hidden = false;
     ACTIVE_PAGE = selfObject;
   }

@@ -12,14 +12,7 @@ $mainPadding: 34px;
 
 html, body {
   height: 100%;
-}
-
-body {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  font-size: 15px;
 }
 
 body {
@@ -27,7 +20,6 @@ body {
   box-sizing: border-box;
   min-height: 100vh;
   padding: $mainPadding;
-  font-size: 15px;
   text-size-adjust: none;
   @media (max-width: 767px) {
     padding: 0;
@@ -38,7 +30,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
-  &:active {
+  &:active:not(.inactive) {
     opacity: 0.7;
     transition-duration: 0s !important;
   }
@@ -55,8 +47,8 @@ a {
     position: relative;
     height: 400%;
     transition: $duration * 2 cubic-bezier(0.645, 0.045, 0.355, 1.000);
-    transform: translate3d(0,0%,0); // activate hardware acceleration
-    backface-visibility: hidden; // prevent flickering
+    // transform: translate3d(0,0%,0); // activate hardware acceleration
+    // backface-visibility: hidden; // prevent flickering
     // perspective: 1000; // prevent flickering
   }
   @media (max-width: 767px) {

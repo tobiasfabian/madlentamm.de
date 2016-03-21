@@ -7,6 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - home
+  - coaching
   - arbeitsweise
   - kontakt
   - vita

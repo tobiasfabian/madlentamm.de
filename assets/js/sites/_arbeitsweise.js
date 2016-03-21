@@ -40,48 +40,32 @@
     function handleNavAppearance() {
       if (imageIndex === 0) {
         previousElement.classList.add('inactive');
+        alternativePreviousElement.classList.add('inactive');
       } else {
         previousElement.classList.remove('inactive');
+        alternativePreviousElement.classList.remove('inactive');
       }
       if(imageIndex === images.length - 1) {
         nextElement.classList.add('inactive');
+        alternativeNextElement.classList.add('inactive');
       } else {
         nextElement.classList.remove('inactive');
+        alternativeNextElement.classList.remove('inactive');
       }
     }
 
     function showPreviousImage() {
-      imageIndex--;
-      if (imageIndex >= 0) {
+      if (imageIndex > 0) {
+        imageIndex--;
         moveContainerElements();
-      } else {
-        imageIndex = images.length - 1;
-        var duration = (images.length - 1) * 100;
-        imagesContainerElement.style.transitionDuration = duration+'ms';
-        captionsContainerElement.style.transitionDuration = duration+'ms';
-        moveContainerElements();
-        setTimeout(function () {
-          imagesContainerElement.style.transitionDuration = null;
-          captionsContainerElement.style.transitionDuration = null;
-        }, duration);
       }
       handleNavAppearance();
     }
 
     function showNextImage() {
-      imageIndex++;
-      if (imageIndex < images.length) {
+      if (imageIndex < images.length - 1) {
+        imageIndex++;
         moveContainerElements();
-      } else {
-        imageIndex = 0;
-        var duration = (images.length-1)*100;
-        imagesContainerElement.style.transitionDuration = duration + 'ms';
-        captionsContainerElement.style.transitionDuration = duration + 'ms';
-        moveContainerElements();
-        setTimeout(function () {
-          imagesContainerElement.style.transitionDuration = null;
-          captionsContainerElement.style.transitionDuration = null;
-        }, duration);
       }
       handleNavAppearance();
     }
@@ -107,11 +91,11 @@
   function show() {
     arbeitsweiseNavElement.classList.add('active');
     if (window.innerWidth >= 768) {
-      scrollContainerElement.style.webkitTransform = 'translate3d(0,-50%,0)';
-      scrollContainerElement.style.transform = 'translate3d(0,-50%,0)';
+      scrollContainerElement.style.webkitTransform = 'translate(0, -50%)';
+      scrollContainerElement.style.transform = 'translate(0, -50%)';
     } else {
-      scrollContainerElement.style.webkitTransform = 'translate3d(-50%,0,0)';
-      scrollContainerElement.style.transform = 'translate3d(-50%,0,0)';
+      scrollContainerElement.style.webkitTransform = 'translate(-50%, 0)';
+      scrollContainerElement.style.transform = 'translate(-50%, 0)';
     }
     arbeitsweiseElement.hidden = false;
     ACTIVE_PAGE = selfObject;

@@ -32,7 +32,7 @@
   }
 
   function handleMousewheel(e){
-    if (window.innerWidth >= 768) {
+    if (window.innerWidth >= 768 && !document.querySelector('.window:not([hidden])')) { // check if window is open
       e.preventDefault();
       if (scrollingAllowed) {
         delta += e.wheelDelta || -e.deltaY;

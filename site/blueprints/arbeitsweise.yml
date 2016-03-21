@@ -8,15 +8,14 @@ files:
       label: Alternativer Text
       type:  text
       required: true
+      help: Kurze Beschreibung (4 - 5 Worte). Was ist auf dem Foto zu sehen.
     text:
       label: Text
       type:  textarea
       buttons: false
       required: true
+      help:  Text, der auf der linken Seite zu sehen sein wird.
 fields:
   title:
     label: Title
     type:  text
-  text:
-    label: Text
-    type:  textarea
