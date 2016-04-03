@@ -433,79 +433,68 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/3-arbeitsweise\/L71A1676.jpg": {
+	"\/content\/3-arbeitsweise\/baukloetze.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 56981,
-		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1676.jpg",
-		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1676.jpg",
+		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/baukloetze.jpg",
+		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/baukloetze.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/3-arbeitsweise\/L71A1686.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21318,
-		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1686.jpg",
-		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1686.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/content\/3-arbeitsweise\/L71A1699.jpg": {
+	"\/content\/3-arbeitsweise\/bunte-wolle.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 42068,
-		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1699.jpg",
-		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1699.jpg",
+		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/bunte-wolle.jpg",
+		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/bunte-wolle.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/3-arbeitsweise\/L71A1713.jpg": {
+	"\/content\/3-arbeitsweise\/holzfiguren.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 58929,
-		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1713.jpg",
-		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1713.jpg",
+		"initialSize": 21318,
+		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/holzfiguren.jpg",
+		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/holzfiguren.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/3-arbeitsweise\/L71A1714.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 74250,
-		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1714.jpg",
-		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1714.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/content\/3-arbeitsweise\/L71A1721.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 82350,
-		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1721.jpg",
-		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1721.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/content\/3-arbeitsweise\/L71A1728.jpg": {
+	"\/content\/3-arbeitsweise\/madlen-tamm-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 82950,
-		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1728.jpg",
-		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/L71A1728.jpg",
+		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/madlen-tamm-2.jpg",
+		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/madlen-tamm-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/content\/3-arbeitsweise\/madlen-tamm-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82350,
+		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/madlen-tamm-3.jpg",
+		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/madlen-tamm-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/content\/3-arbeitsweise\/madlen-tamm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74250,
+		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/madlen-tamm.jpg",
+		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/madlen-tamm.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -583,11 +572,20 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/site\/accounts\/admin.php": {
+	"\/site\/accounts\/madlen.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/site\/accounts\/admin.php",
+		"inputAbbreviatedPath": "\/site\/accounts\/madlen.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/site\/accounts\/tobias.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/accounts\/tobias.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -736,14 +734,170 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/site\/templates\/vita.php": {
-		"fileType": 8192,
+	"\/thumbs\/baukloetze-1c09ada297c53ee6cfc617aca35bf40d.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/site\/templates\/vita.php",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 32944,
+		"inputAbbreviatedPath": "\/thumbs\/baukloetze-1c09ada297c53ee6cfc617aca35bf40d.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/baukloetze-1c09ada297c53ee6cfc617aca35bf40d.jpg",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/baukloetze-59402429d94700ffafb070d1c74107ab.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7366,
+		"inputAbbreviatedPath": "\/thumbs\/baukloetze-59402429d94700ffafb070d1c74107ab.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/baukloetze-59402429d94700ffafb070d1c74107ab.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/baukloetze-b8250be1c7b1ff7b52931dbdde89cf59.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42477,
+		"inputAbbreviatedPath": "\/thumbs\/baukloetze-b8250be1c7b1ff7b52931dbdde89cf59.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/baukloetze-b8250be1c7b1ff7b52931dbdde89cf59.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/baukloetze-c23a0e2ab39a61c73fd61fc5a946307a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23240,
+		"inputAbbreviatedPath": "\/thumbs\/baukloetze-c23a0e2ab39a61c73fd61fc5a946307a.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/baukloetze-c23a0e2ab39a61c73fd61fc5a946307a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/baukloetze-c49242451900dba083844d8bf73ba185.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18356,
+		"inputAbbreviatedPath": "\/thumbs\/baukloetze-c49242451900dba083844d8bf73ba185.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/baukloetze-c49242451900dba083844d8bf73ba185.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/bunte-wolle-39725ae5d875e819e60a388a1032c5e4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5616,
+		"inputAbbreviatedPath": "\/thumbs\/bunte-wolle-39725ae5d875e819e60a388a1032c5e4.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/bunte-wolle-39725ae5d875e819e60a388a1032c5e4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/bunte-wolle-5ba3053bf6b7598b9d2b60a853d5de6d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28324,
+		"inputAbbreviatedPath": "\/thumbs\/bunte-wolle-5ba3053bf6b7598b9d2b60a853d5de6d.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/bunte-wolle-5ba3053bf6b7598b9d2b60a853d5de6d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/bunte-wolle-78d4c0b9da108fa8cd8e331f85ae7d9e.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15376,
+		"inputAbbreviatedPath": "\/thumbs\/bunte-wolle-78d4c0b9da108fa8cd8e331f85ae7d9e.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/bunte-wolle-78d4c0b9da108fa8cd8e331f85ae7d9e.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/bunte-wolle-db722b3c61929a5b9eedba35da76eda8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19095,
+		"inputAbbreviatedPath": "\/thumbs\/bunte-wolle-db722b3c61929a5b9eedba35da76eda8.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/bunte-wolle-db722b3c61929a5b9eedba35da76eda8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/bunte-wolle-ffa0079d2853816ebce058033522fda2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38718,
+		"inputAbbreviatedPath": "\/thumbs\/bunte-wolle-ffa0079d2853816ebce058033522fda2.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/bunte-wolle-ffa0079d2853816ebce058033522fda2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/holzfiguren-5bde9290701db99ff4745fa6366ec820.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17649,
+		"inputAbbreviatedPath": "\/thumbs\/holzfiguren-5bde9290701db99ff4745fa6366ec820.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/holzfiguren-5bde9290701db99ff4745fa6366ec820.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/holzfiguren-8b354cd78da9cb87bd326940d252b5d3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12422,
+		"inputAbbreviatedPath": "\/thumbs\/holzfiguren-8b354cd78da9cb87bd326940d252b5d3.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/holzfiguren-8b354cd78da9cb87bd326940d252b5d3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/holzfiguren-b5e3d47d7d6203ebaf278ec5a2eb95d5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4495,
+		"inputAbbreviatedPath": "\/thumbs\/holzfiguren-b5e3d47d7d6203ebaf278ec5a2eb95d5.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/holzfiguren-b5e3d47d7d6203ebaf278ec5a2eb95d5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/holzfiguren-e5aa30bbc5b44a366ab1a39d9b093468.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10275,
+		"inputAbbreviatedPath": "\/thumbs\/holzfiguren-e5aa30bbc5b44a366ab1a39d9b093468.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/holzfiguren-e5aa30bbc5b44a366ab1a39d9b093468.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/holzfiguren-fd6fd2b381370a324631fbe4bee97b72.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23365,
+		"inputAbbreviatedPath": "\/thumbs\/holzfiguren-fd6fd2b381370a324631fbe4bee97b72.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/holzfiguren-fd6fd2b381370a324631fbe4bee97b72.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/thumbs\/l71a1676-21bd6fc203f09bc0058f18167115ea4a.jpg": {
 		"fileType": 16384,
@@ -752,6 +906,17 @@
 		"initialSize": 12084,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1676-21bd6fc203f09bc0058f18167115ea4a.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1676-21bd6fc203f09bc0058f18167115ea4a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1676-789234eb7877e31315707a24e1972c4c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9001,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1676-789234eb7877e31315707a24e1972c4c.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1676-789234eb7877e31315707a24e1972c4c.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -774,6 +939,17 @@
 		"initialSize": 42477,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1676-872df4f6077de80d00755a8a8b5790ca.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1676-872df4f6077de80d00755a8a8b5790ca.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1676-8deaf58531601476fcc6556d383d57ea.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7366,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1676-8deaf58531601476fcc6556d383d57ea.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1676-8deaf58531601476fcc6556d383d57ea.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -807,6 +983,17 @@
 		"initialSize": 99993,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1676-a0cbac06fb153e5e2b702246478cf8bc.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1676-a0cbac06fb153e5e2b702246478cf8bc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1676-a57d7e09fc6f9a4a7b69f3cb4c33f9c8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32944,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1676-a57d7e09fc6f9a4a7b69f3cb4c33f9c8.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1676-a57d7e09fc6f9a4a7b69f3cb4c33f9c8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -877,6 +1064,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/l71a1686-062b485f6fd07b4e7c2e527889ac0456.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4495,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1686-062b485f6fd07b4e7c2e527889ac0456.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1686-062b485f6fd07b4e7c2e527889ac0456.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1686-1ad7277c421917c64e3c41e47222bad4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17649,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1686-1ad7277c421917c64e3c41e47222bad4.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1686-1ad7277c421917c64e3c41e47222bad4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/l71a1686-3b38a8174cd3f00bbad74d29baadc510.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -917,6 +1126,17 @@
 		"initialSize": 48516,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1686-556df4eb97178ab17e2f39f9b2946762.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1686-556df4eb97178ab17e2f39f9b2946762.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1686-85866ad964c21936cab3ec239b816ecc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5412,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1686-85866ad964c21936cab3ec239b816ecc.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1686-85866ad964c21936cab3ec239b816ecc.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1031,6 +1251,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/l71a1699-0fa379f7a8c70b4a631f563e845d19f0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6972,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1699-0fa379f7a8c70b4a631f563e845d19f0.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1699-0fa379f7a8c70b4a631f563e845d19f0.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/l71a1699-28cf9e91e479b3c83cb998b5ca3c9421.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1071,6 +1302,28 @@
 		"initialSize": 28571,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1699-63b091aaa7d484b95a64ca85f3d0e4a9.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1699-63b091aaa7d484b95a64ca85f3d0e4a9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1699-675527aeb6c5216026a29485208f3199.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5616,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1699-675527aeb6c5216026a29485208f3199.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1699-675527aeb6c5216026a29485208f3199.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1699-859f3b928e9f5b676226efc052ab9512.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28324,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1699-859f3b928e9f5b676226efc052ab9512.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1699-859f3b928e9f5b676226efc052ab9512.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1174,6 +1427,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/l71a1713-32d4ceb7ec9c1b484060eeaf3c780aba.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11906,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1713-32d4ceb7ec9c1b484060eeaf3c780aba.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1713-32d4ceb7ec9c1b484060eeaf3c780aba.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/l71a1713-3890900e2a24d14fc73bf74afdb12326.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1185,6 +1449,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/l71a1713-5457e49acd110f9edced41e25ec00e70.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9740,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1713-5457e49acd110f9edced41e25ec00e70.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1713-5457e49acd110f9edced41e25ec00e70.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/l71a1713-5a71a74fa02b39f2a4a4f42ef2886d69.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1192,6 +1467,17 @@
 		"initialSize": 46538,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1713-5a71a74fa02b39f2a4a4f42ef2886d69.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1713-5a71a74fa02b39f2a4a4f42ef2886d69.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1713-62f5f2bc10461d3425ee0b4689b8ce68.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44986,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1713-62f5f2bc10461d3425ee0b4689b8ce68.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1713-62f5f2bc10461d3425ee0b4689b8ce68.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1295,6 +1581,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/l71a1714-446dbe47a29ffc4630fc24a4b15a347b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50300,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1714-446dbe47a29ffc4630fc24a4b15a347b.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1714-446dbe47a29ffc4630fc24a4b15a347b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/l71a1714-55662b3392dadeb7160fa6d78908a823.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1346,6 +1643,28 @@
 		"initialSize": 49152,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1714-bed2317fc4d6d34589062c5b05383645.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1714-bed2317fc4d6d34589062c5b05383645.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1714-c8018cb2d81353e1fdc80126a98ff68a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11664,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1714-c8018cb2d81353e1fdc80126a98ff68a.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1714-c8018cb2d81353e1fdc80126a98ff68a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1714-cc04a063e3628ed6829e48e233c603c0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9542,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1714-cc04a063e3628ed6829e48e233c603c0.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1714-cc04a063e3628ed6829e48e233c603c0.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1405,6 +1724,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/l71a1721-194f2c4f4a5de1b4e5bf9662e52d3c4b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79775,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1721-194f2c4f4a5de1b4e5bf9662e52d3c4b.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1721-194f2c4f4a5de1b4e5bf9662e52d3c4b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/l71a1721-23994ee9b71d7191b47ce3f0fcedfea4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1460,6 +1790,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/l71a1721-54366f6b6bb6327cd36d6f5275d85a6c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50010,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1721-54366f6b6bb6327cd36d6f5275d85a6c.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1721-54366f6b6bb6327cd36d6f5275d85a6c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/l71a1721-687dd85c3fbfbe35aa6c25673582ac74.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1471,6 +1812,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/l71a1721-695ce3c19dcd9431b8af5866aad4f228.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8039,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1721-695ce3c19dcd9431b8af5866aad4f228.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1721-695ce3c19dcd9431b8af5866aad4f228.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/l71a1721-87164d4653e86366590ebd28b341e735.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1478,6 +1830,17 @@
 		"initialSize": 100890,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1721-87164d4653e86366590ebd28b341e735.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1721-87164d4653e86366590ebd28b341e735.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1721-993afe828f579165c08cf598d2d1ec53.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9988,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1721-993afe828f579165c08cf598d2d1ec53.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1721-993afe828f579165c08cf598d2d1ec53.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1522,6 +1885,17 @@
 		"initialSize": 48440,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1721-e458c650eece26c92bd74393a85ff4c1.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1721-e458c650eece26c92bd74393a85ff4c1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1728-0a8feb296cb4c33ea39874731ec4f287.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8901,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1728-0a8feb296cb4c33ea39874731ec4f287.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1728-0a8feb296cb4c33ea39874731ec4f287.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1592,6 +1966,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/l71a1728-4bea47a18533b629fec70e9b3d9701cc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53115,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1728-4bea47a18533b629fec70e9b3d9701cc.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1728-4bea47a18533b629fec70e9b3d9701cc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/l71a1728-581cc70aec921adf6d1165395cadf586.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1599,6 +1984,17 @@
 		"initialSize": 84027,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1728-581cc70aec921adf6d1165395cadf586.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1728-581cc70aec921adf6d1165395cadf586.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1728-6b7b2c168e73df6d54416752f06c230e.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11121,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1728-6b7b2c168e73df6d54416752f06c230e.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1728-6b7b2c168e73df6d54416752f06c230e.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1702,6 +2098,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/madlen-tamm-0599516e30563d2f7fcde893de84a1f0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17118,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-0599516e30563d2f7fcde893de84a1f0.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-0599516e30563d2f7fcde893de84a1f0.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-2-0884573131d77b0f14610a5396d3bf4e.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8901,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-2-0884573131d77b0f14610a5396d3bf4e.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-2-0884573131d77b0f14610a5396d3bf4e.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-2-254bc4c5b239144ef7debd8fa7ea9ff9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34805,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-2-254bc4c5b239144ef7debd8fa7ea9ff9.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-2-254bc4c5b239144ef7debd8fa7ea9ff9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-2-4a531374d89bb4503d5870c00f9031c8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53115,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-2-4a531374d89bb4503d5870c00f9031c8.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-2-4a531374d89bb4503d5870c00f9031c8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-2-97a1ee492d1505643eb1e03812e6fda9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27290,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-2-97a1ee492d1505643eb1e03812e6fda9.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-2-97a1ee492d1505643eb1e03812e6fda9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-2-bb446b68987f1954daace102d2927c98.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70030,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-2-bb446b68987f1954daace102d2927c98.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-2-bb446b68987f1954daace102d2927c98.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/madlen-tamm-263828839e5963dd6e529f4fc65568b9.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1709,6 +2171,105 @@
 		"initialSize": 37704,
 		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-263828839e5963dd6e529f4fc65568b9.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-263828839e5963dd6e529f4fc65568b9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-277da9d5911e5e37621cfa5110253c53.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50300,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-277da9d5911e5e37621cfa5110253c53.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-277da9d5911e5e37621cfa5110253c53.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-2e9bda944466f375afaf984ece90a549.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27050,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-2e9bda944466f375afaf984ece90a549.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-2e9bda944466f375afaf984ece90a549.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-3-2f7029341a51fa7a041eaa9321893c6e.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8039,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-2f7029341a51fa7a041eaa9321893c6e.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-2f7029341a51fa7a041eaa9321893c6e.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-3-78190c51cfc032acfbc84b68109e569a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25289,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-78190c51cfc032acfbc84b68109e569a.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-78190c51cfc032acfbc84b68109e569a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-3-8b7ecfe9972232a01d403e5e5cfb7849.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32307,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-8b7ecfe9972232a01d403e5e5cfb7849.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-8b7ecfe9972232a01d403e5e5cfb7849.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-3-a30a802e4c75a7187e78414df719745f.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66474,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-a30a802e4c75a7187e78414df719745f.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-a30a802e4c75a7187e78414df719745f.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-3-bb29827caae3ff7b1a0ba0a32d15aea8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50010,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-bb29827caae3ff7b1a0ba0a32d15aea8.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-bb29827caae3ff7b1a0ba0a32d15aea8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-860901aaa97fffef6c936bf466e494e8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9542,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-860901aaa97fffef6c936bf466e494e8.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-860901aaa97fffef6c936bf466e494e8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-86153e7d08ff591722b5d3de04ca4aee.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16384,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-86153e7d08ff591722b5d3de04ca4aee.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-86153e7d08ff591722b5d3de04ca4aee.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1742,6 +2303,39 @@
 		"initialSize": 12165,
 		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-c6757788409d449b0edd6dc26438f55e.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-c6757788409d449b0edd6dc26438f55e.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-e7dc6c325ca26d309dafacc862420498.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6950,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-e7dc6c325ca26d309dafacc862420498.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-e7dc6c325ca26d309dafacc862420498.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-e9f4e37fad9e253e683ecf5bcd3de4aa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33860,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-e9f4e37fad9e253e683ecf5bcd3de4aa.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-e9f4e37fad9e253e683ecf5bcd3de4aa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-f9b09d9a3e1e1610522b3ece679bf6d0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65554,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-f9b09d9a3e1e1610522b3ece679bf6d0.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-f9b09d9a3e1e1610522b3ece679bf6d0.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

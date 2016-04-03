@@ -88,6 +88,7 @@
     }
   }
   &[hidden] {
+    overflow: hidden;
     opacity: 0.1;
     transition-delay: $duration;
     @media (min-width: 768px) {

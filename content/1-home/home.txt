@@ -6,40 +6,44 @@ Terms:
 
 - 
   title: orientieren
-  text: 'Die Supervision **orientiert** sich innerhalb der Arbeitswelt an der Integration der Person, ihrer Rolle und Beziehungen, der Organisation, der Profession und dem Sinn. Dies gelingt durch die Mehrperspektivität und Allparteilichkeit und einer prozessorientierten Suchbewegung der Supervision. Grundsätze hierbei sind die Lösungs-, Ziel- und Ressourcenorientierung.'
+  text: 'Die Supervision **orientiert** sich an systemischen Konzepten, an zirkulären Fragetechniken und Tools aus dem systemischen Kontext. Zu den Grundsätzen der Supervision gehören Lösungs-, Ziel- und Ressourcenorientierung.'
   connection: überprüfen,systematisieren,erkennen
 - 
-  title: vertrauen
-  text: 'Die Supervision **vertraut** auf die Fähigkeit aller Menschen und aller Systeme zu reflektieren, zu erkennen,  aus den Quellen zu schöpfen, zu reifen und zu wachsen. Grundvoraussetzung und Bedingtheit dafür ist die jedem System immanente Eingebundenheit in Familien und Gemeinschaften einerseits und die Eigenständigkeit der Persönlichkeit andererseits.'
-  connection: erkennen,reflektieren,überprüfen
-- 
-  title: erkennen
-  text: 'Die Supervision **erkennt** und **versteht** die Organisationsstrukturen und Arbeitsabläufe. Das bedeutet, an den Schnittstellen *Person* – *Tätigkeit* – *Rolle* – *Organisation* – *Umwelt* zu arbeiten. Bezugssysteme mit ihren verschiedenen Denkmustern, Dynamiken und Kulturen sind einbezogen.'
-  connection: reflektieren,erweitern,orientieren
-- 
-  title: systematisieren
-  text: 'Die Supervision **systematisiert**, d. h. sie **ordnet** und stellt Dinge, Elemente oder Menschen, die zusammengehören in einen Zusammenhang. Der Systembegriff, der aus der allgemeinen, noch jungen Systemtheorie stammt, soll unterschiedliche Systeme verstehen und führen. Zwei systemische Ansätze, der systemisch-phänomenologische Ansatz und der systemisch-konstruktivistische Ansatz wirken auf verschiedenen Ebenen und ergänzen und befruchten sich gegenseitig.'
-  connection: >
-    überprüfen,reflektieren,entlasten,erkennen
-- 
-  title: überprüfen
-  text: 'Die Supervision **überprüft** die bisherigen Deutungs- und Handlungsmuster in ihren komplexen Situationen, die Sinnzusammenhänge und sichert damit neue Entscheidungs- und Handlungsfähigkeiten und hinterfragt die Konsequenzen dieser Handlungserweiterung.'
-  connection: innehalten,reflektieren,erkennen
+  title: erweitern
+  text: 'Die Supervision **erweitert** die Wahrnehmungsfähigkeit und die Handlungsspielräume. Das spielerische Ausprobieren neuer Perspektiven und Handlungsoptionen führt zu Bewegung, Veränderung und Weiterkommen.'
+  connection: überprüfen,systematisieren,erkennen
 - 
   title: reflektieren
-  text: 'Die Supervision **reflektiert** und **klärt** die Rollenerwartungen, individuelles Verhalten, Aufgaben- und Auftragsanforderungen, Kompetenzen und Verantwortungshierarchien.'
+  text: 'Die Supervision **reflektiert** und **klärt** die Rollenerwartungen, individuelles Handeln, Aufgaben- und Auftragsanforderungen, Kompetenzen und Verantwortungshierarchien.'
   connection: >
     orientieren,systematisieren,erkennen,entlasten
 - 
+  title: überprüfen
+  text: 'Die Supervision **überprüft** die bisherigen Deutungs- und Handlungsmuster in ihren komplexen Situationen, **ermöglicht** neue Entscheidungs- und Handlungsoptionen und **hinterfragt** gleichzeitig die Konsequenzen der Handlungsänderung.'
+  connection: innehalten,reflektieren,erkennen
+- 
   title: entlasten
-  text: 'Die Supervision **entlastet** die anspruchsvollen, mehrdeutigen, konfliktreichen Arbeitssituationen, die Kommunikation und Kooperation zwischen den Prozessbeteiligten.'
+  text: 'Die Supervision **entlastet** die anspruchsvollen, mehrdeutigen und konfliktreichen Arbeitssituationen, was zu einem verbesserten Arbeitsklima, respektvollem Umgang und zu fruchtbarer Zusammenarbeit führt.'
   connection: innehalten,erkennen,vertrauen,erweitern
 - 
-  title: erweitern
-  text: 'Die Supervision **erweitert** die Wahrnehmungsfähigkeit, die Handlungsspielräume, den Horizont. Das spielerische Ausprobieren neuer Einsichten und Perspektiven führt zu Bewegung, Veränderung und Weiterkommen.'
-  connection: überprüfen,systematisieren,erkennen
-- 
   title: innehalten
-  text: 'Die Supervision **hält inne** und **verlangsamt** die sehr schnell gewordenen Arbeitsprozesse. Das Nachdenken, die Distanz finden und nach dem Sinn und Nutzen der arbeitsweltlichen Anforderungen fragen, ist in diesem Rahmen möglich und erwünscht. Durch den Prozess des  Anpassens, Verbesserns, Experimentierens, Ablehnens oder Kritisierens werden diese Anforderungen zu eigenen Verhaltensmustern übersetzt.'
+  text: |
+    Die gibt die Erlaubnis zum **Innehalten** in den rasanten Veränderungsprozessen der Arbeitswelt.
+    Das Nachdenken und Fragen nach dem Sinn und Nutzen der Arbeitsanforderungen ermöglicht eine Verlangsamung und Distanzierung, woraus sich neue Bewertungen und eigene Verhaltensoptionen entwickeln.
   connection: >
     erkennen,orientieren,überprüfen,erweitern
+- 
+  title: vertrauen
+  text: |
+    Die Supervision **vertraut** auf die Fähigkeit aller Menschen und lebendigen Systeme zu reflektieren, zu erkennen, aus ihren Quellen zu schöpfen, zu reifen und zu wachsen.
+    Das Vertrauen basiert auf der Grundannahme, dass die Eingebundenheit in Familien und Gemeinschaften einerseits und die Eigenständigkeit der Persönlichkeit andererseits zusammengehören, so wie beide Ufer eines Flusses durch eine Brücke verbunden sind.
+  connection: erkennen,reflektieren,überprüfen
+- 
+  title: systematisieren
+  text: 'Die Supervision **systematisiert** und **ordnet** die Dinge, Aspekte und Personen, die zusammengehören. Sie hilft, unterschiedliche Systeme zu verstehen, im Zusammenhang und in ihrem Zusammenwirken zu betrachten.'
+  connection: >
+    überprüfen,reflektieren,entlasten,erkennen
+- 
+  title: erkennen
+  text: 'Die Supervision **erkennt** und **versteht** die Organisationsstrukturen und Arbeitsabläufe. Sie setzt an den Schnittstellen Person – Profession – Organisation – Gesellschaft an. Die Bezugssysteme mit ihren verschiedenen Denkmustern, Dynamiken und Kulturen werden einbezogen.'
+  connection: reflektieren,erweitern,orientieren

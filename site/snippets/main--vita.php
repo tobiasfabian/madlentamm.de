@@ -5,8 +5,8 @@ $image = $page->image();
 <section id="vita" class="vita">
   <aside class="vita--image">
     <figure>
-      <img src="<?= $image->resize(300)->url() ?>"
-           srcset="<?= $image->resize(600)->url() ?> 2x"
+      <img src="<?= $image->resize(300, null, 70)->url() ?>"
+           srcset="<?= $image->resize(600, null, 60)->url() ?> 2x"
            alt="<?= $image->alt() ?>">
     </figure>
   </aside>

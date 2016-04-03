@@ -32,26 +32,29 @@
     p:last-of-type {
       margin-bottom: 0;
     }
-    blockquote {
-      display: block;
-      margin-bottom: 0.65em * 2;
-      text-decoration: underline;
-      letter-spacing: 0.1em;
-      font-size: 1.2em;
+    strong {
       color: $lightblue;
-      font-weight: 600;
-      font-style: normal;
-      em {
-        display: block;
-        width: 80%;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1rem;
-        letter-spacing: 0;
-        text-decoration: none;
-        hyphens: none;
-      }
     }
+    // blockquote {
+    //   display: block;
+    //   margin-bottom: 0.65em * 2;
+    //   text-decoration: underline;
+    //   letter-spacing: 0.1em;
+    //   font-size: 1.2em;
+    //   color: $lightblue;
+    //   font-weight: 600;
+    //   font-style: normal;
+    //   em {
+    //     display: block;
+    //     width: 80%;
+    //     font-style: normal;
+    //     font-weight: 400;
+    //     font-size: 1rem;
+    //     letter-spacing: 0;
+    //     text-decoration: none;
+    //     hyphens: none;
+    //   }
+    // }
     h2 {
       margin-top: 1.3em;
       margin-bottom: 0.65em;

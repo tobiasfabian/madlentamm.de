@@ -39,8 +39,19 @@ $images = $page->images()->sortBy('sort', 'asc');
         foreach($images as $image):
         ?>
         <figure>
+          <?php
+          $imageW320 = $image->resize(320, null, 70)->url();
+          $imageW640 = $image->resize(640, null, 70)->url();
+          $imageW960 = $image->resize(960, null, 70)->url();
+          $imageW1280 = $image->resize(1280, null, 60)->url();
+          ?>
           <img src="<?= $image->resize(640, null, 80)->url() ?>"
-               srcset="<?= $image->resize(1280, null, 70)->url() ?> 2x"
+               srcset="<?= $imageW1280 ?> 1280w,
+                <?= $imageW960 ?> 960w,
+                <?= $imageW640 ?> 640w,
+                <?= $imageW320 ?> 320w"
+               sizes="(min-width: 768px) 460px,
+                100vw"
                alt="<?= $image->alt() ?>">
           <figcaption>
             Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat.
