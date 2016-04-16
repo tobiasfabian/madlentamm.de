@@ -54,7 +54,7 @@ $images = $page->images()->sortBy('sort', 'asc');
                 100vw"
                alt="<?= $image->alt() ?>">
           <figcaption>
-            Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat.
+            <?= $image->text()->kt() ?>
           </figcaption>
         </figure>
         <?php

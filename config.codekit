@@ -466,6 +466,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/content\/3-arbeitsweise\/karten.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 956349,
+		"inputAbbreviatedPath": "\/content\/3-arbeitsweise\/karten.jpg",
+		"outputAbbreviatedPath": "\/content\/3-arbeitsweise\/karten.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/content\/3-arbeitsweise\/madlen-tamm-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -608,15 +619,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/site\/snippets\/arbeitsweise.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/site\/snippets\/arbeitsweise.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/site\/snippets\/border.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -745,6 +747,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/baukloetze-235a47b42fd7a0221122ffe920f73350.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12084,
+		"inputAbbreviatedPath": "\/thumbs\/baukloetze-235a47b42fd7a0221122ffe920f73350.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/baukloetze-235a47b42fd7a0221122ffe920f73350.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/baukloetze-59402429d94700ffafb070d1c74107ab.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -811,6 +824,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/bunte-wolle-73f116d2faa9143b56475abb791af430.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9537,
+		"inputAbbreviatedPath": "\/thumbs\/bunte-wolle-73f116d2faa9143b56475abb791af430.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/bunte-wolle-73f116d2faa9143b56475abb791af430.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/bunte-wolle-78d4c0b9da108fa8cd8e331f85ae7d9e.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -855,6 +879,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/holzfiguren-6a2c58c3696b60d843b3f443edf4156b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6899,
+		"inputAbbreviatedPath": "\/thumbs\/holzfiguren-6a2c58c3696b60d843b3f443edf4156b.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/holzfiguren-6a2c58c3696b60d843b3f443edf4156b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/holzfiguren-8b354cd78da9cb87bd326940d252b5d3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -895,6 +930,72 @@
 		"initialSize": 23365,
 		"inputAbbreviatedPath": "\/thumbs\/holzfiguren-fd6fd2b381370a324631fbe4bee97b72.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/holzfiguren-fd6fd2b381370a324631fbe4bee97b72.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/karten-287a309ec1def9a872db401183ca73ea.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60506,
+		"inputAbbreviatedPath": "\/thumbs\/karten-287a309ec1def9a872db401183ca73ea.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/karten-287a309ec1def9a872db401183ca73ea.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/karten-452b69431098d3ddc92cde5b7e4c0c06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10518,
+		"inputAbbreviatedPath": "\/thumbs\/karten-452b69431098d3ddc92cde5b7e4c0c06.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/karten-452b69431098d3ddc92cde5b7e4c0c06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/karten-518d6ed51997c03fdb351ba811133675.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47808,
+		"inputAbbreviatedPath": "\/thumbs\/karten-518d6ed51997c03fdb351ba811133675.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/karten-518d6ed51997c03fdb351ba811133675.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/karten-ac70860a292858f1ee66423f96bc36c6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33806,
+		"inputAbbreviatedPath": "\/thumbs\/karten-ac70860a292858f1ee66423f96bc36c6.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/karten-ac70860a292858f1ee66423f96bc36c6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/karten-c8c28d99453d4b86a900226805dc99a7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27316,
+		"inputAbbreviatedPath": "\/thumbs\/karten-c8c28d99453d4b86a900226805dc99a7.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/karten-c8c28d99453d4b86a900226805dc99a7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/karten-e6c72f4c0a69272cad24fc2bdd4d3a12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17106,
+		"inputAbbreviatedPath": "\/thumbs\/karten-e6c72f4c0a69272cad24fc2bdd4d3a12.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/karten-e6c72f4c0a69272cad24fc2bdd4d3a12.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1500,6 +1601,17 @@
 		"initialSize": 8915,
 		"inputAbbreviatedPath": "\/thumbs\/l71a1713-867a445b19e2b93856c4a66af726c18f.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/l71a1713-867a445b19e2b93856c4a66af726c18f.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/l71a1713-96e8d69023ecbf4be66955bf36be29fc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17454,
+		"inputAbbreviatedPath": "\/thumbs\/l71a1713-96e8d69023ecbf4be66955bf36be29fc.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/l71a1713-96e8d69023ecbf4be66955bf36be29fc.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2164,6 +2276,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/madlen-tamm-2-c75f0e06f3b4f9038c2516f1c5171714.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16125,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-2-c75f0e06f3b4f9038c2516f1c5171714.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-2-c75f0e06f3b4f9038c2516f1c5171714.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/madlen-tamm-263828839e5963dd6e529f4fc65568b9.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2248,6 +2371,17 @@
 		"initialSize": 50010,
 		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-bb29827caae3ff7b1a0ba0a32d15aea8.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-bb29827caae3ff7b1a0ba0a32d15aea8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/madlen-tamm-3-c74126248e621663e0956b4960f772ca.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14587,
+		"inputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-c74126248e621663e0956b4960f772ca.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/madlen-tamm-3-c74126248e621663e0956b4960f772ca.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

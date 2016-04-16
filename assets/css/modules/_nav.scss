@@ -6,7 +6,7 @@
   font-weight: 400;
   color: $lightblue;
   transition: $duration;
-  @media (max-height: 640px) {
+  @media (max-height: 690px) {
     top: calc(24vh + 17px);
   }
   .hamburger {
