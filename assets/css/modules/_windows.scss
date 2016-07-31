@@ -95,7 +95,8 @@
     }
   }
   @media (max-width: 767px) {
-    top: 4.6em;
+    position: fixed;
+    top: 4.5em;
     &--container {
       margin: 0;
       width: auto;

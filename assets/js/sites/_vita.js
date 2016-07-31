@@ -18,21 +18,23 @@
   }
 
   function show() {
-    vitaNavElement.classList.add('active');
     if (window.innerWidth >= 768) {
+      vitaNavElement.classList.add('active');
       scrollContainerElement.style.webkitTransform = 'translate(0, -25%)';
       scrollContainerElement.style.transform = 'translate(0, -25%)';
+      ACTIVE_PAGE = selfObject;
     } else {
-      scrollContainerElement.style.webkitTransform = 'translate(-25%, 0)';
-      scrollContainerElement.style.transform = 'translate(-25%, 0)';
+      scrollTo(document.documentElement, vitaElement.offsetTop, 400);
+      scrollTo(document.body, vitaElement.offsetTop, 400);
     }
     vitaElement.hidden = false;
-    ACTIVE_PAGE = selfObject;
   }
 
   function hide() {
     vitaNavElement.classList.remove('active');
-    vitaElement.hidden = true;
+    if (window.innerWidth >= 768) {
+      vitaElement.hidden = true;
+    }
   }
 
   function showHide() {

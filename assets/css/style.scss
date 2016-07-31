@@ -13,6 +13,9 @@ $mainPadding: 34px;
 html, body {
   height: 100%;
   font-size: 15px;
+  @media (max-width: 767px) {
+    height: auto;
+  }
 }
 
 body {
@@ -22,9 +25,10 @@ body {
   padding: $mainPadding;
   text-size-adjust: none;
   @media (max-width: 767px) {
-    padding: 0;
+    padding: 4.5em 0 0;
     font-size: 17px;
     min-height: 0;
+    background: url(../images/bg.jpg) $background top center no-repeat;
   }
 }
 a {
@@ -52,14 +56,11 @@ a {
     // perspective: 1000; // prevent flickering
   }
   @media (max-width: 767px) {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    position: static;
     transition: $duration $duration;
     .scroll-container {
-      width: 400%;
-      height: 100vh;
+      position: static;
+      height: auto;
     }
     &.inactive {
       opacity: 0;

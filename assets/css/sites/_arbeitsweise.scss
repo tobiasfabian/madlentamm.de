@@ -191,13 +191,11 @@
     }
   }
   @media (max-width: 767px) {
-    top: 4em;
-    left: 50%;
-    width: 100vw;
-    height: calc(100% - 4em);
-    padding: 0.6em 0 0;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
+    position: relative;
+    top: 0;
+    height: auto;
+    padding: 4.5em 0 0;
+    overflow: visible;
     transition-delay: $duration;
     &--gallery {
       &--nav {

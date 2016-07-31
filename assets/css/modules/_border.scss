@@ -19,6 +19,9 @@
     @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       background-image: url(../images/bg@2x.jpg);
     }
+    @media (max-width: 767px) {
+      background: none;
+    }
   }
   .line {
     position: absolute;

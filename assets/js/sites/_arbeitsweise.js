@@ -89,21 +89,23 @@
   }());
 
   function show() {
-    arbeitsweiseNavElement.classList.add('active');
     if (window.innerWidth >= 768) {
+      arbeitsweiseNavElement.classList.add('active');
       scrollContainerElement.style.webkitTransform = 'translate(0, -50%)';
       scrollContainerElement.style.transform = 'translate(0, -50%)';
+      ACTIVE_PAGE = selfObject;
     } else {
-      scrollContainerElement.style.webkitTransform = 'translate(-50%, 0)';
-      scrollContainerElement.style.transform = 'translate(-50%, 0)';
+      scrollTo(document.documentElement, arbeitsweiseElement.offsetTop, 400);
+      scrollTo(document.body, arbeitsweiseElement.offsetTop, 400);
     }
     arbeitsweiseElement.hidden = false;
-    ACTIVE_PAGE = selfObject;
   }
 
   function hide() {
     arbeitsweiseNavElement.classList.remove('active');
-    arbeitsweiseElement.hidden = true;
+    if (window.innerWidth >= 768) {
+      arbeitsweiseElement.hidden = true;
+    }
   }
 
   function showHide() {

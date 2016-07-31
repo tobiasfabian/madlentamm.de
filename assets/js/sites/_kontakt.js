@@ -19,21 +19,23 @@
   }
 
   function show() {
-    kontaktNavElement.classList.add('active');
     if (window.innerWidth >= 768) {
+      kontaktNavElement.classList.add('active');
       scrollContainerElement.style.webkitTransform = 'translate(0, -75%)';
       scrollContainerElement.style.transform = 'translate(0, -75%)';
+      ACTIVE_PAGE = selfObject;
     } else {
-      scrollContainerElement.style.webkitTransform = 'translate(-75%, 0)';
-      scrollContainerElement.style.transform = 'translate(-75%, 0)';
+      scrollTo(document.documentElement, kontaktElement.offsetTop, 400);
+      scrollTo(document.body, kontaktElement.offsetTop, 400);
     }
     kontaktElement.hidden = false;
-    ACTIVE_PAGE = selfObject;
   }
 
   function hide() {
     kontaktNavElement.classList.remove('active');
-    kontaktElement.hidden = true;
+    if (window.innerWidth >= 768) {
+      kontaktElement.hidden = true;
+    }
   }
 
   function showHide() {

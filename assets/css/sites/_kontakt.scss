@@ -109,19 +109,16 @@
     }
   }
   @media (max-width: 767px) {
-    top: 4em;
-    left: 75%;
-    width: 100vw;
+    position: relative;
+    top: 0;
     height: auto;
-    height: calc(100% - 4em);
-    padding: 0;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
+    padding: 4.5em 0 0;
+    overflow: visible;
     &--card {
-      margin: 90px 0 100px;
+      margin: 80px 0 100px;
     }
     &--square--container {
-      top: 58px;
+      top: 8em;
       width: 210px;
       height: 210px;
       transform: translate(-105px, 0) rotate(45deg);

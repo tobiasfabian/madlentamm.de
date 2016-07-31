@@ -116,4 +116,12 @@
       animation: fadeIn 1000ms 4300ms ease-out backwards;
     }
   }
+  @media (max-width: 767px) {
+    .seperator {
+      animation: fadeIn 1000ms 4300ms ease-out backwards;
+    }
+    .vita {
+      animation: fadeIn 1000ms 4300ms ease-out backwards;
+    }
+  }
 }
