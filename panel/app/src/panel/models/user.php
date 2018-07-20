@@ -4,14 +4,21 @@ namespace Kirby\Panel\Models;
 
 use A;
 use Exception;
+use Password;
 use Str;
 
+use Kirby\Panel\Event;
 use Kirby\Panel\Structure;
 use Kirby\Panel\Models\User\Avatar;
 use Kirby\Panel\Models\User\Blueprint;
 use Kirby\Panel\Models\User\History;
+use Kirby\Panel\Models\User\UI;
 
 class User extends \User {
+
+  public function ui() {
+    return new UI($this);
+  }
 
   public function uri($action = 'edit') {
     return 'users/' . $this->username() . '/' . $action;
@@ -22,14 +29,24 @@ class User extends \User {
     return panel()->urls()->index() . '/' . $this->uri($action);
   }
 
-  public function form($action, $callback) {    
+  public function form($action, $callback) {
     return panel()->form('users/' . $action, $this, $callback);
   }
 
   public function update($data = array()) {
 
-    if(!panel()->user()->isAdmin() and !$this->isCurrent()) {
-      throw new Exception(l('users.form.error.update.rights'));
+    // create the user update event
+    $event = $this->event('update:action');
+
+    // check for update permissions
+    $event->check();
+
+    // keep the old state of the user object
+    $old = clone $this;
+
+    // users which are not an admin cannot change their role
+    if(!panel()->user()->isAdmin()) {
+      unset($data['role']);
     }
 
     if(str::length(a::get($data, 'password')) > 0) {
@@ -49,14 +66,24 @@ class User extends \User {
 
     parent::update($data);
 
-    // flush the cache in case if the user data is 
+    // flush the cache in case if the user data is
     // used somewhere on the site (i.e. for profiles)
     kirby()->cache()->flush();
 
-    kirby()->trigger('panel.user.update', $this);
+    kirby()->trigger($event, [$this, $old]);
 
     return $this;
 
+  }
+
+  public function updatePassword($newPassword) {
+    if (password::isCryptHash($this->password()) === true) {
+      return parent::update([
+        'password' => $newPassword
+      ]);
+    }
+
+    return true;
   }
 
   public function isLastAdmin() {
@@ -65,33 +92,45 @@ class User extends \User {
         return true;
       }
     } else {
-      return false;       
+      return false;
     }
   }
 
   public function delete() {
 
-    if(!panel()->user()->isAdmin() and !$this->isCurrent()) {
-      throw new Exception(l('users.delete.error.permission'));
-    }
+    // create the delete event
+    $event = $this->event('delete:action');
+
+    // check for permissions
+    $event->check();
 
     if($this->isLastAdmin()) {
       // check the number of left admins to not delete the last one
       throw new Exception(l('users.delete.error.lastadmin'));
     }
 
+    // delete the user
     parent::delete();
 
-    // flush the cache in case if the user data is 
+    // flush the cache in case if the user data is
     // used somewhere on the site (i.e. for profiles)
     kirby()->cache()->flush();
 
-    kirby()->trigger('panel.user.delete', $this);
+    kirby()->trigger($event, $this);
 
   }
 
-  public function avatar() {
-    return new Avatar($this, parent::avatar());
+  public function avatar($crop = null) {
+    if($crop === null) {
+      return new Avatar($this);
+    } else {
+      $avatar = $this->avatar();
+      if($avatar->exists()) {
+        return $avatar->crop($crop);
+      } else {
+        return $avatar;
+      }
+    }
   }
 
   public function isCurrent() {
@@ -105,7 +144,7 @@ class User extends \User {
   public function topbar($topbar) {
 
     $topbar->append(purl('users'), l('users'));
-    $topbar->append($this->url(), $this->username());    
+    $topbar->append($this->url(), $this->username());
 
   }
 
@@ -132,6 +171,12 @@ class User extends \User {
     } else {
       return null;
     }
+  }
+
+  public function event($type, $args = []) {
+    return new Event('panel.user.' . $type, array_merge([
+      'user' => $this
+    ], $args));
   }
 
 }

@@ -1,16 +1,20 @@
-.field-with-headline {
-  counter-increment: count;
-}
 .field-with-headline:first-child {
   padding-top: 0;
 }
 .field-with-headline {
-  padding-top: 6em;
+  padding-top: 3em;
 }
-.field-with-headline .hgroup span {
+.field-with-headline .hgroup span:empty::before {
+  content: '\a0';
+}
+
+.field-with-headline-numbered {
+  counter-increment: count;
+}
+.field-with-headline-numbered .hgroup span {
   padding-left: 1.5em;
 }
-.field-with-headline .hgroup:before {
+.field-with-headline-numbered .hgroup::before {
   position: absolute;
   content: counter(count, decimal-leading-zero);
   left: 0;
@@ -18,6 +22,25 @@
   font-weight: 400;
 }
 
+.field-with-image select {
+  margin-left: 3rem;
+}
+.field-with-image .input-preview {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  width: 2.75em;
+  background: url(../images/pattern.png);
+}
+.field-with-image .input-preview figure {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;  
+}
 .structure {
   padding-bottom: .5em;
 }
@@ -88,19 +111,25 @@
   text-align: left;
   vertical-align: top;
 }
+.structure-readonly td, .structure-readonly th {
+  background: #efefef;
+  color: #777;
+}
 .structure-table th {
   padding: .5em;
   font-weight: 400;
   color: #777;
   font-style: italic;
 }
-.structure-table td a {
+.structure-table td a, .structure-table td span {
   display: block;
   padding: .5em;
   overflow: hidden;
   width: 100%;
   text-overflow: ellipsis;
-  cursor: move;
+}
+structure[data-sortable=true] .structure-table td a {
+  cursor: move;  
 }
 .structure-table-options {
   width: 3rem;
@@ -118,7 +147,6 @@
 
 .field-counter {
   position: absolute;
-  z-index: -1;
   right: 0;
   top: 0;
   text-align: right;

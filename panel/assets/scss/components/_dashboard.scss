@@ -73,7 +73,8 @@
   border-right: 1px solid #ddd;    
 }
 .dashboard-item-icon i {
-  padding-top: .8em;
+  position: static;
+  padding-top: .9em;
 }
 .dashboard-item-text {
   display: inline-block;

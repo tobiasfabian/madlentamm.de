@@ -9,7 +9,6 @@
 <main class="main">
 
   <?php snippet('main--supervision') ?>
-
   <?php snippet('main--coaching') ?>
 
   <div class="scroll-container">
@@ -23,6 +22,8 @@
     <?php snippet('main--kontakt') ?>
 
   </div>
+
+  <?php snippet('main--datenschutz') ?>
 
 </main>
 

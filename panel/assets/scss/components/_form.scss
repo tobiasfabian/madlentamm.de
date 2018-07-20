@@ -134,6 +134,9 @@ form.loading:after {
   margin-top: -7px;
   color: #777;
 }
+.field-icon:hover .icon {
+  color: #8dae28;
+}
 .field-with-icon .input {
   body.ltr & {
     padding-right: 3.5em;
@@ -312,11 +315,11 @@ form.loading:after {
   outline: 0;
   border-color: #8dae28;
 }
+.input.over {
+  border-color: #000;
+}
 textarea.input {
   resize: none;
-}
-textarea.over {
-  border-color: #000;
 }
 .input:required,
 .input:invalid {
@@ -367,7 +370,7 @@ textarea.over {
   }
   body.rtl & {
     float: right;
-    margin: .3em .25em .3em 1;
+    margin: .3em .25em .3em 1em;
   }
 }
 .selectbox {
@@ -457,8 +460,16 @@ textarea.over {
   margin-bottom: .5em;
 }
 .input-list-item .input {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.input-list-item .input span {
+  position: absolute;
   white-space: nowrap;
   overflow: hidden;
+  left: 2.5rem;
+  right: 1rem;
   text-overflow: ellipsis;
 }
 
@@ -521,10 +532,9 @@ textarea.over {
 }
 
 /* Special fields */
-#form-field-username {
+body:not(.login) #form-field-username {
   text-transform: lowercase;
 }
-
 
 
 @media screen and (min-width: 50em) {
@@ -540,6 +550,7 @@ textarea.over {
     background: -ms-linear-gradient(bottom, rgba(#efefef, 1), rgba(#efefef, .9) 75%, rgba(#efefef, 0));
     background: linear-gradient(bottom, rgba(#efefef, 1), rgba(#efefef, .9) 75%, rgba(#efefef, 0));
     margin: 0;
+    z-index: 1000;
     padding: 1.5em 3em 1.5em;
   }
   .ltr .mainbar .form .buttons {
