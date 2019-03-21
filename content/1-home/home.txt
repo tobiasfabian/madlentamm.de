@@ -28,7 +28,7 @@ Terms:
 - 
   title: innehalten
   text: |
-    Die gibt die Erlaubnis zum **Innehalten** in den rasanten Veränderungsprozessen der Arbeitswelt.
+    Die Supervision gibt die Erlaubnis zum **Innehalten** in den rasanten Veränderungsprozessen der Arbeitswelt.
     Das Nachdenken und Fragen nach dem Sinn und Nutzen der Arbeitsanforderungen ermöglicht eine Verlangsamung und Distanzierung, woraus sich neue Bewertungen und eigene Verhaltensoptionen entwickeln.
   connection: >
     erkennen,orientieren,überprüfen,erweitern

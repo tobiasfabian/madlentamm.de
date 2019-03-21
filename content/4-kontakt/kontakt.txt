@@ -28,6 +28,8 @@ Madlen Tamm, Lessingstr. 27, 99425 Weimar
 
 Steuernummer: 162/218/05309
 
+(link: #!datenschutz text: Datenschutz)
+
 ----
 
 Footer1-image: logo-dgsv.png
