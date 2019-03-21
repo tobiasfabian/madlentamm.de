@@ -105,6 +105,8 @@
     arbeitsweiseNavElement.classList.remove('active');
     if (window.innerWidth >= 768) {
       arbeitsweiseElement.hidden = true;
+    } else {
+      arbeitsweiseElement.hidden = false;
     }
   }
 

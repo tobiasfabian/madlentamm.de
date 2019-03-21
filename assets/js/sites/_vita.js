@@ -34,6 +34,8 @@
     vitaNavElement.classList.remove('active');
     if (window.innerWidth >= 768) {
       vitaElement.hidden = true;
+    } else {
+      vitaElement.hidden = false;
     }
   }
 

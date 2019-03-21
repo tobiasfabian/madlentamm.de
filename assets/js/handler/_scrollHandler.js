@@ -46,7 +46,9 @@
   }
 
   // document.addEventListener('mousewheel',handleMousewheel);
-  document.addEventListener('wheel',handleMousewheel);
+  document.addEventListener('wheel',handleMousewheel, {
+    passive: true,
+  });
   document.addEventListener('keydown',function(e){
     if (e.keyCode === 40 || e.keyCode === 74) { // key down or j
       showNextPage();

@@ -1,5 +1,5 @@
 <nav class="nav" id="nav">
-  <a href="#!" class="hamburger">
+  <a href="#!" class="hamburger" aria-hidden="true">
     <div></div>
     <div></div>
   </a>

@@ -10,5 +10,7 @@
 
   <title><?= $site->title()->html() ?></title>
 
+  <meta name="description" content="Supervision, Coaching, Moderation in Weimar, Thüringen: Jugendhilfe, Schule, Beratungsstellen, Suchtkrankenhilfe, Kliniken, Palliativ- und Hospizdienste, Notfallseelsorge, Polizei und Verwaltung.">
+
 </head>
 <body>

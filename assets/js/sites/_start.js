@@ -241,6 +241,8 @@
     closeAllterms();
     if (window.innerWidth >= 768) {
       startElement.hidden = true;
+    } else {
+      startElement.hidden = false;
     }
   }
 

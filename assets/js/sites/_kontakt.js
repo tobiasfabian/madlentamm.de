@@ -35,6 +35,8 @@
     kontaktNavElement.classList.remove('active');
     if (window.innerWidth >= 768) {
       kontaktElement.hidden = true;
+    } else {
+      kontaktElement.hidden = false;
     }
   }
 

@@ -2,7 +2,7 @@ Title: Kontakt
 
 ----
 
-Contact: 
+Contact:
 
 Madlen Tamm
 Lessingstr. 27
@@ -14,14 +14,14 @@ Lessingstr. 27
 
 ----
 
-Footer1: 
+Footer1:
 
 Mitglied der
-Deutschen Gesellschaft für Supervision e.V.
+Deutschen Gesellschaft für Supervision und Coaching e.V.
 
 ----
 
-Footer2: 
+Footer2:
 
 Verantwortlich iSd § 5 TMG, § 55 RfStV:
 Madlen Tamm, Lessingstr. 27, 99425 Weimar
@@ -33,3 +33,7 @@ Steuernummer: 162/218/05309
 ----
 
 Footer1-image: logo-dgsv.png
+
+----
+
+Footer1-banner: banner-dgfs-tagung.jpg
