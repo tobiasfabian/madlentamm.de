@@ -6,6 +6,7 @@
   var scrollContainerElement = document.querySelector('.scroll-container');
   var arbeitsweiseElement = document.getElementById(id);
   var arbeitsweiseNavElement = document.getElementById('nav').querySelector('a[href="#!arbeitsweise"]');
+  var bannerElement = document.querySelector('.kontakt--banner_global');
   var selfObject;
 
   function init() {
@@ -99,6 +100,7 @@
       scrollTo(document.body, arbeitsweiseElement.offsetTop, 400);
     }
     arbeitsweiseElement.hidden = false;
+    bannerElement.classList.add('hidden');
   }
 
   function hide() {
@@ -108,6 +110,7 @@
     } else {
       arbeitsweiseElement.hidden = false;
     }
+    bannerElement.classList.remove('hidden');
   }
 
   function showHide() {

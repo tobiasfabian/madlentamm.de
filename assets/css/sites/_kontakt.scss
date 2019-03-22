@@ -84,6 +84,12 @@
         right: 50%;
         bottom: 34px + 20px;
         margin: 0;
+        transition-property: opacity;
+        transition-duration: 1000ms;
+        &.hidden {
+          opacity: 0;
+          pointer-events: none;
+        }
       }
     }
   }
